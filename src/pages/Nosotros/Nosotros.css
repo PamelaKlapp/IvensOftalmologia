@@ -1,0 +1,107 @@
+.header-nosotros {
+  background-image: url(../../assets/Nosotros/Imagen.webp);
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.header-blur {
+  background-color: rgba(49, 62, 104, 0.7);
+  backdrop-filter: blur(6px);
+  padding: 3rem 2rem;
+}
+
+.header-blur h2,
+.header-blur p {
+  color: var(--color-blanco);
+  text-align: justify;
+}
+
+.header-blur h2 {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.main-nosotros {
+  padding: 6rem 0;
+}
+.main-nosotros h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--color-azul);
+  margin-bottom: 3rem;
+}
+.caracteristicas-nosotros {
+  display: flex;
+  gap: 5rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+.caracteristica-nosotros {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.2rem;
+}
+img#compromiso {
+  width: auto;
+  height: 100px;
+  padding: 10px 20px;
+}
+.caracteristica-nosotros h3 {
+  color: var(--color-naranjo);
+  font-size: 1.4rem;
+}
+.caracteristica-nosotros img {
+  width: auto;
+  height: 100px;
+}
+.caracteristica-nosotros p {
+  text-align: center;
+  font-weight: 500;
+  color: var(--color-gris-oscuro);
+  font-size: 1.05rem;
+}
+.linea-vertical-nosotros {
+  height: 12rem;
+  width: 0.05rem;
+  background-color: var(--color-gris-medio);
+}
+
+.main-nosotros h2 {
+  text-align: center;
+}
+/*    M E D I A    Q U E R I E S     --    M E D I U M       */
+@media screen and (max-width: 1024px) {
+  .caracteristicas-nosotros {
+    display: grid;
+  }
+  .caracteristica-nosotros {
+    width: 30rem;
+  }
+  .linea-vertical-nosotros {
+    height: 0.05rem;
+    width: 30rem;
+  }
+}
+
+/*    M E D I A    Q U E R I E S     --   S M A L L       */
+@media screen and (max-width: 600px) {
+  .caracteristica-nosotros {
+    width: 15rem;
+  }
+  .header-nosotros {
+    height: auto;
+  }
+  .headline-small {
+    text-align: center;
+  }
+  .linea-vertical-nosotros {
+    display: none;
+  }
+}

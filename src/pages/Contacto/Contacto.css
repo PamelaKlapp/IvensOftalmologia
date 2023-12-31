@@ -1,0 +1,118 @@
+.header-container {
+  background-image: url(../../assets/Contacto/Imagen\ página.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.bg-texto {
+  background-color: rgba(49, 62, 104, 0.8);
+  backdrop-filter: blur(6px);
+  padding: 3rem 2rem;
+}
+.bg-texto h2,
+.bg-texto p {
+  color: var(--color-blanco);
+}
+.bg-texto h2 {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.contacto-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10rem;
+}
+
+.contacto-main h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--color-naranjo);
+  padding: 2rem 0 3rem 0;
+}
+
+/* Main */
+.contenido-contacto-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: top;
+  width: var(--computer-width);
+  margin: 0 auto;
+
+  gap: 3rem;
+}
+
+/* Primera Columna */
+.primera-columna-contenido {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 3rem;
+}
+
+.img-wrapper-column-contanto img {
+  height: 10rem;
+  width: auto;
+}
+.informacion-atencion {
+  text-align: center;
+}
+.informacion-atencion h3,
+.SocialMedia h3 {
+  color: var(--color-naranjo);
+  padding-bottom: 0.3rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.informacion-atencion p {
+  color: var(--color-gris-oscuro);
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+.SocialMedia {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.SocialMedia h3 {
+  padding-bottom: 0.6rem;
+}
+.redes-sociales-contacto {
+  display: flex;
+  gap: 1rem;
+}
+.redes-sociales-contacto img {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+}
+
+/*    M E D I A    Q U E R I E S     --    M E D I U M       */
+@media screen and (max-width: 1024px) {
+}
+
+/*    M E D I A    Q U E R I E S     --   S M A L L       */
+@media screen and (max-width: 600px) {
+  .contenido-contacto-main {
+    grid-template-columns: 1fr;
+  }
+  .contacto-main h2 {
+    text-align: center;
+    padding: 2rem 0 0rem 0;
+  }
+  .header-container {
+    height: auto;
+  }
+  .primera-columna-contenido {
+    order: 2;
+  }
+}

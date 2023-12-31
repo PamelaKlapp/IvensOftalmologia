@@ -1,0 +1,106 @@
+.header__container {
+  display: grid;
+  grid-template-columns: 2.5fr 3fr;
+  gap: 2rem;
+  background: transparent;
+  height: 30rem;
+}
+
+.header__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.header__left h2 {
+  color: var(--color-naranjo);
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.8rem;
+}
+.header__left h2 span {
+  color: var(--color-naranjo);
+  font-weight: 300;
+}
+.evo__logo {
+  position: relative;
+  height: 9rem;
+}
+.evo__logo img {
+  height: 100%;
+  width: auto;
+  overflow-x: hidden;
+}
+.evo__logo2 {
+  position: relative;
+  top: -1.5rem;
+  left: 8rem;
+  height: 5.5rem;
+  width: auto;
+}
+.evo__logo2 img {
+  height: 100%;
+  width: auto;
+}
+
+.header__right {
+  position: relative;
+  height: 30rem;
+  width: cal(100vw - 55%);
+}
+
+.header__right img {
+  object-fit: fill;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(-1);
+}
+.arrow {
+  position: relative;
+  top: 4px;
+  left: 4px;
+}
+
+/* BOTON */
+
+/*    M E D I A    Q U E R I E S     --    M E D I U M       */
+@media screen and (max-width: 1024px) {
+  .header__container {
+    grid-template-columns: 1fr;
+  }
+  .header__right {
+    display: none;
+  }
+  .header__left {
+    gap: 2rem;
+  }
+  .header__left h2 {
+    width: 70%;
+  }
+}
+
+/*    M E D I A    Q U E R I E S     --   S M A L L       */
+@media screen and (max-width: 600px) {
+  .header__container {
+    height: 90vh;
+  }
+
+  .header__left h2 {
+    width: 70%;
+  }
+  .evo__logo {
+    position: relative;
+    height: 7rem;
+  }
+  .evo__logo2 {
+    position: relative;
+    top: -1rem;
+    left: 0rem;
+    height: 4rem;
+    width: auto;
+  }
+}

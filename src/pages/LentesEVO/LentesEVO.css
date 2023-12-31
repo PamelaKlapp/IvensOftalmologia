@@ -1,0 +1,256 @@
+#lentesEvo {
+  background-color: var(--color-blanco);
+  display: flex;
+  flex-direction: column;
+  max-width: 1920px;
+}
+.container__main {
+  padding-top: 5rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding-bottom: 5rem;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.img-lentesEvo {
+  width: 20rem;
+  height: auto;
+}
+video {
+  width: 32rem;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.right-side h2 {
+  font-weight: 400;
+  text-align: center;
+  color: var(--color-turqueza);
+}
+
+.right-side p {
+  text-align: justify;
+  color: var(--color-gris-oscuro);
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.linea-evo {
+  height: 0.05rem;
+  background-color: var(--color-azul);
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+/* ---------------------MITAD ------------------ */
+
+.container-lentesEVO-mitad {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0 4rem;
+  max-width: 1920px;
+}
+
+.container-lentesEVO-mitad > h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--color-azul);
+  padding: 2rem 0 3rem 0;
+  text-align: center;
+  max-width: 1920px;
+}
+.group-lentesEVO {
+  display: flex;
+  width: 80vw;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1920px;
+}
+.item-lenteEVO {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 16rem;
+  text-align: center;
+}
+
+.group-lentesEVO img {
+  width: auto;
+  height: 120px;
+  object-fit: fill;
+  padding-bottom: 1rem;
+}
+
+.item-lenteEVO h3 {
+  padding-bottom: 2rem;
+}
+
+.item-lenteEVO p {
+  color: var(--color-gris-oscuro);
+  font-weight: 500;
+}
+
+.btn-arrows {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--color-gris-claro);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-prev {
+  margin-left: 4rem; /* Ajusta el margen izquierdo */
+}
+.btn-next {
+  margin-right: 4rem; /* Ajusta el margen derecho */
+}
+
+/* ---------- PARTE GRIS  --------- */
+
+.parte-gris {
+  display: grid;
+  grid-template-columns: 5.5fr 1fr 5.5fr;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 6rem;
+  gap: 5rem;
+  background-color: var(--color-gris-claro);
+  width: 100vw;
+  max-width: 1920px;
+}
+.parte-gris-izquierda,
+.parte-gris-derecha {
+  text-align: center;
+}
+
+.linea-horizontal {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.linea-vertical {
+  justify-self: center;
+  height: 8rem;
+  width: 0.05rem;
+  background-color: var(--color-gris-medio);
+}
+.parte-gris h2 {
+  color: var(--color-turqueza);
+  font-size: 3rem;
+}
+.parte-gris p {
+  font-size: 1.5rem;
+}
+.last-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+.last-wrapper h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--color-azul);
+}
+.last-wrapper p {
+  width: 80%;
+  font-size: 1.05rem;
+  padding-top: 1rem;
+  text-align: center;
+  font-weight: 500;
+  color: var(--color-gris-oscuro);
+}
+
+.btn-busca {
+  position: relative;
+  top: 3rem;
+  margin-bottom: 10rem;
+}
+.webpay {
+  height: 8rem;
+  width: auto;
+  margin-top: 12rem;
+}
+
+.btn-webpay {
+  position: relative;
+  top: 50px;
+  margin-bottom: 7rem;
+}
+.btn-webpay input {
+  height: 100px;
+}
+
+/*    M E D I A    Q U E R I E S     --    M E D I U M       */
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--tablet-width);
+  }
+  .container__main {
+    grid-template-columns: 1fr;
+  }
+  
+  .container-lentesEVO-mitad > h2 {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .parte-gris {
+    display: flex;
+    flex-direction: column;
+  }
+  .linea-vertical{
+    height: 0.05rem;
+    width: 30rem;
+  }
+  
+}
+
+/*    M E D I A    Q U E R I E S     --   S M A L L       */
+@media screen and (max-width: 600px) {
+  video {
+    width: 20rem;
+  }
+  .parte-gris {
+    flex-direction: column;
+  }
+  
+  .group-lentesEVO {
+  
+    width: 60vw;
+   
+    gap: 0rem;
+  }
+  .parte-gris h2 {
+    font-size: 1.8rem;
+  }
+  .parte-gris p {
+    font-size: 1rem;
+  }
+  .linea-vertical {
+    height: 0.05rem;
+    width: 20rem;
+}
+  
+}

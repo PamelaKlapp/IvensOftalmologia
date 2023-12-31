@@ -1,0 +1,114 @@
+footer {
+  background-color: var(--color-azul);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  z-index: 0;
+  height: auto;
+  margin-top: auto;
+  position: relative;
+  bottom: 0;
+  
+}
+
+.footer_container {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1.3fr 1.3fr 1fr;
+  gap: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4.5rem;
+  max-width: 1920px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.info__empresa h4,
+.servicio__cliente h4,
+.oficina_info h4,
+.social__media h4 {
+  color: var(--color-blanco);
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+
+.info__empresa h3,
+.servicio__cliente h3,
+.oficina_info h3,
+.social__media h3 {
+  color: var(--color-morado);
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.social__media {
+  display: flex;
+  flex-direction: column;
+}
+.social__media ul {
+  display: flex;
+  padding: 1.3rem 0;
+  gap: 0.5rem;
+}
+.social__media li {
+  height: 3rem;
+}
+.social__media li img {
+  max-height: 100%;
+  object-fit: contain;
+}
+
+h4.pais {
+  color: var(--color-blanco);
+}
+.copyRight{
+  color: var(--color-blanco);
+  font-size: 11px;
+  display: flex;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 1rem;
+  
+}
+
+/*    M E D I A    Q U E R I E S     --    M E D I U M       */
+@media screen and (max-width: 1024px) {
+  .footer_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem 2rem;
+  }
+  .oficina_info {
+    position: relative;
+    top: -120px;
+  }
+}
+
+/*    M E D I A    Q U E R I E S     --   S M A L L       */
+@media screen and (max-width: 600px) {
+  footer {
+    padding-top: 0;
+  }
+  .footer_container {
+    width: 95%;
+    display: grid;
+    align-items: self-start;
+    justify-content: flex-start;
+  }
+  .social__media {
+    display: flex;
+    flex-direction: column;
+  }
+  .social__media li {
+    height: 2rem;
+  }
+
+  .footer_container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .oficina_info {
+    position: relative;
+    top: 0px;
+  }
+}

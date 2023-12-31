@@ -1,0 +1,50 @@
+.categoriasLista-wrapper {
+  width: 100vw;
+  padding-top: 2rem;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+.categoriasLista-wrapper h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--color-azul);
+}
+.categoriaLista-contenido {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.categoriaLista-img {
+  background-color: var(--color-azul);
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+.orange-background {
+  background-color: var(--color-naranjo);
+}
+.categoriaLista-img img {
+  width: 80%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+.productoLista {
+  color: var(--color-azul);
+}
+.productoLista:hover {
+  color: var(--color-morado);
+}
+
+/*    M E D I A    Q U E R I E S     --   S M A L L       */
+@media screen and (max-width: 600px) {
+  .categoriaLista-img {
+    display: none;
+  }
+}

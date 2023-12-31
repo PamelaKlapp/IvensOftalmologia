@@ -1,0 +1,141 @@
+.header-servicioTec {
+  background-image: url(../../assets/ServTec/Header-ST.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.bg-texto {
+  background-color: rgba(49, 62, 104, 0.8);
+  backdrop-filter: blur(6px);
+  padding: 3rem 2rem;
+}
+.bg-texto h2,
+.bg-texto p {
+  color: var(--color-blanco);
+}
+.bg-texto h2 {
+  font-size: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* MAIN */
+.serv-main-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding-bottom: 10rem;
+}
+.serv-main-wrapper h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: var(--color-naranjo);
+  padding: 2rem 0 3rem 0;
+}
+.serv__main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: top;
+  width: var(--computer-width);
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+/* MAIN  ----  CONTACTO*/
+
+.serv__contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+}
+
+.serv__contacto-icono img {
+  height: 10rem;
+  width: 10rem;
+}
+
+.serv__contacto-what {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.serv__contacto-what h3,
+.serv__contacto-horario h3 {
+  color: var(--color-naranjo);
+  padding-bottom: 0.3rem;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.serv__contacto-what--info {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.serv__contacto-what--info img {
+  height: 2rem;
+  width: 2rem;
+}
+.serv__contacto-what--info span {
+  color: var(--color-gris-oscuro);
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+.serv__contacto-horario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.serv__contacto h3 {
+  color: var(--color-naranjo);
+}
+.serv__contacto-horario p {
+  color: var(--color-gris-oscuro);
+  font-weight: 500;
+  font-size: 1.05rem;
+}
+
+/*  TEAMVIEWER   */
+
+.teamViewer a {
+  color: rgb(29, 88, 213);
+}
+.serv__teamViewer {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.serv__teamViewer img {
+  height: 5rem;
+  width: auto;
+}
+.serv__teamViewer p {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/*    M E D I A    Q U E R I E S     --    M E D I U M       */
+@media screen and (max-width: 1024px) {
+}
+
+/*    M E D I A    Q U E R I E S     --   S M A L L       */
+@media screen and (max-width: 600px) {
+  .serv__main {
+    grid-template-columns: 1fr;
+  }
+  .header-servicioTec {
+    height: auto;
+  }
+}

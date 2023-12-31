@@ -1,0 +1,141 @@
+/* MAIN  ----  FORMULARIO*/
+
+.serv__form-container {
+  padding: 2rem 0;
+}
+.serv__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.serv__form-container h2 {
+  color: var(--color-naranjo);
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.serv__form input {
+  padding: 0.5rem;
+  width: 90%;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  background-color: rgb(239, 239, 239);
+}
+.serv__form select {
+  padding: 0.5rem;
+  width: 90%;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  background-color: rgb(239, 239, 239);
+  color: var(--color-gris-oscuro);
+}
+
+.serv__form textarea {
+  width: 90%;
+  border-radius: 7px;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  background-color: rgb(239, 239, 239);
+}
+
+.btn-tec {
+  margin-top: 1rem;
+}
+
+input:focus {
+  border: 1px solid #0277ff;
+}
+
+/* Estilos para el mensaje de error */
+.errorName-message,
+.errorTel-message,
+.errorEmail-message,
+.errorEs-message,
+.errorDir-message,
+.errorCom-message,
+.errorReg-message,
+.errorApe-message,
+.errorAsu-message {
+  color: rgb(184, 9, 9);
+  font-size: 12px;
+  padding-left: 5px;
+  position: relative;
+  top: -10px;
+  display: none;
+}
+
+input:invalid[error='true'] ~ .errorName-message {
+  display: block;
+}
+
+input:invalid[errorApe='true'] ~ .errorApe-message {
+  display: block;
+}
+
+input:invalid[errorTel='true'] ~ .errorTel-message {
+  display: block;
+}
+
+input:invalid[errorEmail='true'] ~ .errorEmail-message {
+  display: block;
+}
+input:invalid[errorEs='true'] ~ .errorEs-message {
+  display: block;
+}
+input:invalid[errorDir='true'] ~ .errorDir-message {
+  display: block;
+}
+input:invalid[errorCom='true'] ~ .errorCom-message {
+  display: block;
+}
+input:invalid[errorReg='true'] ~ .errorReg-message {
+  display: block;
+}
+input:invalid[errorAsu='true'] ~ .errorAsu-message {
+  display: block;
+}
+
+/* Respuesta Formulario */
+.respuesta-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+
+.respuesta-form h3 {
+  color: var(--color-azul);
+  margin-top: 3rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.respuesta-form p {
+  margin-top: 2rem;
+  color: var(--color-gris-medio);
+  font-size: 1.5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+/*    M E D I A    Q U E R I E S     --    M E D I U M       */
+@media screen and (max-width: 1024px) {
+  .respuesta-form {
+    min-height: 500px;
+  }
+}
+
+/*    M E D I A    Q U E R I E S     --   S M A L L       */
+@media screen and (max-width: 600px) {
+  .respuesta-form {
+    margin: 0 1rem;
+  }
+  .serv__form {
+    align-items: center;
+  }
+  .btn-tec {
+    position: relative;
+    left: 25px;
+  }
+}

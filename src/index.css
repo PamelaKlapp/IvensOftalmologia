@@ -1,13 +1,127 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+*,
+*::after,
+*::before {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  overflow-x: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-azul: #313e68;
+  --color-turqueza: #10a8ba;
+  --color-blanco: #f2f2f2;
+  --color-naranjo: #ec9465;
+  --color-gris-claro: #d5d5d5;
+  --color-gris-medio: #9d9b9b;
+  --color-gris-oscuro: #6b6b6c;
+  --color-negro: #2b2b2b;
+  --color-morado: #7f98fe;
+
+  --transition: all 300ms ease;
+
+  --computer-width: 90%;
+  --tablet-width: 93%;
+  --mobile-width: 96%;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.espacio-navbar {
+  height: 5rem;
+}
+
+.container {
+  width: 100vw;
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--color-negro);
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1rem;
+}
+h4 {
+  font-size: 0.8rem;
+}
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+a {
+  color: var(--color-blanco);
+  transition: var(--transition);
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--color-morado);
+}
+
+.btn {
+  width: max-content;
+  font-weight: 400;
+  font-size: 1rem;
+  display: inline-block;
+  color: var(--color-blanco);
+  background-color: var(--color-azul);
+  padding: 0.75rem 1.8rem;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  border: 1px solid var(--color-azul);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-naranjo);
+  color: var(--color-azul);
+  border-color: transparent;
+}
+
+/*    M E D I A    Q U E R I E S     --    M E D I U M       */
+@media screen and (max-width: 1024px) {
+}
+
+/*    M E D I A    Q U E R I E S     --   S M A L L       */
+@media screen and (max-width: 600px) {
 }

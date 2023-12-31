@@ -1,0 +1,42 @@
+.result-wrapper {
+  width: 100vw;
+  max-width: 1920px;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.result-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 10%;
+}
+
+.result-content h2 {
+  color: var(--color-azul);
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.no-results {
+  margin-top: 2rem;
+  color: var(--color-gris-medio);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/*    M E D I A    Q U E R I E S     --    M E D I U M       */
+@media screen and (max-width: 1024px) {
+  .result-content {
+    padding: 0;
+  }
+}
+
+/*    M E D I A    Q U E R I E S     --   S M A L L       */
+@media screen and (max-width: 600px) {
+  .product-wrapper {
+    padding-top: 70px;
+  }
+}
