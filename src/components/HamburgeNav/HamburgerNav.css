@@ -11,8 +11,8 @@
 }
 .hamb-menu-content{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
+    grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
   z-index: 99;
   padding: 0 2rem;
   color: #222;
@@ -20,6 +20,7 @@
 .hamb-menu-container li a{
     color: var(--color-azul);
     font-weight: 400;
+    font-size: 1.05rem;
 }
 .hamb-menu-container li a:hover{
     color: var(--color-morado);
