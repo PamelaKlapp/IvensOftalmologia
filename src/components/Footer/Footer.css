@@ -66,9 +66,12 @@ h4.pais {
   color: var(--color-blanco);
   font-size: 11px;
   display: flex;
+  align-self: center;
+  justify-content: center;  
   margin-left: 5%;
   margin-right: 5%;
   padding-bottom: 1rem;
+  text-align: center;
   
 }
 
