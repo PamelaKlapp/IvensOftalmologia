@@ -19,7 +19,7 @@ export const navlinks = [
     path: '/servicio-tecnico',
   },
   {
-    name: 'Contáctenos',
+    name: 'Contacto',
     path: '/contacto',
   },
 ];
