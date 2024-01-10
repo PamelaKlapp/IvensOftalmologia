@@ -30,6 +30,11 @@ const HamburgerNav = ({ handleClose, isVisible }) => {
             Servicio Técnico
           </NavLink>
         </li>
+        <li>
+          <NavLink to='/contacto' onClick={handleLinkClick}>
+            Contáctenos
+          </NavLink>
+        </li>
       </ul>
     </div>
   );
