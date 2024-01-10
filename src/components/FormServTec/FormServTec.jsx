@@ -62,7 +62,7 @@ const FormServTec = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch('https://formspree.io/f/mnqkkepr', {
+      const response = await fetch('https://formspree.io/f/mnqeqgko', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
