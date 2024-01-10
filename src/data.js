@@ -18,6 +18,10 @@ export const navlinks = [
     name: 'Servicio Técnico',
     path: '/servicio-tecnico',
   },
+  {
+    name: 'Contáctenos',
+    path: '/contacto',
+  },
 ];
 
 export const productlinks = [
@@ -176,73 +180,73 @@ export const marcasRepMedium = [
 export const marcasRepSmall = [
   {
     id: 1,
-    name: 'primerasFab',
+    name: 'EVO ICL',
     img: require('./assets/MarcasRepre/1. EVO ICL.png'),
   },
   {
     id: 2,
-    name: 'segundasFab',
+    name: 'OCULUS',
     img: require('./assets/MarcasRepre/2. OCULUS.png'),
   },
   {
     id: 3,
-    name: 'tercerasFab',
+    name: 'OCULUS SURGICAL',
     img: require('./assets/MarcasRepre/3. OCULUS SURGICAL.png'),
   },
   {
     id: 4,
-    name: 'cuartasFab',
+    name: 'ARC LASER',
     img: require('./assets/MarcasRepre/4. ARC LASER.png'),
   },
   {
     id: 5,
-    name: 'quintasFab',
-    img: require('./assets/MarcasRepre/5. HONGDEE.png'),
-  },
-  {
-    id: 6,
-    name: 'sextoFab',
+    name: 'SONOMED ESCALON',
     img: require('./assets/MarcasRepre/6. SONOMED ESCALON.png'),
   },
   {
+    id: 6,
+    name: 'HONGDEE',
+    img: require('./assets/MarcasRepre/5. HONGDEE.png'),
+  },
+  {
     id: 7,
-    name: 'septimoFab',
+    name: 'ASICO',
     img: require('./assets/MarcasRepre/7. ASICO.png'),
   },
   {
     id: 8,
-    name: 'octavoFab',
+    name: 'CARL TEUFEL',
     img: require('./assets/MarcasRepre/8. CARL TEUFEL.png'),
   },
   {
     id: 9,
-    name: 'novenoFab',
+    name: 'VOLK',
     img: require('./assets/MarcasRepre/9. VOLK.png'),
   },
   {
     id: 10,
-    name: 'decimoFab',
-    img: require('./assets/MarcasRepre/10. CRYSTALVUE.png'),
-  },
-  {
-    id: 11,
-    name: 'onceavoFab',
+    name: 'MEDIWORKS',
     img: require('./assets/MarcasRepre/11. MEDIWORKS.png'),
   },
   {
-    id: 12,
-    name: 'doceavoFab',
+    id: 11,
+    name: 'FISO',
     img: require('./assets/MarcasRepre/12. FISO.png'),
   },
   {
-    id: 13,
-    name: 'treciavoFab',
+    id: 12,
+    name: 'US OPHTHALMIC',
     img: require('./assets/MarcasRepre/13. US OPHTHALMIC.png'),
   },
   {
-    id: 14,
-    name: 'catorceFab',
+    id: 13,
+    name: 'MDT',
     img: require('./assets/MarcasRepre/14. MDT.png'),
+  },
+  {
+    id: 14,
+    name: 'CRYSTALVUE',
+    img: require('./assets/MarcasRepre/10. CRYSTALVUE.png'),
   },
 ];
 
@@ -328,7 +332,7 @@ export const categorias = [
   {
     id: 5,
     nombre: 'Cirugía',
-    img: require('./assets/Categorias/Iconocirugía.png'),
+    img: require('./assets/Categorias/Iconocirugía.png'),
     path: '/productos/cirugia',
   },
 ];
