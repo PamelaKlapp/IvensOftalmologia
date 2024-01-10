@@ -138,4 +138,11 @@
   .header-servicioTec {
     height: auto;
   }
+  .serv__contacto{
+    order: 2;
+  }
+  .serv-main-wrapper h2 {
+    
+    padding: 2rem 0 0rem 0;
+  }
 }
