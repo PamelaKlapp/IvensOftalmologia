@@ -34,9 +34,12 @@ const SearchBar = () => {
   const [openSearch, setOpenSearch] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
 
-  // const HandlerOpen = () => {
-  //   setOpenSearch((current) => !current);
-  // };
+  const quitarTildes = (cadena) => {
+    return cadena
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
+  };
 
   const handleSearch = () => {
     const allProducts = [
@@ -71,7 +74,8 @@ const SearchBar = () => {
         (item) =>
           item.fabrica.toLowerCase().includes(searchTerm.toLowerCase()) ||
           item.modelo.toLowerCase().includes(searchTerm.toLowerCase()) ||
-          item.subcategoria.toLowerCase().includes(searchTerm.toLowerCase())
+          item.subcategoria.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          quitarTildes(item.subcategoria).includes(quitarTildes(searchTerm))
       );
 
       updateSearchResults(filteredData);
