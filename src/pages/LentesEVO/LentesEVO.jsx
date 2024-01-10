@@ -99,7 +99,14 @@ const LentesEVO = () => {
 
       <div className="container container-lentesEVO-mitad">
         <h2>Beneficios de las Lentes EVO ICL </h2>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', maxWidth: '1920px' }}>
+        <div
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            gap: '1rem',
+            maxWidth: '1920px',
+          }}
+        >
           <button className="btn-arrows btn-prev" onClick={handlePrevPage}>
             <SlArrowLeft />
           </button>
@@ -131,11 +138,18 @@ const LentesEVO = () => {
         </p>
 
         <button className="btn btn-busca">
-          <a href="https://la.doctors.discovericl.com/">Busca a tu médico</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://la.doctors.discovericl.com/"
+          >
+            Busca a tu médico
+          </a>
         </button>
 
-        
         <form
+        target="_blank"
+        rel="noopener noreferrer"
           className="btn-webpay"
           name="rec20108_btn1"
           method="post"
