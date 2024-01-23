@@ -8,20 +8,23 @@ const Categorias = () => {
       <div className="categorias">
         <h2>Nuestras Categorías</h2>
         <ul className="categorias__links-container">
-          {categorias.map(({ id, nombre, img, path }, index) => {
-            const isOdd = index % 2 !== 0;
-            const linkClassName = isOdd
-              ? 'categoria__link even'
-              : 'categoria__link';
-            const iconClassName = isOdd
-              ? 'categoria__link-icon even'
-              : 'categoria__link-icon';
+        {categorias.map(({ id, nombre, img, path }, index) => {
+  const isOdd = index % 2 !== 0;
+  const linkClassName = isOdd
+    ? 'categoria__link even'
+    : 'categoria__link';
+  const iconClassName = isOdd
+    ? 'categoria__link-icon even'
+    : 'categoria__link-icon';
+
+  // Agrega una condición para verificar si es el objeto con id: 4
+  const imgStyle = id === 4 ? { width: '100%' } : {};
 
             return (
               <Link to={path} key={id}>
                 <li className={linkClassName}>
                   <div className={iconClassName}>
-                    <img className="categoria-icon" src={img} alt={nombre} />
+                    <img className="categoria-icon" src={img} alt={nombre} style={imgStyle} />
                   </div>
                   <div className="categoria__link-text">
                     <h4>{nombre}</h4>
