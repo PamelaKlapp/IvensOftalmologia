@@ -58,7 +58,7 @@ const DisplayBanners = () => {
               key={id}
               onClick={() => (window.location.href = path)}
             >
-              <img className="img-banner" src={img} alt={name} />
+              <img className="img-banner" src={img} alt={name} loading="lazy" />
             </div>
           ))}
         </Slider>

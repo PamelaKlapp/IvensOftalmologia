@@ -7,7 +7,7 @@ const Categorias = ({ img, title, data, customStyle }) => {
       <h2>{title}</h2>
       <div className="categoriaLista-contenido">
         <div className={`categoriaLista-img ${customStyle}`}>
-          <img src={img} alt="" />
+          <img src={img} alt={title} loading="lazy" />
         </div>
         <div className="categoriaLista-links">
           {data.productos.map(({ slug, producto, path }) => (

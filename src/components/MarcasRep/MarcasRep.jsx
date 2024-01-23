@@ -44,7 +44,7 @@ const MarcasRep = () => {
           </button>
         </div>
         <div className="main__rep-container">
-          <img src={img} alt={`${id} ${name}`} />
+          <img src={img} alt={`${id} ${name}`} loading="lazy" />
         </div>
       </div>
     </section>

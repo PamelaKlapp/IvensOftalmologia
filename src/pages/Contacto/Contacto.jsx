@@ -26,7 +26,7 @@ const Contacto = () => {
         <div className="contenido-contacto-main">
           <div className="primera-columna-contenido">
             <div className="img-wrapper-column-contanto">
-              <img src={ImgSobre} alt="" />
+              <img src={ImgSobre} alt="imagen de sobre" loading="lazy" />
             </div>
             <div className="informacion-atencion">
               <h3>Horarios de Atención</h3>
@@ -43,21 +43,21 @@ const Contacto = () => {
                   rel="noopener noreferrer"
                   href="https://www.instagram.com/oftalmologiaivens/"
                 >
-                  <img src={Instagram} alt="" />
+                  <img src={Instagram} alt="logo instagram" loading="lazy" />
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href=" https://www.facebook.com/ivensoftalmologia"
                 >
-                  <img src={Facebook} alt="" />
+                  <img src={Facebook} alt="logo facebook" loading="lazy" />
                 </a>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.linkedin.com/company/ivensoftalmologiaspa/mycompany/?viewAsMember=true"
                 >
-                  <img src={Linkedin} alt="" />
+                  <img src={Linkedin} alt="logo linkedin" loading="lazy" />
                 </a>
               </div>
             </div>

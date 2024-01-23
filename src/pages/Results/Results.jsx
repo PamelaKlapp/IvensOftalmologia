@@ -14,7 +14,7 @@ const Results = () => {
               <div key={item.id} className="result-item">
                 <div className="product-wrapper">
                   <div className="product-img">
-                    <img src={item.imagen} alt={item.modelo} />
+                    <img src={item.imagen} alt={item.modelo} loading="lazy" />
                   </div>
                   <div className="product-info">
                     <div className="product-main-info">

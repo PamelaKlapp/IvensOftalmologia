@@ -26,7 +26,7 @@ const LentesEVO = () => {
         <div key={i} className="group-lentesEVO">
           {group.map(({ id, name, img, descr }) => (
             <div className="item-lenteEVO" key={id}>
-              <img src={img} alt={name} />
+              <img src={img} alt={name} loading="lazy" />
               <h3>{name}</h3>
               <p>{descr}</p>
             </div>
@@ -60,7 +60,7 @@ const LentesEVO = () => {
       <div className="container__main">
         <div className="left-side">
           <div className="img-lentesEvo">
-            <img src={EvoLentes} alt="" />
+            <img src={EvoLentes} alt="logo evolentes" loading="lazy" />
           </div>
           <video
             src={Video}

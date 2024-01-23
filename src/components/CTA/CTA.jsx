@@ -24,7 +24,7 @@ const CTA = () => {
           }`}
         >
           <p>WhatsApp</p>
-          <img src={CTAwhatsapp} alt="botón de whatsapp" />
+          <img src={CTAwhatsapp} alt="botón de whatsapp" loading="lazy" />
         </a>
 
         <a
@@ -34,7 +34,7 @@ const CTA = () => {
           }`}
         >
           <p>Correo Electrónico</p>
-          <img src={CTAcorreo} alt="" />
+          <img src={CTAcorreo} alt="botón de correo electrónico" loading="lazy" />
         </a>
         <div className="btn-contacto cta-texto">
           <p className="animacion-txt-contacto">Contáctenos</p>
@@ -43,6 +43,7 @@ const CTA = () => {
             className="animacion-contacto"
             src={CTAcontacto}
             alt="botón de contacto"
+            loading="lazy"
           />
         </div>
       </div>

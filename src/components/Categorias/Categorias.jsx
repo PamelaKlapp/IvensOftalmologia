@@ -24,7 +24,7 @@ const Categorias = () => {
               <Link to={path} key={id}>
                 <li className={linkClassName}>
                   <div className={iconClassName}>
-                    <img className="categoria-icon" src={img} alt={nombre} style={imgStyle} />
+                    <img className="categoria-icon" src={img} alt={nombre} style={imgStyle} loading="lazy" />
                   </div>
                   <div className="categoria__link-text">
                     <h4>{nombre}</h4>

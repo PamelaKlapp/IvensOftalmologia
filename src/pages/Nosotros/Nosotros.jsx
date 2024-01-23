@@ -37,7 +37,7 @@ const Nosotros = () => {
         <h2>¿Por qué elegirnos?</h2>
         <div className="caracteristicas-nosotros">
           <div className="caracteristica-nosotros">
-            <img id="compromiso" src={compromiso} alt="" />
+            <img id="compromiso" src={compromiso} alt="saludo de manos" loading="lazy" />
             <h3>Compromiso</h3>
             <p>
               Ofrecemos soporte y soluciones durante la venta y post venta para
@@ -46,7 +46,7 @@ const Nosotros = () => {
           </div>
           <div className="linea-vertical-nosotros"></div>
           <div className="caracteristica-nosotros">
-            <img src={trayectoria} alt="" />
+            <img src={trayectoria} alt="imagen de trayectoria" loading="lazy" />
             <h3 className="headline-small">Trayectoria y Experiencia</h3>
             <p>
               Más de 1.000 clientes nos prefieren. Entrenamos constantemente a
@@ -56,7 +56,7 @@ const Nosotros = () => {
           </div>
           <div className="linea-vertical-nosotros"></div>
           <div className="caracteristica-nosotros">
-            <img src={calidad} alt="" />
+            <img src={calidad} alt="medalla" loading="lazy" />
             <h3>Calidad</h3>
             <p>
               Proporcionamos equipos de alta gama, así como un Servicio Técnico

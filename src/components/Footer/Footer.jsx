@@ -49,7 +49,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 href="https://www.instagram.com/oftalmologiaivens/"
               >
-                <img src={Instagram} alt="Instagram" />
+                <img src={Instagram} alt="Instagram" loading="lazy" />
               </a>
             </li>
             <li id="facebook" className="cta">
@@ -58,7 +58,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 href=" https://www.facebook.com/ivensoftalmologia"
               >
-                <img src={Facebook} alt="Facebook" />
+                <img src={Facebook} alt="Facebook" loading="lazy" />
               </a>
             </li>
             <li id="linkedin" className="cta">
@@ -67,7 +67,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 href="https://www.linkedin.com/company/ivensoftalmologiaspa/mycompany/?viewAsMember=true"
               >
-                <img src={Linkedin} alt="Linkedin" />
+                <img src={Linkedin} alt="Linkedin" loading="lazy" />
               </a>
             </li>
           </ul>

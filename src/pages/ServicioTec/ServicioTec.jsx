@@ -28,12 +28,12 @@ const ServicioTec = () => {
           <div className="serv__main">
             <div className="serv__contacto">
               <div className="serv__contacto-icono">
-                <img src={CHAT} alt="" />
+                <img src={CHAT} alt="imagen de chat" loading="lazy" />
               </div>
               <div className="serv__contacto-what">
                 <h3>Contacto:</h3>
                 <div className="serv__contacto-what--info">
-                  <img src={Whatsapp} alt="" />
+                  <img src={Whatsapp} alt="logo whatsapp" loading="lazy" />
                   <span>+569 47848791</span>
                 </div>
               </div>
@@ -49,7 +49,7 @@ const ServicioTec = () => {
         </div>
         <section className="serv__teamViewer">
           <div className="ser__teamViewer-icon">
-            <img src={TeamViewer} alt="" />
+            <img src={TeamViewer} alt="logo teamviewer" loading="lazy" />
           </div>
           <p className="teamViewer">
             Descarga Team Viewer

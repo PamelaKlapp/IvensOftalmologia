@@ -17,10 +17,10 @@ const MainHeader = () => {
               <span>implantadas en el mundo.</span>
             </h2>
             <div className="evo__logo">
-              <img src={EVO} alt="Lentes EVO ICL" />
+              <img src={EVO} alt="Lentes EVO ICL" loading="lazy" />
             </div>
             <div className="evo__logo2">
-              <img src={LogoEVO} alt="Lentes EVO ICL" />
+              <img src={LogoEVO} alt="Lentes EVO ICL" loading="lazy" />
             </div>
 
             <button className="mainheader__btn btn">
@@ -34,7 +34,7 @@ const MainHeader = () => {
           </div>
 
           <div className="header__right">
-            <img src={Banner} alt="" />
+            <img src={Banner} alt="imagen de cara" loading="lazy"/>
           </div>
         </div>
       </div>

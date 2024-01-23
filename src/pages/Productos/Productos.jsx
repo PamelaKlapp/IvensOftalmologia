@@ -29,13 +29,13 @@ const Productos = ({ data, title }) => {
                       <img
                         key={`${id}-${index}`}
                         src={img}
-                        alt={`${modelo} - ${index + 1}`}
+                        alt={`${modelo} - ${index + 1}`}loading="lazy"
                       />
                     ))}
                   </Slider>
                 ) : (
                   // Si 'imagen' no es un array, renderizar una sola imagen
-                  <img src={imagen} alt={modelo} />
+                  <img src={imagen} alt={modelo} loading="lazy" />
                 )}
               </div>
               <div className="product-info">
