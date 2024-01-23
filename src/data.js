@@ -340,16 +340,7 @@ export const categorias = [
 /* PRODUCTOS CIRUGIA */
 
 export const laseroftalmologico = [
-  {
-    id: 1,
-    subcategoria: 'Láser Oftalmológicos',
-    modelo: 'NANO LÁSER CETUS',
-    fabrica: 'ARC LASER',
-    descripcion:
-      'Primer nano-láser del mercado para cirugía de catarata modelo CETUS de ARC, Alemania. La tecnología utilizada es un Nd:YAG láser Q-Switch que es transferida a la pieza de mano quirúrgica (desechable) mediante una fibra óptica de cuarzo y se focaliza en una placa de titanio dentro de la pieza de mano. Por medio de la onda de choque del láser, se logra fotofragmentar el núcleo de cristalino.',
-    imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/CETUS.png'),
-    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/CATÁLOGO CLASSIC-514_6s_EN.pdf'),
-  },
+  
   {
     id: 2,
     subcategoria: 'Láser Oftalmológicos',
@@ -368,27 +359,27 @@ export const laseroftalmologico = [
     descripcion:
       'Unidad láser fotocoagulador de ARC, Alemania, verde «PURO» de 514nm, con micropulso y adaptado en lámpara de hendidura de 5 aumentos de la marca ARC.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/CLASSIC 514 NM (1).png'),
-    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/2020_Combo Q-LAS_CLASSIC_ES Catálogo.pdf'),
+    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/CATÁLOGO CLASSIC-514_6s_EN.pdf'),
   },
   {
     id: 4,
     subcategoria: 'Láser Oftalmológicos',
-    modelo: 'FOX 810nm',
+    modelo: 'FOX III 810nm',
     fabrica: 'ARC LASER',
     descripcion:
       'Consola láser fotocoagulador de ARC, Alemania, de 810nm, para  endofotocoagulación, retinopexia transescleral, tratamientos en mácula, ciclofotocoagulación transescleral (TCP), ciclofotocoagulación micropulso (CPC), tratamiento en retinopatía del prematuro y dacrio. Consola liviana de solo 1,2 kg, fácilmente transportable.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/FOX 810 NM (1).png'),
-    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/FOX-514 Catálogo.pdf'),
+    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/FOX-810 CATÁLOGO.pdf'),
   },
   {
     id: 5,
     subcategoria: 'Láser Oftalmológicos',
-    modelo: 'FOX 514nm',
+    modelo: 'FOX III 514nm',
     fabrica: 'ARC LASER',
     descripcion:
       'Láser fotocoagulador verde «»PURO»» 514nm de ARC, Alemania, diseñado para tratamientos de endofotocoagulación y retinopatía del prematuro.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/FOX 514 NM (1).png'),
-    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/FOX-810 CATÁLOGO.pdf'),
+    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/FOX-514 Catálogo.pdf'),
   },
   {
     id: 6,
@@ -398,7 +389,7 @@ export const laseroftalmologico = [
     descripcion:
       'Unidad láser fotodisruptor de ARC, Alemania, Nd:YAG de 1064nm adaptado en lámpara de hendidura ARC de 5 aumentos.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/YAG Q-LAS (2).png'),
-    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/Catálogo NANO-LASER.pdf'),
+    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/CATÁLOGO YAG Q-LAS.pdf'),
   },
   {
     id: 7,
@@ -418,7 +409,17 @@ export const laseroftalmologico = [
     descripcion:
       'Combo de ARC, Alemania: combina láser YAG modelo Q-LAS con láser verde 532 nm modelo Classic, todo en una lámpara de hendidura en una sola mesa eléctrica',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/COMBO 2.png'),
-    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/CATÁLOGO YAG Q-LAS.pdf'),
+    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/2020_Combo Q-LAS_CLASSIC_ES Catálogo.pdf'),
+  },
+  {
+    id: 9,
+    subcategoria: 'YAG/SLT',
+    modelo: 'COBRA',
+    fabrica: 'ARC LASER',
+    descripcion:
+      'Láser modelo COBRA , que combina láser SLT modelo CITO de 532nm con láser YAG modelo Q-Las, todo en uno. Con lámpara de hendidura modelo PCL5 ZL, de tipo Zeiss y 5 aumentos, en mesa eléctrica doble, ideal para silla de ruedas.',
+    imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/Cobra (ARC Laser).png'),
+    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/Laser COBRA YAG-SLT 6s_EN_.pdf'),
   },
 ];
 
@@ -957,6 +958,7 @@ export const cajaslentes = [
     descripcion:
       'Caja de lentes OCULUS modelo BK-1/T para apoyo de sobremesa y modelo BK-1/W para sujeción mural, ambas de 232 lentes en caja de madera con cierre tipo cortina. Diámetro del lente de 38 mm. Para uso con las monturas de prueba UB 3, UB 4, UB 4 , UB 6 y en montura de niños.',
     imagen: require('./assets/Products/Refraccion/CajasLentes/Imagenes/BK-1T - BK-1W.png'),
+    catalogo: require('./assets/Products/Refraccion/CajasLentes/Catalogos/Catalogo Caja Lentes y Monturas .pdf'),
   },
   {
     id: 2,
@@ -966,6 +968,7 @@ export const cajaslentes = [
     descripcion:
       'Caja de lentes OCULUS modelo BK-2 para apoyo de sobremesa, con maleta de madera para transporte y con 130 lentes. Diámetro del lente de 38 mm. Para uso con las monturas de prueba UB 3, UB 4 y montura de niños.',
     imagen: require('./assets/Products/Refraccion/CajasLentes/Imagenes/BK-2.png'),
+    catalogo: require('./assets/Products/Refraccion/CajasLentes/Catalogos/Catalogo Caja Lentes y Monturas .pdf'),
   },
   {
     id: 3,
@@ -975,6 +978,7 @@ export const cajaslentes = [
     descripcion:
       'Caja de lentes OCULUS modelo BK-S3 para apoyo de sobremesa, con maleta de madera para transporte y con 220 lentes. Diámetro del lente de 28 mm. Para uso con montura de prueba UB 5.',
     imagen: require('./assets/Products/Refraccion/CajasLentes/Imagenes/BK-S3.png'),
+    catalogo: require('./assets/Products/Refraccion/CajasLentes/Catalogos/Catalogo Caja Lentes y Monturas .pdf'),
   },
   {
     id: 4,
@@ -984,6 +988,7 @@ export const cajaslentes = [
     descripcion:
       'Caja de Lentes OCULUS de prismas para apoyo de sobremesa, con maleta de madera para transporte y con 72 lentes, todas con antireflejos. Diámetro del lente de 38 mm para uso con las monturas de prueba UB 3, UB 4, UB 4, UB 6 y montura de niños.',
     imagen: require('./assets/Products/Refraccion/CajasLentes/Imagenes/BK.png'),
+    catalogo: require('./assets/Products/Refraccion/CajasLentes/Catalogos/Catalogo Caja Lentes y Monturas .pdf'),
   },
 ];
 
@@ -1187,6 +1192,19 @@ export const mesasElectricas = [
       'Mesa eléctrica modelo WCT-100 de HONGDEE, ideal para sillas de ruedas gracias a su amplio espacio para las piernas. Mesa de gran superficie, diseñada para acomodar dos o más equipo y con una base metálica que garantiza alta fiabilidad y durabilidad.\nEspecificaciones:\n• Tamaño de la mesa: 900 mm x 470 mm\n• Capacidad de carga: 75 kg\n• Nivel de ruido: 42db\n• Rango de elevación: 630 mm - 800 mm • Voltaje: 100V-230V\n• Potencia: 50W\n• Peso neto: 40 kg',
     imagen: require('./assets/Products/Refraccion/MesasElec/Imagenes/Mesa WCT-100 (HONGDEE).png'),
     catalogo: require('./assets/Products/Refraccion/MesasElec/Catalogos/WCT-100 Wheel chair accessible table.pdf'),
+  },
+  {
+    id: 7,
+    subcategoria: 'Mesas Eléctricas',
+    modelo: 'MD-2 y MD-3',
+    fabrica: 'MDT',
+    descripcion:
+      'Diseñadas para la instalación de diversos dispositivos oftálmicos, como lámparas de hendidura, autorrefqueratómetros, tonómetros sin contacto, perímetros, etc. Las mesas MDT permiten examinar de manera rápida y cómoda a los pacientes en sillas de ruedas y están equipadas con una columna telescópica eléctrica multivoltaje (100-240V AC) de aluminio anodizado, tablero de MDF (densidad media, tableros de fibras) barnizados con revestimientos de poliuretano de alta calidad y resistentes al desgaste. Además, cuenta con una base de acero con recubrimiento en polvo y 4 ruedas bloqueables de Ø75 mm (serie MD) ó 2 ruedas de Ø50 mm y 2 patas atornilladas (COMBO-1, COMBO-2).',
+      imagen: [
+        require('./assets/Products/Refraccion/MesasElec/Imagenes/MD-2 Sin Fondo.png'),
+        require('./assets/Products/Refraccion/MesasElec/Imagenes/MD-3 Sin Fondo.png'),
+      ],
+    catalogo: require('./assets/Products/Refraccion/MesasElec/Catalogos/Catalogo Mesas Elelctricas MDT.pdf'),
   },
 ];
 
@@ -1570,7 +1588,7 @@ export const ecografos = [
     modelo: 'VUMAX HD',
     fabrica: 'SONOMED',
     descripcion:
-      'Sistema de ultrasonido de multi-frecuencia que combina modo A/B y UBM. Su plataforma incluye una unidad base, pantalla LCD de 22 pulgadas, sonda modo B de 12Mhz, sonda modo A de 10Mhz y sonda UBM de 35Mhz.',
+      'Sistema de ultrasonido de multi-frecuencia que combina modo A/B y UBM. Su plataforma incluye una unidad base, pantalla LCD de 22 pulgadas, sonda modo B de 12Mhz o 20Mhz,sonda modo A de 10Mhz y sonda UBM de 35Mhz o 50Mhz.',
     imagen: require('./assets/Products/Diagnostico/Ecografos/Imagenes/VuMAX HD (2).png'),
     catalogo: require('./assets/Products/Diagnostico/Ecografos/Catalogos/VuMAX_HD_Brochure.pdf'),
   },
@@ -1590,7 +1608,7 @@ export const ecografos = [
     modelo: 'PACSCAN',
     fabrica: 'SONOMED',
     descripcion:
-      'Biómetro A- Scan, compacto y portátil para contacto o inmersión. Una combinación de alta frecuencia, sondas de bajo ruido y propietario de algoritmos que permiten capturas de exploración inmediatamente después del aplanamiento a lo largo del eje visual. Con medición precisa de espesor de la córnea, ACD, espesor de la lente, y longitud axial.',
+      'Biómetro A- Scan, con opción de paquimetría, compacto y portátil para contacto o inmersión. Una combinación de alta frecuencia, sondas de bajo ruido y propietario de algoritmos que permiten capturas de exploración inmediatamente después del aplanamiento a lo largo del eje visual. Con medición precisa de espesor de la córnea, ACD, espesor de la lente, y longitud axial.',
     imagen: require('./assets/Products/Diagnostico/Ecografos/Imagenes/PacScan PLUS.png'),
     catalogo: require('./assets/Products/Diagnostico/Ecografos/Catalogos/Catálogo1.pdf'),
   },
