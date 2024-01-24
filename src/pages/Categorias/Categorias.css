@@ -27,13 +27,16 @@
   align-items: center;
   justify-items: center;
 }
-.orange-background {
+.orange-background, .orange-background-height {
   background-color: var(--color-naranjo);
 }
 .categoriaLista-img img {
   width: 80%;
   aspect-ratio: 3/2;
   object-fit: contain;
+}
+.orange-background-height img{
+ width: 100%;
 }
 .productoLista {
   color: var(--color-azul);
