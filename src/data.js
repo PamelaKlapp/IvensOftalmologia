@@ -359,7 +359,7 @@ export const laseroftalmologico = [
     descripcion:
       'Unidad láser fotocoagulador de ARC, Alemania, verde «PURO» de 514nm, con micropulso y adaptado en lámpara de hendidura de 5 aumentos de la marca ARC.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/CLASSIC 514 NM (1).png'),
-    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/CATÁLOGO CLASSIC-514_6s_EN.pdf'),
+    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/Catálogo CLASSIC-514.pdf'),
   },
   {
     id: 4,
@@ -369,7 +369,7 @@ export const laseroftalmologico = [
     descripcion:
       'Consola láser fotocoagulador de ARC, Alemania, de 810nm, para  endofotocoagulación, retinopexia transescleral, tratamientos en mácula, ciclofotocoagulación transescleral (TCP), ciclofotocoagulación micropulso (CPC), tratamiento en retinopatía del prematuro y dacrio. Consola liviana de solo 1,2 kg, fácilmente transportable.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/FOX 810 NM (1).png'),
-    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/FOX-810 CATÁLOGO.pdf'),
+    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/FOX III 810nm y MicroCyclo CPC_ES.pdf'),
   },
   {
     id: 5,
@@ -379,7 +379,7 @@ export const laseroftalmologico = [
     descripcion:
       'Láser fotocoagulador verde «»PURO»» 514nm de ARC, Alemania, diseñado para tratamientos de endofotocoagulación y retinopatía del prematuro.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/FOX 514 NM (1).png'),
-    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/FOX-514 Catálogo.pdf'),
+    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/FOX III 514nm_Endo_Español.pdf'),
   },
   {
     id: 6,
@@ -389,7 +389,7 @@ export const laseroftalmologico = [
     descripcion:
       'Unidad láser fotodisruptor de ARC, Alemania, Nd:YAG de 1064nm adaptado en lámpara de hendidura ARC de 5 aumentos.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/YAG Q-LAS (2).png'),
-    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/CATÁLOGO YAG Q-LAS.pdf'),
+    catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/Catálogo YAG Q-LAS Español.pdf'),
   },
   {
     id: 7,
