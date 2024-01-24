@@ -41,7 +41,8 @@ const UnidadesRefraccionProd = () => {
       img={ImgUndRe}
       title="Unidades de Refracción"
       data={dataUnidRefraccion}
-      customStyle="orange-background"
+      customStyle="orange-background-height"
+      
     />
   );
 };
