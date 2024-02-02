@@ -1467,7 +1467,7 @@ export const paquimetros = [
     fabrica: 'SONOMED',
     descripcion:
       'Biómetro con paquímetro en unidad compacta y portátil para modo A-Scan. Con medición precisa de espesor de la córnea, ACD, espesor de la lente, y longitud axial y para paquimetría central y periférica.',
-    imagen: require('./assets/Products/Diagnostico/Paquimetros/Imagenes/PacScan PLUS.png'),
+    imagen: require('./assets/Products/Diagnostico/Paquimetros/Imagenes/PacScan PLUS-2.png'),
     catalogo: require('./assets/Products/Diagnostico/Paquimetros/Catalogos/Catálogo.pdf'),
   },
 ];
