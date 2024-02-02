@@ -367,7 +367,7 @@ export const laseroftalmologico = [
     modelo: 'FOX III 810nm',
     fabrica: 'ARC LASER',
     descripcion:
-      'Consola láser fotocoagulador de ARC, Alemania, de 810nm, para  endofotocoagulación, retinopexia transescleral, tratamientos en mácula, ciclofotocoagulación transescleral (TCP), ciclofotocoagulación micropulso (CPC), tratamiento en retinopatía del prematuro y dacrio. Consola liviana de solo 1,2 kg, fácilmente transportable.',
+      'Láser de ARC, Alemania, de 810nm, para endofotocoagulación, ciclofotocoagulación transescleral (TCP), ciclofotocoagulación micropulso (CPC), tratamiento en retinopatía del prematuro y dacrio. Consola liviana de solo 1,2 kg, fácilmente transportable.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/FOX 810 NM (1).png'),
     catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/FOX III 810nm y MicroCyclo CPC_ES.pdf'),
   },
@@ -377,7 +377,7 @@ export const laseroftalmologico = [
     modelo: 'FOX III 514nm',
     fabrica: 'ARC LASER',
     descripcion:
-      'Láser fotocoagulador verde «»PURO»» 514nm de ARC, Alemania, diseñado para tratamientos de endofotocoagulación y retinopatía del prematuro.',
+      'Láser verde «»PURO»» 514nm de ARC, Alemania, diseñado para tratamientos de endofotocoagulación y retinopatía del prematuro con oftalmoscopio indirecto, con pulsos de microsegundos, liviano de solo 1,2 kg. Muy transportable.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/FOX 514 NM (1).png'),
     catalogo: require('./assets/Products/Cirugia/LaserOftalmologico/Catalogo/FOX III 514nm_Endo_Español.pdf'),
   },
