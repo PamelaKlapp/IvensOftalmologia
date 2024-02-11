@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
+import { Link } from 'react-router-dom';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { bannerMainHeader } from '../../data';
@@ -53,13 +54,13 @@ const DisplayBanners = () => {
       <div className="main__banner">
         <Slider {...settings}>
           {responsiveImages.map(({ id, name, img, path }) => (
-            <div
+            <Link to={path}
               className="main__banner-div"
               key={id}
-              onClick={() => (window.location.href = path)}
+              
             >
               <img className="img-banner" src={img} alt={name} loading="lazy" />
-            </div>
+            </Link>
           ))}
         </Slider>
       </div>

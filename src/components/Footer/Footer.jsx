@@ -21,7 +21,7 @@ const Footer = () => {
           <h3>Servicio al Cliente</h3>
           <h4>Mesa Central: 2-32759700</h4>
           <h4>Ventas: 9-82594143</h4>
-          <h4>Lentes EVO ICL: 9-945591147</h4>
+          <h4>Lentes EVO ICL: 9-94591147</h4>
           <br />
           <Link to="/contacto">
             <h3>¡Escríbenos Aquí!</h3>
