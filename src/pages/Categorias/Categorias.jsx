@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Categorias.css';
 
 const Categorias = ({ img, title, data, customStyle }) => {
@@ -11,9 +12,9 @@ const Categorias = ({ img, title, data, customStyle }) => {
         </div>
         <div className="categoriaLista-links">
           {data.productos.map(({ slug, producto, path }) => (
-            <a key={slug} href={path}>
+            <Link key={slug} to={path}>
               <p className="productoLista">{producto}</p>
-            </a>
+            </Link>
           ))}
         </div>
       </div>
