@@ -140,17 +140,17 @@ export const marcasRep = [
   {
     id: 1,
     name: 'primerasFab',
-    img: require('./assets/MarcasRepre/BANNER LOGOS FÁBRICA 1.png'),
+    img: require('./assets/MarcasRepre/BANNER_LOGOS_FABRICA.png'),
   },
   {
     id: 2,
     name: 'segundasFab',
-    img: require('./assets/MarcasRepre/BANNER LOGOS FÁBRICA 2.png'),
+    img: require('./assets/MarcasRepre/BANNER_LOGOS_FABRICA_2.png'),
   },
   {
     id: 3,
     name: 'tercerasFab',
-    img: require('./assets/MarcasRepre/BANNER LOGOS FÁBRICA 3.png'),
+    img: require('./assets/MarcasRepre/BANNER_LOGOS_FABRICA_3.png'),
   },
 ];
 
@@ -158,22 +158,22 @@ export const marcasRepMedium = [
   {
     id: 1,
     name: 'primerasFab',
-    img: require('./assets/MarcasRepre/BANNER LOGOS FÁBRICA 1Medium.png'),
+    img: require('./assets/MarcasRepre/BANNER_LOGOS_FABRICA_1_Medium.png'),
   },
   {
     id: 2,
     name: 'segundasFab',
-    img: require('./assets/MarcasRepre/BANNER LOGOS FÁBRICA 2Medium.png'),
+    img: require('./assets/MarcasRepre/BANNER_LOGOS_FABRICA_2_Medium.png'),
   },
   {
     id: 3,
     name: 'tercerasFab',
-    img: require('./assets/MarcasRepre/BANNER LOGOS FÁBRICA 3Medium.png'),
+    img: require('./assets/MarcasRepre/BANNER_LOGOS_FABRICA_3_Medium.png'),
   },
   {
     id: 4,
     name: 'cuartoFab',
-    img: require('./assets/MarcasRepre/BANNER LOGOS FÁBRICA 4Medium.png'),
+    img: require('./assets/MarcasRepre/BANNER_LOGOS_FABRICA_4_Medium.png'),
   },
 ];
 
@@ -261,7 +261,7 @@ export const lentesEvo = [
   {
     id: 2,
     name: 'Ausencia del síndrome del ojo seco',
-    img: require('./assets/LentesEvo/2. ausencia del síndrome del ojo secos.png'),
+    img: require('./assets/LentesEvo/2_ausencia_del_sindrome_del_ojo_secos.png'),
     descr:
       'Al no remover ni remodelar el tejido corneal, la intervención de colocación de las EVO ICL no provoca síndrome del ojo seco.',
   },
@@ -275,14 +275,14 @@ export const lentesEvo = [
   {
     id: 4,
     name: 'Protección contra los rayos UV',
-    img: require('./assets/LentesEvo/4. prtección rayos uv.png'),
+    img: require('./assets/LentesEvo/4_proteccion_rayos_uv.png'),
     descr:
       'El colámero, un material exclusivo de Staar Surgical, proporciona protección contra los rayos UV.',
   },
   {
     id: 5,
     name: 'Intervención y recuperación rápida',
-    img: require('./assets/LentesEvo/5. intervención y recuperación rápidas.png'),
+    img: require('./assets/LentesEvo/5_intervencion_y_recuperacion_rapidas.png'),
     descr:
       'Se trata de una intervención de unos 20-30 minutos y la mayor parte de los pacientes retoman sus actividades diarias transcurridos unos días.',
   },
@@ -313,26 +313,26 @@ export const categorias = [
     id: 2,
     style: '.even',
     nombre: 'Diagnóstico',
-    img: require('./assets/Categorias/Iconodiagnóstico.png'),
+    img: require('./assets/Categorias/Iconodiagnostico.png'),
     path: '/productos/diagnosticos',
   },
   {
     id: 3,
     nombre: 'Refracción',
-    img: require('./assets/Categorias/Iconorefracción.png'),
+    img: require('./assets/Categorias/Iconorefraccion.png'),
     path: '/productos/refraccion',
   },
   {
     id: 4,
     style: '.even',
     nombre: 'Unidad Refracción',
-    img: require('./assets/Categorias/Iconounidadrefracción.png'),
+    img: require('./assets/Categorias/Iconounidadrefraccion.png'),
     path: '/productos/unidadesrefraccion',
   },
   {
     id: 5,
     nombre: 'Cirugía',
-    img: require('./assets/Categorias/Iconocirugía.png'),
+    img: require('./assets/Categorias/Iconocirugia.png'),
     path: '/productos/cirugia',
   },
 ];
@@ -518,7 +518,7 @@ export const unidadesrefraccion = [
     fabrica: 'F.I.S.O.',
     descripcion:
       'Unidad de Refracción F.I.S.O. origen italiano, con base color gris claro, de construcción metálica y con mesa para 2 instrumentos.',
-    imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/UNIDAD REFRACCIÓN PANVISUS REPLY.png'),
+    imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/UNIDAD_REFRACTION_PANVISUS_REPLY.png'),
     catalogo: "https://drive.google.com/file/d/1-R1o0b5rwlQlGxJ5oi0Us-_ll9fu41hj/view?usp=sharing",
   },
   {
@@ -1074,7 +1074,7 @@ export const foropterosDigitales = [
     fabrica: 'DONGWU',
     descripcion:
       'Foróptero digital DONGWU modelo TW-7100, con conexión inalámbrica para conectar con Auto Kerato Refractómetro y pantalla de optotipos LCD de la misma marca y con algunos equipos Topcon. Comando de control por tablet incluido y con impresora termal comunicada por Bluetooth. Tablet: Android 5,0 / resolución de 2560 x 1600.',
-    imagen: require('./assets/Products/Refraccion/Foropteros/Imagenes/Foróptero Digital TW-7100 (DONGWU).png'),
+    imagen: require('./assets/Products/Refraccion/Foropteros/Imagenes/Foroptero_Digital_TW-7100_DONGWU.png'),
     catalogo: "https://drive.google.com/file/d/1Iz54WioE6CFgtT_BeXnnXegd5GghDfEL/view?usp=sharing",
   },
 ];
@@ -1087,7 +1087,7 @@ export const lensometrosDigitales = [
     fabrica: 'LUXVISION',
     descripcion:
       'Lensómetro digital computarizado LUXVISION modelo LM-7800 con lectura por medio de pantalla TFT-LCD 5,7". Posibilidad de medición de radiación UV.',
-    imagen: require('./assets/Products/Refraccion/Lensometros/Imagenes/Lensómetro LM-7800 (Fondo Transparente) 2.png'),
+    imagen: require('./assets/Products/Refraccion/Lensometros/Imagenes/Lensometro_LM-7800_Fondo_Transparente_2.png'),
     catalogo: "https://drive.google.com/file/d/1WZQituKuIldbSe4GvnngqTTrpHO1ne72/view?usp=sharing",
   },
   {
@@ -1097,7 +1097,7 @@ export const lensometrosDigitales = [
     fabrica: 'EZER',
     descripcion:
       'Lensómetro digital EZER modelo ELM-9200, haga más en menos tiempo. Con el uso de su interfaz Bluetooth (se vende por separado) disfrute de la flexibilidad de la conectividad remota con toda la línea de práctica digital de Ezer. Cuenta con medición de lente progresiva, medición de luz ultravioleta y azul. La intuitiva pantalla táctil LCD de gráficos completos guía a los operadores a través del proceso.',
-    imagen: require('./assets/Products/Refraccion/Lensometros/Imagenes/Lensómetro ELM-9200 (4) (Fondo Transparente).png'),
+    imagen: require('./assets/Products/Refraccion/Lensometros/Imagenes/Lensometro_ELM-9200_4_Fondo_Transparente.png'),
     catalogo: "https://drive.google.com/file/d/1L0xpppesK1G4Vip2wsLvzJv0ZsePZOFH/view?usp=sharing",
   },
   {
@@ -1376,7 +1376,7 @@ export const lamparashen = [
     fabrica: 'LUXVISION',
     descripcion:
       'Lámpara de hendidura de alta gama y con iluminación de torre. Cuenta con un avanzado sistema óptico de Galileo y 5 aumentos (6x, 10x, 16x, 25x y 40x) que se pueden cambiar fácilmente utilizando el práctico dial de selección de aumento de la unidad. Con iluminación halógena.',
-    imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/Lámapara Hendidura CJ-SL-1400 (LUXVISION)-PhotoRoom.png-PhotoRoom.png'),
+    imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/Lampara_Hendidura_CJ-SL-1400_LUXVISION_PhotoRoom.png'),
     catalogo: "https://drive.google.com/file/d/1XrNWmim_66yg2hXOUNUFDGVilIHVcyoa/view?usp=sharing",
   },
   {
@@ -1396,7 +1396,7 @@ export const lamparashen = [
     fabrica: 'EZER',
     descripcion:
       'Lámpara de hendidura con un sistema de iluminación estilo Carl Zeiss y un avanzado sistema óptico convergente galileano. Con su sistema de revolver de 5 aumentos, ofrece una de las mejores relaciones de zoom de su clase; 6x, 10x, 16x, 25x y 40x utilizando el ocular de 12,5x.',
-    imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/Lámpara Hendidura ESL-1800 (EZER)-PhotoRoom.png-PhotoRoom.png'),
+    imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/Lampara_Hendidura_ESL-1800_EZER_PhotoRoom.png'),
     catalogo: "https://drive.google.com/file/d/1D3K3zBTOMT9yO6LX5JGvOVyx_qTTpHS0/view?usp=sharing",
   },
   {
@@ -1406,7 +1406,7 @@ export const lamparashen = [
     fabrica: 'EZER',
     descripcion:
       'El microscopio de la lámpara de hendidura ESL-7800 es la de más alta calidad de la serie EZER. Diseñado en la configuración de estilo de torre tradicional, la ESL-7800 ofrece ópticas especializadas, mayores niveles de aumento y un amplio campo de visión. Cuenta con un avanzado sistema óptico galileano y un tambor giratorio de 5 aumentos.',
-    imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/Lámpara Hendidura ESL-7800 (EZER)-PhotoRoom.png-PhotoRoom.png'),
+    imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/Lampara_Hendidura_ESL-7800_EZER_PhotoRoom.png'),
     catalogo: "https://drive.google.com/file/d/1e09qebDs7v0a5mCGNf9Ll7xv-7h9IJ1P/view?usp=sharing",
   },
   {
@@ -1512,7 +1512,7 @@ export const campimetros = [
     fabrica: 'OCULUS',
     descripcion:
       'Nueva dimensión en medición de campo visual, el perímetro Twinfield® 2, de proyección esférica para perimétrica estática y cinética con cúpula de proyección de 30 cm de radio para 90°de examen. Color del estímulo; blanco / azul / rojo. Padrón según la Sociedad de Oftalmología Alemana (DOG).',
-    imagen: require('./assets/Products/Diagnostico/Campimetros/Imagenes/Twinfield (OCULUS) Opción 1.png'),
+    imagen: require('./assets/Products/Diagnostico/Campimetros/Imagenes/Twinfield_Opcion_1_OCULUS.png'),
     catalogo: "https://drive.google.com/file/d/1m8qw33YBn4cgUo6mYXzhZazcv98AeIjy/view?usp=sharing",
   },
 ];

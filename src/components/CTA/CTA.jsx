@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CTAwhatsapp from '../../assets/CTA/Globos WhatsApp.png';
 import CTAcorreo from '../../assets/CTA/Globo Correo.png';
-import CTAcontacto from '../../assets/CTA/Globos Contáctenos (Morado 1).png';
+import CTAcontacto from '../../assets/CTA/Globos_Contactenos_Morado.png';
 import './CTA.css';
 
 const CTA = () => {

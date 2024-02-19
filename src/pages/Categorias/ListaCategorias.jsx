@@ -1,10 +1,10 @@
 import React from 'react';
 import Categorias from './Categorias';
 import { productlinks } from '../../data';
-import ImgCir from '../../assets/Categorias/Iconocirugía.png';
-import ImgDiag from '../../assets/Categorias/Iconodiagnóstico.png';
-import ImgRef from '../../assets/Categorias/Iconorefracción.png';
-import ImgUndRe from '../../assets/Categorias/Iconounidadrefracción.png';
+import ImgCir from '../../assets/Categorias/Iconocirugia.png';
+import ImgDiag from '../../assets/Categorias/Iconodiagnostico.png';
+import ImgRef from '../../assets/Categorias/Iconorefraccion.png';
+import ImgUndRe from '../../assets/Categorias/Iconounidadrefraccion.png';
 
 const Cirugia = () => {
   const dataCirugia = productlinks.find((item) => item.categoria === 'Cirugía');
