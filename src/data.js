@@ -342,84 +342,84 @@ export const categorias = [
 export const laseroftalmologico = [
   
   {
-    id: 2,
+    id: 1,
     subcategoria: 'Láser Oftalmológicos',
     modelo: 'CLASSIC 532nm',
     fabrica: 'ARC LASER',
     descripcion:
       'Unidad láser fotocoagulador de ARC, Alemania, verde de 532nm, adaptado en lámpara de hendidura de 5 aumentos ARC. Con opción de endosondas  y oftalmoscopio indirecto.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/CLASSIC 532 NM.png'),
-    catalogo: "https://drive.google.com/file/d/1b_MFsaGuB233aUlXCnmqENXQZ3qvIXAM/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1bthh0mKytvyMPmcE76-pBCCzCsubW0at/view?usp=sharing",
   },
   {
-    id: 3,
+    id: 2,
     subcategoria: 'Láser Oftalmológicos',
     modelo: 'CLASSIC 514nm',
     fabrica: 'ARC LASER',
     descripcion:
       'Unidad láser fotocoagulador de ARC, Alemania, verde «PURO» de 514nm, con micropulso y adaptado en lámpara de hendidura de 5 aumentos de la marca ARC.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/CLASSIC 514 NM (1).png'),
-    catalogo: "https://drive.google.com/file/d/1AD6aaVG-VYPMbHXNt9bwh-vSfyD5d8Jg/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1tymNGK0ut1hGV3OIA1awizWLdQXqoYTW/view?usp=sharing",
   },
   {
-    id: 4,
+    id: 3,
     subcategoria: 'Láser Oftalmológicos',
     modelo: 'FOX III 810nm',
     fabrica: 'ARC LASER',
     descripcion:
       'Láser de ARC, Alemania, de 810nm, para endofotocoagulación, ciclofotocoagulación transescleral (TCP), ciclofotocoagulación micropulso (CPC), tratamiento en retinopatía del prematuro y dacrio. Consola liviana de solo 1,2 kg, fácilmente transportable.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/FOX 810 NM (1).png'),
-    catalogo: "https://drive.google.com/file/d/1sw86dyw4gBBd1awcNS7Ak-t1ttxwf-rT/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1d8H-wIEDNWSJNU-sH0Go1ECrVk19nhxi/view?usp=sharing",
   },
   {
-    id: 5,
+    id: 4,
     subcategoria: 'Láser Oftalmológicos',
     modelo: 'FOX III 514nm',
     fabrica: 'ARC LASER',
     descripcion:
       'Láser verde «»PURO»» 514nm de ARC, Alemania, diseñado para tratamientos de endofotocoagulación y retinopatía del prematuro con oftalmoscopio indirecto, con pulsos de microsegundos, liviano de solo 1,2 kg. Muy transportable.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/FOX 514 NM (1).png'),
-    catalogo: "https://drive.google.com/file/d/1aQQsUD4Jupm3xKFjUWo50yHkI96bIuQU/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1Y-NHIDkTZGpg-aRc01htI8dv3YLnTfQe/view?usp=sharing",
   },
   {
-    id: 6,
+    id: 5,
     subcategoria: 'Láser Oftalmológicos',
     modelo: 'YAG Q-LAS',
     fabrica: 'ARC LASER',
     descripcion:
       'Unidad láser fotodisruptor de ARC, Alemania, Nd:YAG de 1064nm adaptado en lámpara de hendidura ARC de 5 aumentos.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/YAG Q-LAS (2).png'),
-    catalogo: "https://drive.google.com/file/d/1OQr6NuDzxkF6-dc-dJi011BWYw6CLR0E/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1KxEQelfe6vCBrKVY7Cq2Q2UywSg4Yezm/view?usp=sharing",
   },
   {
-    id: 7,
+    id: 6,
     subcategoria: 'Láser Oftalmológicos',
     modelo: 'YAG/SLT',
     fabrica: 'ARC LASER',
     descripcion:
       'VARIO es la combinación de dos tipos de láser: el modelo Classic 514nm con el láser YAG o el Cobra (SLT/YAG), en una sola mesa eléctrica.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/VARIO (2).png'),
-    catalogo: "https://drive.google.com/file/d/1W91ArH8tkt8q-ScZmshZNevgIg-Ec82x/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1zdxMMmtG9MdXRRgqLkpCqegrfcWCAcWG/view?usp=sharing",
   },
   {
-    id: 8,
+    id: 7,
     subcategoria: 'Láser Oftalmológicos',
     modelo: 'YAG/CLASSIC 532',
     fabrica: 'ARC LASER',
     descripcion:
       'Combo de ARC, Alemania: combina láser YAG modelo Q-LAS con láser verde 532 nm modelo Classic, todo en una lámpara de hendidura en una sola mesa eléctrica',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/COMBO 2.png'),
-    catalogo:"https://drive.google.com/file/d/1ES8cq7iDNdRkCtIHVp3H-bBpsu9F9_U6/view?usp=sharing",
+    catalogo:"https://drive.google.com/file/d/1dknqHteypv2CYIbVe5nW8G-7gWqEEo06/view?usp=sharing",
   },
   {
-    id: 9,
-    subcategoria: 'YAG/SLT',
+    id: 8,
+    subcategoria: 'Láser Oftalmológicos',
     modelo: 'COBRA',
     fabrica: 'ARC LASER',
     descripcion:
       'Láser modelo COBRA , que combina láser SLT modelo CITO de 532nm con láser YAG modelo Q-Las, todo en uno. Con lámpara de hendidura modelo PCL5 ZL, de tipo Zeiss y 5 aumentos, en mesa eléctrica doble, ideal para silla de ruedas.',
     imagen: require('./assets/Products/Cirugia/LaserOftalmologico/Images/Cobra (ARC Laser).png'),
-    catalogo: "https://drive.google.com/file/d/1KaVaKIAF71duUUq4rZewxZ-fBLmWGHVw/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1P3x2eth7YYQHiwojIDh65uPinN0eTBhA/view?usp=sharing",
   },
 ];
 
@@ -432,7 +432,7 @@ export const vitreoretinal = [
     descripcion:
       'El oftalmoscopio binocular indirecto BIOM® 5 de OCULUS SURGICAL, USA, es el complemento ideal del SDI® (Stereoscopic Digital Inverter) que permite la observación de un campo amplio del fondo durante la cirugía del vítreo. La unidad de observación del BIOM® se puede montar en cuestión de segundos y acoplarse al eje óptico cuando sea necesario. Está disponible en versiones de enfoque mecánico y electrónico, con una amplia gama de lentes reutilizables.',
     imagen: require('./assets/Products/Cirugia/VitreoRetina/Imagenes/BIOM 5.png'),
-    catalogo: "https://drive.google.com/file/d/1vmeciuyMHA-t7AG6cA5Ms9O_HnGjk9mH/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1mqwfWZYasMoNi8E__kK90GXt5gxSUGDI/view?usp=sharing",
   },
   {
     id: 2,
@@ -442,7 +442,7 @@ export const vitreoretinal = [
     descripcion:
       'Inversor diagonal estereoscópico (SDI) de OCULUS SURGICAL, USA. Su diseño extremadamente plano y su transmisión de luz hacen de este inversor un complemento indispensable para su microscopio en la observación de campo amplio del segmento posterior del ojo durante la cirugía. Disponible en versiones automática, motorizada y manual',
     imagen: require('./assets/Products/Cirugia/VitreoRetina/Imagenes/SDI 4C.png'),
-    catalogo: "https://drive.google.com/file/d/1vmeciuyMHA-t7AG6cA5Ms9O_HnGjk9mH/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1mqwfWZYasMoNi8E__kK90GXt5gxSUGDI/view?usp=sharing",
   },
   {
     id: 3,
@@ -452,7 +452,7 @@ export const vitreoretinal = [
     descripcion:
       'El nuevo lente desechable LenZ HD de OCULUS SURGICAL ha sido diseñado para un solo uso en el ZEISS RESIGHT® y combina una visión de gran campo amplio con una alta definición de imagen. Estas características lo convierten en el lente perfecto para todas las etapas de la cirugía vitreoretiniana, incluida la visión macular con alta magnificación.',
     imagen: require('./assets/Products/Cirugia/VitreoRetina/Imagenes/LENTES ZEISS RESIGHT.png'),
-    catalogo: "https://drive.google.com/file/d/182wxkvG-qNdthatYpS_m1M_D462e2rxN/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1Jxyi6VzQZEP-zQBpOnIyEFzW0JpPu0ol/view?usp=sharing",
   },
   {
     id: 4,
@@ -462,7 +462,7 @@ export const vitreoretinal = [
     descripcion:
       'Sistema visual desechable de no contacto de OCULUS SURGICAL, USA,  de amplio campo visual, que provee excelente profundidad y mejor estereopsis. Incluye un lente desechable de amplio campo visual de 130°.',
     imagen: require('./assets/Products/Cirugia/VitreoRetina/Imagenes/BIOM READY (OCULUS SURGICAL).png'),
-    catalogo: "https://drive.google.com/file/d/1RuXVpN0n0paOyXdYo-2IPJ_NEFhSYT8H/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1gLEPKBpJIamoa5xIlKfStp1JVq8upt03/view?usp=sharing",
   },
   {
     id: 5,
@@ -481,7 +481,7 @@ export const vitreoretinal = [
     descripcion:
       'El revolucionario sistema del nuevo lente GONIO Ready® de OCULUS SURGICAL, USA, permite durante la realización de MIGS eliminar la necesidad de sostenerla con la mano. Ofrece una excepcional profundidad de campo y una visión de 180°. Además, este innovador sistema facilita a los cirujanos la conexión de la lente GONIO Ready® al microscopio quirúrgico.',
     imagen: require('./assets/Products/Cirugia/VitreoRetina/Imagenes/GONIO READY LENS.png'),
-    catalogo: "https://drive.google.com/file/d/1UYu0uhwYH07uYUSN_XUvTtZLBzHa_bAZ/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1SjbgaXXS7bjgfqq3UzmApzqFsMOf7l_n/view?usp=sharing",
   },
 ];
 
@@ -494,7 +494,7 @@ export const instrumentalquirurgico = [
     descripcion:
       'Instrumental quirúrgico oftalmológico CARL TEUFEL, 100% fabricación Alemana, que ofrecen una óptima función, manejo ergonómico y larga vida útil.',
     imagen: require('./assets/Products/Cirugia/InstrumentalQuirurgico/Imagenes/Carl Teufel.png'),
-    catalogo: "https://drive.google.com/file/d/1WhFNXOKUZPoCQKTYsMomXHRUVXLo6fUn/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1Z8qohb4XFJBNYVqPn0KEScV7c7fifV1m/view?usp=sharing",
   },
   {
     id: 2,
@@ -504,7 +504,7 @@ export const instrumentalquirurgico = [
     descripcion:
       'Instrumental quirúrgico oftalmológico fabricados en Estados Unidos que brindan mayor precisión y calidad para las diversas cirugías oculares.',
     imagen: require('./assets/Products/Cirugia/InstrumentalQuirurgico/Imagenes/ASICO.png'),
-    catalogo: "https://drive.google.com/file/d/1myb9xk59a6HGSWcyblle8xZGZgWUOM-k/view?usp=drive_link",
+    catalogo: "https://drive.google.com/file/d/1lu-ykOAG_35W5nSRABqF7MmCCBiaxVWs/view?usp=sharing",
   },
 ];
 
@@ -518,8 +518,8 @@ export const unidadesrefraccion = [
     fabrica: 'F.I.S.O.',
     descripcion:
       'Unidad de Refracción F.I.S.O. origen italiano, con base color gris claro, de construcción metálica y con mesa para 2 instrumentos.',
-    imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/UNIDAD REFRACCIÓN PANVISUS REPLY.png'),
-    catalogo: "https://drive.google.com/file/d/1-R1o0b5rwlQlGxJ5oi0Us-_ll9fu41hj/view?usp=sharing",
+    imagen: 'https://drive.google.com/thumbnail?id=1gsny2pnrPBYagQV5h5Uxc0iOe3N2RURJ',
+    catalogo: "https://drive.google.com/file/d/13-K1C1cZS81_fDQDskeTQr68ItfFaZIC/view?usp=sharing",
   },
   {
     id: 2,
@@ -528,8 +528,8 @@ export const unidadesrefraccion = [
     fabrica: 'F.I.S.O.',
     descripcion:
       'Unidad de Refracción marca F.I.S.O. origen italiano, de base color gris claro y construida en metal. Incluye una mesa abatible y deslizable diseñada para 2 instrumentos. Además, cuenta con un panel de control adjunto a la mesa para equipos y sillón, y bloqueo magnético de la mesa. Disponible en varios colores y ofrece la opción de sillón con respaldo fijo o reclinable.',
-    imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/PANVISUS RONDO.png'),
-    catalogo: "https://drive.google.com/file/d/1--zx4aIbjLsZsm6kWQHpz12mH6iv7UVa/view?usp=sharing",
+    imagen: 'https://drive.google.com/thumbnail?id=1BSomQLBrHAP44gfqXcidda0qfEjTYsFa',
+    catalogo: "https://drive.google.com/file/d/10-egyqwpQ98BCAtTpmdFEz63c6L3DVc5/view?usp=sharing",
   },
   {
     id: 3,
@@ -539,7 +539,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción marca F.I.S.O. origen italiano, de solo 105 cm de ancho, ideal para espacios reducidos. Con base color gris claro y de construcción metálica, cuenta con una mesa abatible y deslizable para 2 instrumentos. Incluye panel de control adjunto a la mesa para instrumentos y sillón, y bloqueo magnético de la mesa.Con opción a diferentes colores, altura de mesa regulable en altura, brazo para foróptero y sillón con respaldo fijo o reclinable.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/PANVISUS RONDO COMPACT.png'),
-    catalogo: "https://drive.google.com/file/d/1NwWt8IWezU6YLJPhUTGHR0o8Rv8O1P7K/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1kPoJf1dYGLYUKzaUVWVjRXHW8j_ZZM8q/view?usp=sharing",
   },
   {
     id: 4,
@@ -549,7 +549,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción marca F.I.S.O, de origen italiano, con base color gris claro y de construcción metálica y madera. Incluye mueble curvo con 4 cajoneras y doble mesa abatibles y deslizables, con porta lentes de caja de prueba, para 2 instrumentos. Además, incluye panel de control adjunto a la mesa curva y bloqueo magnético de la mesa. Disponible en diferentes colores, con altura de mesa regulable, brazo para foróptero y sillón con respaldo fijo o reclinable.  ',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/PANVISUS MOON LENS.png'),
-    catalogo: "https://drive.google.com/file/d/1usM6Avr2ztZTTDeXJYJSqIN5n_FZxdHn/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1JBE7eZ4-y9KgbCHIWfFUjydytSWofp7n/view?usp=sharing",
   },
   {
     id: 5,
@@ -559,7 +559,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción marca FISO, de origen italiano, en color gris. Construida en metal y base tapizada en madera, con sillón respaldo fijo. Cuenta con mesa giratoria y regulable en altura apta para 3 equipos. Disponible en diferentes colores y con respaldo fijo o reclinable.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/PANVISUS TRIO.png'),
-    catalogo: "https://drive.google.com/file/d/1hmQWnV7rbGHqMPcvPZMUybvcOsQuA56k/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1XSsg-cTk0sL3ofViBAJciZBC-hmB91ag/view?usp=sharing",
   },
   {
     id: 6,
@@ -569,7 +569,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción marca F.I.S.O. de origen italiano, incluye una mesa giratoria para 1 equipo, con una elevación eléctrica de 20 cm y una fuente de poder integrada en la parte superior.Con base independiente con pilar para brazo de foróptero, provisto con un brazo para soporte de proyector de optotipos y lámpara spot de cabecera con luz halógena. Disponible en diferentes colores y sillón con respaldo fijo o reclinable. Este producto es ideal para realizar exámenes a pacientes que se encuentran en silla de ruedas.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/PANVISUS HERCULES.png'),
-    catalogo: "https://drive.google.com/file/d/1ZJOYi99Z0QDSPlq0zpL3Mtsz34gc11h-/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1fTRbZVcrQJVe1CNQPOBCgLZJbu98Q4dV/view?usp=sharing",
   },
   {
     id: 7,
@@ -579,7 +579,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción marca F.I.S.O. origen Italia, de solo 105 cm de ancho, ideal para espacios reducidoses. De color base gris claro y construida en metal, cuenta con una mesa abatible y deslizable diseñada para 2 instrumentos. Incluye panel de control adjunto a la mesa para instrumentos y sillón, y bloqueo magnético de la mesa. Con opción a diferentes colores, altura de la mesa regulable, brazo para foróptero y sillón con respaldo fijo o reclinable.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/PANVISUS AUGE.png'),
-    catalogo: "https://drive.google.com/file/d/1x_mjylpMa1lPq3QDkV7ZRWnVr1e9lbu0/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/14Un2RWYP-ShkpJbMDPOhkM0y5Baq-_O2/view?usp=sharing",
   },
   {
     id: 8,
@@ -589,7 +589,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción marca F.I.S.O Italia, con color base gris claro y construcción metálica. Dispone de una mesa abatible con seguro manual y diseñada para 1 equipo. La instalación de esta unidad requiere únicamente un ancho de 100 cm.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/PANVISUS ONETTE.png'),
-    catalogo: "https://drive.google.com/file/d/11lR9LFJnHCJd84CIQ3jFiUZNzuuqIzyi/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1l4q-OUZotGYWiQjWid9CtvGRSCknJBrX/view?usp=sharing",
   },
   {
     id: 9,
@@ -599,7 +599,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción ECO PLUS marca MDT, con silla COMFORT de elevación eléctrica (sistemas giratorios y reclinables opcional). Incluye mesa corredera para 2 instrumentos con regulación eléctrica de altura opcional, y posibilidad de montar un autorefqueratómetro y lámpara de hendidura. Con perillas de ajuste para iluminación de lámpara de hendidura integrada en la mesa. \nConexión sencilla para diferentes tipos de lámparas de hendidura LED/halógenas, panel de control práctico, cajón de accesorios de fácil acceso, poste de aluminio con iluminación LED y base para proyector de optotipos. Amplia selección de colores de tapicería sin costo adicional. Modelo de sillón COMFORT con respaldo fijo. Configuración estándar para diestros, disponible para zurdos bajo pedido.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/ECO PLUS (FONDO TRANSPARENTE).png'),
-    catalogo: "https://drive.google.com/file/d/1gNqgUke3s1pOMf0XDARTKHWKONxq_BcB/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1ZUFB3SkYzWPzoqRRpYFTNTTy91Frhizb/view?usp=sharing",
   },
   {
     id: 10,
@@ -609,7 +609,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción SMART PLUS marca MDT, equipado con silla COMFORT de elevación eléctrica (sistemas giratorios y reclinables opcional). Incluye mesa deslizante para 2 equipos con ajuste eléctrico de altura opcional, y posibilidad de montar un autorefqueratómetro y lámpara de hendidura. Cuenta con perillas de ajuste para iluminación de lámpara de hendidura integrada en la mesa. Conexión sencilla para diferentes tipos de lámparas de hendidura LED / halógenas. \nPráctico panel de control y bandeja para caja de lentes de fácil acceso con brazo pivotante. Poste diagonal de aluminio con iluminación LED y repisa para proyector de optotipos. Amplia selección de colores de tapicería disponibles sin recargo. \nConfiguración solo para diestros. Sillón con respaldo fijo modelo COMFORT. Base de acero con recubrimiento en polvo.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/SMART PLUS (FONDO TRANSPARENTE).png'),
-    catalogo: "https://drive.google.com/file/d/1L2mNeewKVbZK4gZB-UzncqHG4iNbhnld/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1KViV4q7_5eeKobxbf-hG6CVvWJyQPk-i/view?usp=sharing",
   },
   {
     id: 11,
@@ -619,7 +619,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción EASY marca MDT, equipado con sillón COMFORT, respaldo reclinable, con apoya brazo y apoya pies eléctricamente elevada. Mesa deslizante para 2 equipos de altura no regulable. Conexión sencilla para diferentes tipos de lámparas de hendidura; LED / halógenas. \nPráctico panel de control con poste de aluminio e iluminación LED y adaptador universal para proyector de optotipos. Posible montar autorefqueratómetro y lámpara de hendidura. Con perillas de ajuste para una iluminación de lámpara de hendidura integrada en la mesa. \nAmplia selección de colores de tapicería disponibles con recargo (SCURO - color gris como estándar). Fácil configuración in situ para diestros o zurdos. Base de acero con recubrimiento en polvo.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/EASY (FONDO TRANSPARENTE).png'),
-    catalogo: "https://drive.google.com/file/d/1u7hm1N7x_d69nFF5bVv2U-MFAjMJwne6/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1yWgl0Iye1OO5iJ5ZTyh5spZmUgRZSGZ1/view?usp=sharing",
   },
   {
     id: 12,
@@ -629,7 +629,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción marca MEDIWOKRS, con mesa diseñada para 2 equipos, abatible hasta 90° de giro y una superficie de medidas de 840 mm x 405 mm. Con sillón color negro, respaldo fijo, y regulable en altura de 410 mm a 550 mm, diseñado para soportar un peso máximo de 150 kg. El sillón incorpora apoyabrazos fijos y apoyapies plegables. La unidad está equipada con un brazo para foróptero y una lámpara de lectura, y presenta dimensiones de 1.510 mm x 1.000 mm x 2.130 mm, con un peso de 168 kg.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/OU 5000 (Fondo Transparente).png'),
-    catalogo: "https://drive.google.com/file/d/12TN8MlOHNHtfVZpDiYOiiR_7vaVYjcW4/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1t-XfxmeVf0nlxXc7K8QGOYCL3hRUopBB/view?usp=sharing",
   },
   {
     id: 13,
@@ -639,7 +639,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción marca MEDIWORKS con mesa diseñada para 2 equipos,  abatible hasta 90°de giro y una superficie de medidas de 840 mm x 405 mm. Con sillón color negro, respaldo fijo, y regulable en altura de 450 mm a 590 mm, diseñado para soportar un peso máximo de 150 kg. Sus apoya brazos y pies son rebatibles. Incluye brazo para foróptero con movimiento vertical de hasta 30° y una lámpara de lectura. Dimensiones de la unidad 1.590 mm x 1.150 mm x 1.990 mm con un peso de 150 kg.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/OU-5100-Fondo Transparente.png'),
-    catalogo: "https://drive.google.com/file/d/1iSCi32TZZ1CmesftgHyn_UkVWrk69iVW/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1cNqAbAk286ImfnkASmAWW8UyYucjCCmb/view?usp=sharing",
   },
   {
     id: 14,
@@ -649,7 +649,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción MEDIWORKS, con mesa para 2 equipos, abatible hasta 90° de giro y una superficie de medidas de 670 mm x 405 mm. Con sillón color negro,  respaldo fijo, y  ajustable en altura de 450 mm hasta 590 mm. Sillón para peso máximo de 150 kg, con apoya brazos y pies rebatibles.Unidad ideal para consultas pequeñas por sus dimensiones; 1.190mm x 1.150mm x 1.990 mm y peso de 150 kg. Incluye brazo para foróptero con movimientos vertical de hasta 30° y una lámpara de lectura.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/OU-5200B (Fondo Transparente).png'),
-    catalogo: "https://drive.google.com/file/d/13XPsSAWRKW_bQy2qj2-O4CfGnhjgYD06/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1RTPeB8Tiahp0QV5nqp0MjATysRsMjLFW/view?usp=sharing",
   },
   {
     id: 15,
@@ -659,7 +659,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción MEDIWORKS, con mesa para 2 equipos, abatible hasta 90° de giro y una superficie de medidas de 805 mm x 405 mm.  Sillón de color negro con respaldo fijo y ajustable en altura de 460 mm a 600 mm, capaz de soportar un peso máximo de 150 kg. Con apoya brazos y pies rebatibles. \nDimensiones de la unidad 1.510 mm x 1.000 mm x 2.130 mm y peso de 168 kg. Incluye brazo para foróptero con movimientos vertical de hasta 30° y lámpara de lectura.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/OU-5000A (Fondo Transparente).png'),
-    catalogo: "https://drive.google.com/file/d/1z7mlFgEZYxW_WsDIRT4lcnDi5Pw3m0jP/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1vZ2oY7AUEKJLj5i2C_aqrzYLDtsykBCT/view?usp=sharing",
   },
   {
     id: 16,
@@ -669,7 +669,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción marca MEDIWORKS, de origen chino, construida en metal, con pedestal resistente que puede soportar brazo para lámpara de hendidura, brazo para autorefractómetro, soporte para proyector de optotipos y brazo de foróptero. Incluye lámpara superior. \nSillón con respaldo reclinable modelo OC-3000 de material tipo cuero con apoya brazos y pies abatibles, y un apoya cabezas regulable en altura. El sillón cuenta con un sistema de ajuste de altura eléctrico controlado mediante un pedal, desde 56 cm a 71 cm y con rotación de 0° - 270°. Los apoya pies tienen una altura mínima de 8,8 cm desde el suelo, y el apoya brazo se puede ajustar en un ángulo de 80° a 180°. Máximo peso de carga 150 kg.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/OU 7000A (PNG).png'),
-    catalogo: "https://drive.google.com/file/d/1R3Vl-Q8CGWvkDQDlo1a-3krAdIhV7kZw/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1N2jWlCRv4fcVDDgmbqEVJDnfPt7SuT2_/view?usp=sharing",
   },
   {
     id: 17,
@@ -679,7 +679,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción marca HONGDEE, de origen chino. Incluye brazo de foróptero oscilante automático, freno de emergencia por seguridad, sobremesa deslizable y grande para 2 equipos dispositivos, fácil de operar. Tamaño de su mesa 915 mm x 420 mm y su rango de deslizamiento es de 0 a 380 mm. Grados de rotación de la mesa de 0-90° en sentido antihorario. Cuenta con 2 puertos de carga uds para oftalmoscopio. \nSu sillón cuenta con respaldo fijo y ajuste de altura. Rango de elevación de la silla entre 520-670 mm. La unidad cuenta con una lámpara superior de 9W/220V LED.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/HD-3200 (Fondo Transparente).png'),
-    catalogo: "https://drive.google.com/file/d/1RYzszVzvqc1q4v97sEsWfhvYoZRjtOvZ/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1DqbkvxGUwdp0sXHW5QrCIFxFtT6Id6ix/view?usp=sharing",
   },
   {
     id: 18,
@@ -689,7 +689,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción marca HONGDEE, de origen chino. La unidad incluye lámpara R/L de lectura con control de luminosidad, room light LED que está incluida en el poste principal contraolada desde el panel control, brazo autobalanceado para foróptero y soporte para proyector de optotipos. Su sillón gris cuenta con un respaldo reclinable y ajuste eléctrico de altura que se controla desde la consola de la unidad. Además, dispone de apoya pies y apoya brazos para mayor comodidad. También incluye un control auxiliar para el proyector y otro para otros equipos.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/HD-100-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1eyGQbJFzXmHunANLi0cDec0c9eYYtRb7/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/13ST7qmmgszQAXfHk0Wht_nAwNlptPFfj/view?usp=sharing",
   },
   {
     id: 19,
@@ -699,7 +699,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción marca HONGDEE, de origen chino, construida en metal, y con un pedestal capaz de soportar brazo para lámpara de hendidura, brazo para autorefractómetro, soporte para proyector de optotipos y brazo de foróptero. Incluye lámpara superior para lectura con 7 niveles de ajuste de luminocidad y posee 3 puertos para aparatos de carga. Sillón con respaldo reclinable hasta 90° y 360° de rotación, con pernos de anclaje disponibles para sillón y unidad para mayor estabilidad.',
     imagen: require('./assets/Products/UnidadesRefraccion/Imagenes/HD-700A PNG.png'),
-    catalogo: "https://drive.google.com/file/d/1Xrswx8eaY0s-EwNy39ZWJeJudpPfaVZN/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1arrYXRVFEEwdqNQU7bHJRVd9SFxOJYq2/view?usp=sharing",
   },
   {
     id: 20,
@@ -715,7 +715,7 @@ export const unidadesrefraccion = [
       require('./assets/Products/UnidadesRefraccion/Imagenes/Venezia.png'),
       require('./assets/Products/UnidadesRefraccion/Imagenes/Capri.png'),
     ],
-    catalogo: "https://drive.google.com/file/d/1Q50k4wf3LXmPEViTV1i8O5wSguJcaD6I/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1eIDglxYvhZaLsjIMCKZZhlUy6QXkOxDs/view?usp=sharing",
   },
 ];
 
@@ -730,7 +730,7 @@ export const estudiomiopia = [
     descripcion:
       'El nuevo Myopia Master® es el primer dispositivo que combina los parámetros de medición más importantes para que el estudio y manejo de la miopía sea más fácil y fiable que nunca: refracción, longitud axial y queratometría central de la córnea.',
     imagen: require('./assets/Products/Refraccion/EstudioMiopia/Imagenes/myopiamaster_68100_201811_02.png'),
-    catalogo: "https://drive.google.com/file/d/1KdbUL3fk50mLWX2AHiKRR4RFtbLoRHbr/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1GCDh8kwvJfPBE3Iqc9U0W-QyivMRQAY7/view?usp=sharing",
   },
 ];
 
@@ -743,7 +743,7 @@ export const autokeratoref = [
     descripcion:
       'Autorefractómetro/Keratómetro y Aberrómetro EZER modelo ERK-9100 basado y desarrollado para brindar una refracción rápida y precisa. Posee auto fogging , evitando así, la acomodación de paciente. Amplio rango de medición, mide distancia pupilar e iris. \nCon pantalla LCD a color de 6,5". El ERK-9100  incorpora  mapa de Zernike que permite identificar y evaluar aberraciones de alto y bajo orden en el ojo del paciente. El dispositivo cuenta; con modo de retroiluminación que permite hacer mediciones en pacientes con opacidad ocular, modo catarata y medición de queratometría periférica. Impresora térmica de alta velocidad incluida en el equipo.',
     imagen: require('./assets/Products/Refraccion/AutoKeratoRefrac/Imagenes/ERK-9100-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1ytQAIPm4ou1m21wuVBgWHEcyPzu-he4n/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1vK5qtrh0xIKypDZKIN3hebRkpeFvITz_/view?usp=sharing",
   },
   {
     id: 2,
@@ -753,7 +753,7 @@ export const autokeratoref = [
     descripcion:
       'Autorefractómetro- Keratómetro automático modelo ERK-BH marca EZER con pantalla LCD móvil que brinda un acceso más conveniente al ojo del paciente. Este dispositivo cuenta con una mentonera motorizada, así como capacidades para medir la queratometría periférica y comparar la visión. El modo CF (Comparación de la Función de Visión) permite al paciente experimentar la visión corregida mediante la aplicación de graduaciones adicionales. También proporciona mediciones del diámetro de la córnea, evaluación de cataratas con el modo ILLUM, retro-iluminación y simulación de visión cercana.',
     imagen: require('./assets/Products/Refraccion/AutoKeratoRefrac/Imagenes/ERK-BH-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1qwa0QWTqEa8kPx8hdqdEDpmjaALOIvZ8/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1tHZmDEEo1AdmZCPhit4KQSYvdd8YSIs3/view?usp=sharing",
   },
   {
     id: 3,
@@ -763,7 +763,7 @@ export const autokeratoref = [
     descripcion:
       'Auto Kerato Refractómetro marca EZER modelo ERK-9200. Escanee, mida y determine los valores de refracción y queratometría automáticamente, todo sin tener que alinear manualmente el ojo, gracias a la tecnología de alineación automática 3D. Una pantalla táctil pivotante permite flexibilidad al posicionar y evaluar a los pacientes, proporcionando un espacio de trabajo ordenado y una fácil navegación por el menú. Con el uso de una interfaz Bluetooth puede disfrutar de la flexibilidad de la conectividad remota con toda la línea EZER Digital Practice. Posee modo de retroiluminación, pudiendo comprobar cristalinos anormales, cataratas y raspaduras de córneas. Mentonera motorizada.',
     imagen: require('./assets/Products/Refraccion/AutoKeratoRefrac/Imagenes/ERK-9200 (2)-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1q23LpKHMyYNZhlDgXrtxnuIjrunH2zRe/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1X0M19ybWS1o7Mjv-0XHIWqhFII59WHc1/view?usp=sharing",
   },
   {
     id: 4,
@@ -773,7 +773,7 @@ export const autokeratoref = [
     descripcion:
       'Autorefractómetro/Keratómetro LUXVISION modelo LRK-7000, con una velocidad de medición rápida y precisa. El sofisticado prisma giratorio es inteligente como para tener en cuenta los errores de refracción. Proyecta un anillo de medición en la retina para obtener una medición precisa. Pantalla TFT LCD color táctil de 7". Con conectividad en red e impresora térmica de alta velocidad incluida en el equipo.',
     imagen: require('./assets/Products/Refraccion/AutoKeratoRefrac/Imagenes/LRK-7000.png'),
-    catalogo: "https://drive.google.com/file/d/1BtoBUBxE9YjC1uMZwN9nvcLo4DN_l_Mq/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1jTc_jtw7Z908LUYZmJHCLqFOp4E5EkEu/view?usp=sharing",
   },
   {
     id: 5,
@@ -783,7 +783,7 @@ export const autokeratoref = [
     descripcion:
       'Autorefractómetro/Keratómetro LUXVISION modelo LRK-7800, con una velocidad de medición rápida y precisa. El sofisticado prisma giratorio es inteligente como para tener en cuenta los errores de refracción. Modo de retroiluminación para observar cristalino, cataratas y córnea. Posee filtro amarillo para la medición que brinda iluminación y claridad. Con cámara CCD a todo color incorporada y fuente de Luz LED blanca y azul. Pantalla TFT LCD color táctil de 7", conectividad en red e impresora térmica de alta velocidad incluida en el equipo.',
     imagen: require('./assets/Products/Refraccion/AutoKeratoRefrac/Imagenes/LRK 7800 (2)-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1BtoBUBxE9YjC1uMZwN9nvcLo4DN_l_Mq/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1jTc_jtw7Z908LUYZmJHCLqFOp4E5EkEu/view?usp=sharing",
   },
   {
     id: 6,
@@ -799,7 +799,7 @@ export const autokeratoref = [
       '• Aniseiconía\n' +
       '• Estrabismo',
     imagen: require('./assets/Products/Refraccion/AutoKeratoRefrac/Imagenes/V100-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1OknV1pTOsIBB6yAZRf_FKA8aH1005XF5/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/18CsKiW-KmbS1jFKC4UdqJKiDCI-f412T/view?usp=sharing",
   },
   {
     id: 7,
@@ -809,7 +809,7 @@ export const autokeratoref = [
     descripcion:
       'Autorefractómetro/Keratómetro modelo ARK-200 y Autorefractómetro AR-200 de HONGDEE, de manejo manula y con sistema de prisma rotativo que permite obtener información altamente confiable. Nueva pantalla LCD TFT de alta resolución a color de 5,7". Impresora incorporada con auto corte.',
     imagen: require('./assets/Products/Refraccion/AutoKeratoRefrac/Imagenes/Auto Kerato ARK-200 (Fondo Transparente).png'),
-    catalogo: "https://drive.google.com/file/d/1sFRybg6xuH5N2IW9V_Ms2C3lo3xS81Sl/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1l9DpyS9sRuptpEvRjNvoDlxrpRJuxUK4/view?usp=sharing",
   },
   {
     id: 8,
@@ -819,7 +819,7 @@ export const autokeratoref = [
     descripcion:
       'Autorefractómetro/Keratómetro modelo ARK-900 de HONGDEE de manejo semiautomático y  sistema de prisma rotativo que permite obtener información altamente confiable. Nueva pantalla táctil LCD TFT de alta resolución a color de 6,5" y plegable hasta 90°. Impresora icorporada con auto corte y Joystick motorizado. Mentonera regulable en altura eléctricamente, auto eye tracking y con auto foco y captura automática.',
     imagen: require('./assets/Products/Refraccion/AutoKeratoRefrac/Imagenes/ARK-900.png'),
-    catalogo: "https://drive.google.com/file/d/1syFeOfbPb4E61vcKCQtyjmiPD2D0-dly/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1KYJYHdaTp260qaFjrQJFnON7B20aiDKI/view?usp=sharing",
   },
   {
     id: 9,
@@ -829,7 +829,7 @@ export const autokeratoref = [
     descripcion:
       'Autorefractómetro/Keratómetro modelo ARK-710 full automático de HONGDEE con sistema de prisma rotativo que permite obtener información altamente confiable. Panel de control con pantalla táctil de 9" para una fácil operación. Medición totalmente automatizada R/L; solo un toque en la pantalla para realizar la medición completa. Panel de control giratorio de 360° apto para la instalación en diferentes configuraciones de salas de examen ocular. Con enfoque y seguimiento ocular automático (eye tracking). Medición automática y mentonera motorizada.',
     imagen: require('./assets/Products/Refraccion/AutoKeratoRefrac/Imagenes/ARK-710.png'),
-    catalogo: "https://drive.google.com/file/d/12U4HIPzAXcU-lv974WDh4cLKXcwbQ7aP/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1a_yyns6z3exzfhxEK2Y3sb-bsmYWRGDK/view?usp=sharing",
   },
 ];
 
@@ -842,7 +842,7 @@ export const optotipos = [
     descripcion:
       'Pantalla plana LCD de proyección de optotipos modelo C901, todo en uno.  Medición de agudeza visual representada en una pantalla de 17” y control remoto e Iluminación LED. Esta unidad es una ayuda independiente al  examen convencional. Incorpora una amplia serie de optotipos y con función de video y audio disponible.',
     imagen: require('./assets/Products/Refraccion/Optotipos/Imagenes/C901.png'),
-    catalogo: "https://drive.google.com/file/d/1fYGmco1-mnmEmhVupOw2Bic5RRIZH-OJ/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1XTKNZOpyKpy9O-KoDlAU6DQmB4-zDXe_/view?usp=sharing",
   },
   {
     id: 2,
@@ -852,7 +852,7 @@ export const optotipos = [
     descripcion:
       'Pantalla plana LCD de proyección de optotipos EZER modelo EDC-2600, una moderna pantalla de 24” con características sorprendentes que proporciona lo necesario para la medición de la agudeza visual e imágenes para explicaciones adicionales. Puede ser calibrada automáticamente a la distancia de trabajo. ',
     imagen: require('./assets/Products/Refraccion/Optotipos/Imagenes/EDC-2600.png'),
-    catalogo: "https://drive.google.com/file/d/1AiC9qyNNkk6pj9CWraiZV96wRPjPuAHQ/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1sNzB9NS9tgHvdaWM8599tGcwVONnJjS7/view?usp=sharing",
   },
   {
     id: 3,
@@ -862,7 +862,7 @@ export const optotipos = [
     descripcion:
       'La LDC-2600 de LUXVISION es un moderno sistema de agudeza visual con una pantalla LCD de 21” y características sorprendentes. Las funciones de enmascaramiento y un diagrama visual explicativo son características que usted y sus pacientes apreciarán. La distancia de trabajo es variable y con calibración automática de gráficos. El software LDC-2600 se basa en una tarjeta SD, lo que permite que la carga de imágenes sea extremadamente rápida. La LDC-2600 simplifica la educación del paciente con un diagrama de ojos integrado.',
     imagen: require('./assets/Products/Refraccion/Optotipos/Imagenes/LDC-2600.png'),
-    catalogo: "https://drive.google.com/file/d/1U68GQB6DFPi08h3aVypiJZueasOK_36X/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1xfy75Z1EG1wVAmXgu73GzUXm1Cu9QUbM/view?usp=sharing",
   },
   {
     id: 4,
@@ -872,7 +872,7 @@ export const optotipos = [
     descripcion:
       'Pantalla de optotipos LCD modelo de origen chino, de 23" que incorpora una amplia serie de optotipos: E, C de Landolt, letras y números y optotipos para niños, inclusive test Schober, test sensibilidad contraste, optotipo en V, test Worth, ETDRS, Stereo test, test astigmatismo, test de puntos de fijación, test de Ishihara, Snellen, cilindros cruzados, panel rojo /verde aplicable a todos los test, además test Cyclo Torsión, Estere test con triángulo con fusión de video y audio disponible.',
     imagen: require('./assets/Products/Refraccion/Optotipos/Imagenes/CP-1900C-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1U-AFJjwdOThGcJ5-uN5TQsC8ZiXtuqj6/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1mYCTvzmFvs4tc2arVIcAKMV30aFWCLV5/view?usp=sharing",
   },
   {
     id: 5,
@@ -882,7 +882,7 @@ export const optotipos = [
     descripcion:
       'Pantalla plana LCD de proyección de optotipos DONGWU, todo en uno. Medición de agudeza visual representada en una pantalla de 23” con control remoto e iluminación LED. Esta unidad es una ayuda independiente al examen convencional e incorpora una amplia serie de optotipos. Con soporte para mural.',
     imagen: require('./assets/Products/Refraccion/Optotipos/Imagenes/C9003-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1G7rVK5ikyYoBhmsi1GIcZCwoiqzPJACV/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1U_0AvBxZJdXLpScATNvjSJxo-57DBoR_/view?usp=sharing",
   },
   {
     id: 6,
@@ -892,7 +892,7 @@ export const optotipos = [
     descripcion:
       'Pantalla plana LCD de proyección de optotipos de HONGDEE, todo en uno. Medición de agudeza visual representada en una pantalla de 17” y control remoto infrarrojo. Distancia de proyección de 2 a 7 mts. y con función de video y audio disponible. Esta unidad es una ayuda independiente al examen convencional e incorpora una amplia serie de optotipos: E, C de Landolt, letras y números y optotipos para niños, inclusive test Schober, optotipo en V, test Worth, ETDRS, stereo test, test astigmatismo, test de puntos de fijación, test de Ishihara, Snellen, cilindros cruzados, panel rojo /verde aplicable a todos los test, además test de sencibilidad al contraste.',
     imagen: require('./assets/Products/Refraccion/Optotipos/Imagenes/Patalla Optotipos ESSENCE (HONGDEE)-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1KyCF7Aj87w0gLLPMm6sKV4pORFExmMBV/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/11R6PeeQtPDeughAPX5RFkA0gcCZ2ulzx/view?usp=sharing",
   },
   {
     id: 7,
@@ -902,7 +902,7 @@ export const optotipos = [
     descripcion:
       'Proyector de optotipos LUXVISION modelo LCP-7800 con distancia de proyección de 1.5 a 6 mts. Iluminación LED y control remoto con posibilidad de programar 1 secuencia de optotipos según requerimiento del usuario. Incluye 41 optotipos diferentes (pediátricos, letras, números e iletrados). Equipo básico incluye sujeción de sobremesa.',
     imagen: require('./assets/Products/Refraccion/Optotipos/Imagenes/Proyector Optotipos LCP-7800 con luz (LUXVISION)-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1F-qoL_fCYAhYLxPrCVGefNj6HiFaEEfq/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1Aj7Qt8fWIbA8mg4lTpZTj00AaZ_8c1oS/view?usp=sharing",
   },
   {
     id: 8,
@@ -912,7 +912,7 @@ export const optotipos = [
     descripcion:
       'Proyector de optotipos marca DONGWU modelo TW-660A con luz halógena y TW-660LA con Iluminación LED. Su distancia de proyección es de 1,5 a 6 mts. Con control remoto y  posibilidad de programar 1 secuencia de optotipos según requerimiento del usuario. Incluye 30 optotipos diferentes (pediátricos, letras, números e iletrados) con posibilidad de enmascaramiento de los optotipos en forma vertical, horizontal e independientes (uno a uno). Equipo básico incluye sujeción de sobremesa.',
     imagen: require('./assets/Products/Refraccion/Optotipos/Imagenes/Proyecto Optotipo TW-660A -LA (DONGWU) - copia-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1lJIc4crJfG7fCKxIlZgegme6oKeyWz-n/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1dpLnlsOvEw90Py9SnylTUVtPeOQjn_e-/view?usp=sharing",
   },
   {
     id: 9,
@@ -922,7 +922,7 @@ export const optotipos = [
     descripcion:
       'Proyector de optotipos modelo CP-100 de HONGDEE con ampliación de proyección 30x (a 5m). Tamaño de proyección 330 mm (ancho) x 270 mm (alto) (a 5m) e incluye 30 chart o patrones diferentes. Su velocidad de conversión de gráficos es uno por 0,03 s. Enmascaramiento: 1 abierto, 5 líneas horizontales, 8 líneas verticales, 21 letras sueltas, 1 rojo/verde.',
     imagen: require('./assets/Products/Refraccion/Optotipos/Imagenes/chart-projector-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/18DYMNl3qNdDPNi0lvmzXOZB-hZWI-gjt/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1ZzUXLtIKB63kZ6z9Mh_UlztkcEazUtyw/view?usp=sharing",
   },
   {
     id: 10,
@@ -932,7 +932,7 @@ export const optotipos = [
     descripcion:
       'La  tabla de agudeza visual digital  ELITE es una idea totalmente innovadora que ofrece la marca HONGDEE. Todo el software está integrado en un dispositivo USB que puede ser conectado a cualquier monitor a través de un cable HDMI. AL conectarlo obtendrá un cuadro de agudeza visual completamente funcional adaptado al tamaño del monitor de acuerdo a su demanda. El control remoto está diseñado para ser fácil y cómodo de usar. ',
     imagen: require('./assets/Products/Refraccion/Optotipos/Imagenes/ELITE.png'),
-    catalogo: "https://drive.google.com/file/d/1gcHiN9bJSgw30nfdcU4mZ-vLcpO8Kx2q/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/18PGiavlOABDYaRRkf1ZIC5z476QjowT1/view?usp=sharing",
   },
 ];
 
@@ -945,7 +945,7 @@ export const testvision = [
     descripcion:
       'Es un instrumento de proyección profesional para probar todas las funciones visuales relevantes. La tecnología utilizada orientada al futuro, permite una representación casi ilimitada de varios exámenes de la visión. El Binoptometer® 4P es un instrumento de detección de visión con pruebas de sensibilidad al contraste y visión mesópica opcional y prueba de la sensibilidad del deslumbramiento.',
     imagen: require('./assets/Products/Refraccion/TestVision/Imagenes/binoptometer_4p_59862_20013_02.png'),
-    catalogo: "https://drive.google.com/file/d/1cSOvqzpC50MxdRDy7ZaFV1p30KH3rsO3/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1Iv0TYMOxLN3FS4MiSYsA9bAXFFjpxSkM/view?usp=sharing",
   },
 ];
 
@@ -958,7 +958,7 @@ export const cajaslentes = [
     descripcion:
       'Caja de lentes OCULUS modelo BK-1/T para apoyo de sobremesa y modelo BK-1/W para sujeción mural, ambas de 232 lentes en caja de madera con cierre tipo cortina. Diámetro del lente de 38 mm. Para uso con las monturas de prueba UB 3, UB 4, UB 4 , UB 6 y en montura de niños.',
     imagen: require('./assets/Products/Refraccion/CajasLentes/Imagenes/BK-1T - BK-1W.png'),
-    catalogo: "https://drive.google.com/file/d/1OR6yTPg94QEl2yFiO5wiTlT-vnzAwMBE/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1JuyAG6O-iXqt7DmEKK3cQUqqIyBRN_QV/view?usp=sharing",
   },
   {
     id: 2,
@@ -968,7 +968,7 @@ export const cajaslentes = [
     descripcion:
       'Caja de lentes OCULUS modelo BK-2 para apoyo de sobremesa, con maleta de madera para transporte y con 130 lentes. Diámetro del lente de 38 mm. Para uso con las monturas de prueba UB 3, UB 4 y montura de niños.',
     imagen: require('./assets/Products/Refraccion/CajasLentes/Imagenes/BK-2.png'),
-    catalogo: "https://drive.google.com/file/d/1OR6yTPg94QEl2yFiO5wiTlT-vnzAwMBE/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1JuyAG6O-iXqt7DmEKK3cQUqqIyBRN_QV/view?usp=sharing",
   },
   {
     id: 3,
@@ -978,7 +978,7 @@ export const cajaslentes = [
     descripcion:
       'Caja de lentes OCULUS modelo BK-S3 para apoyo de sobremesa, con maleta de madera para transporte y con 220 lentes. Diámetro del lente de 28 mm. Para uso con montura de prueba UB 5.',
     imagen: require('./assets/Products/Refraccion/CajasLentes/Imagenes/BK-S3.png'),
-    catalogo: "https://drive.google.com/file/d/1OR6yTPg94QEl2yFiO5wiTlT-vnzAwMBE/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1JuyAG6O-iXqt7DmEKK3cQUqqIyBRN_QV/view?usp=sharing",
   },
   {
     id: 4,
@@ -988,7 +988,7 @@ export const cajaslentes = [
     descripcion:
       'Caja de Lentes OCULUS de prismas para apoyo de sobremesa, con maleta de madera para transporte y con 72 lentes, todas con antireflejos. Diámetro del lente de 38 mm para uso con las monturas de prueba UB 3, UB 4, UB 4, UB 6 y montura de niños.',
     imagen: require('./assets/Products/Refraccion/CajasLentes/Imagenes/BK.png'),
-    catalogo: "https://drive.google.com/file/d/1OR6yTPg94QEl2yFiO5wiTlT-vnzAwMBE/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1JuyAG6O-iXqt7DmEKK3cQUqqIyBRN_QV/view?usp=sharing",
   },
 ];
 
@@ -1001,7 +1001,7 @@ export const monturasPruebas = [
     descripcion:
       'Montura universal OCULUS negra y ligera de metal/plástico para 5 pares de lentes.Puente ajustable en altura e inclinación. Gracias a la colocación baja de las bisagras, las lentes se pueden insertar en los soportes de la parte trasera. Lentes de 38 mm.',
     imagen: require('./assets/Products/Refraccion/MonturasPruebas/Imagenes/UB3+.png'),
-    catalogo: "https://drive.google.com/file/d/1K6P0JvHdN4U_wrqVfqlFCdXQmtuJ6l5O/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1ph_faVF4jtrH_TneZiND9yCN1FUGw95k/view?usp=sharing",
   },
   {
     id: 2,
@@ -1011,7 +1011,7 @@ export const monturasPruebas = [
     descripcion:
       'Montura OCULUS, blanca y ligera de plástico con espacio para un total de 10 lentes de prueba de 38 mm de diámetro.',
     imagen: require('./assets/Products/Refraccion/MonturasPruebas/Imagenes/UB 4 (1).png'),
-    catalogo: "https://drive.google.com/file/d/1vHfz9jkiSHKPzZW8H0QiBHbw2IuhEYS4/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/12nRhqXm-UUEk6FSpwa7oNv1fidHWYDwe/view?usp=sharing",
   },
   {
     id: 3,
@@ -1021,7 +1021,7 @@ export const monturasPruebas = [
     descripcion:
       'Montura OCULUS blanca y ligera con espacio para un total de 10 lentes de prueba de 28 mm de diámetro. Elementos coloreados opcionales.',
     imagen: require('./assets/Products/Refraccion/MonturasPruebas/Imagenes/UB 5.png'),
-    catalogo: "https://drive.google.com/file/d/1ytG81bPaNv-VnpCaB_FITkMC0T4BuhWG/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/15P0395CMEn2EcSJAt97NGrcdYnLDUqby/view?usp=sharing",
   },
   {
     id: 4,
@@ -1031,7 +1031,7 @@ export const monturasPruebas = [
     descripcion:
       'OCULUS se enorgullece de presentar la UB 6, fabricada con materiales de alta calidad y un innovador diseño. Con el soporte nasal y todas las posibilidades de ajuste totalmente renovado y también el soporte para las lentes, con cuatro ranuras en la parte delantera y dos en la parte posterior. El resultado es una obra maestra “made by OCULUS” creado acorde a conocimientos de última generación optimizado para la práctica diaria y basado en más de 100 años de experiencia. La UB 6 es la nueva generación en monturas de pruebas OCULUS. Cuidadosamente confeccionado a mano con una alta atención al detalle.',
     imagen: require('./assets/Products/Refraccion/MonturasPruebas/Imagenes/UB 6 (1).png'),
-    catalogo: "https://drive.google.com/file/d/1ih4qTmf4oPPfuSs7FMcnlN-0jjnGmHCf/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/11t-eIeoxD6XjeSAW9VXSoINXCs1KQdCZ/view?usp=sharing",
   },
   {
     id: 5,
@@ -1041,7 +1041,7 @@ export const monturasPruebas = [
     descripcion:
       'Montura OCULUS para niños, para 3 pares de lentes ø 38 mm, con puente fijo o sin puente. Fabricado en metal ligero y plástico.',
     imagen: require('./assets/Products/Refraccion/MonturasPruebas/Imagenes/SEMI GAFAS DE PRUEBA.png'),
-    catalogo: "https://drive.google.com/file/d/1vHfz9jkiSHKPzZW8H0QiBHbw2IuhEYS4/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/12nRhqXm-UUEk6FSpwa7oNv1fidHWYDwe/view?usp=sharing",
   },
 ];
 
@@ -1054,7 +1054,7 @@ export const foropterosDigitales = [
     descripcion:
       'Foróptero digital EZER modelo EDR-9000 cuenta con una pantalla LCD táctil de alta resolución. Recientemente rediseñado para conectarse en red con una plataforma de práctica digital completa. El diseño avanzado del EDR-9000 incorpora motores silenciosos, reinicio rápido y diseño delgado y compacto que elimina cualquier efecto potencial de visión de túnel que algunos pacientes perciben con cabezas ópticas más profundas. Con panel de control táctil LCD de 8”, inclinación e inversión de pantalla y una impresora incorporada. Un cilindro cruzado doble (prisma dividido) permite al paciente ver simultáneamente la lente del cilindro cruzado positivo y negativo. El EDR-9000 ofrece 6 modos de prueba que le permiten comparar directamente los resultados de la prueba objetiva con el resultado de la prueba subjetiva.',
     imagen: require('./assets/Products/Refraccion/Foropteros/Imagenes/EDR-9000.png'),
-    catalogo: "https://drive.google.com/file/d/1cD_Sx6v1r8BSj08Q0HrHrWitF1626M0T/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1iTPAIrkbYrNWjMhE1qN3gSVOd5PdYZtI/view?usp=sharing",
   },
   {
     id: 2,
@@ -1064,7 +1064,7 @@ export const foropterosDigitales = [
     descripcion:
       'Foróptero digital computarizado modelo CV-7600 de HONGDEE, con conexion Bluetooth para conectar con Auto Kerato Refractómetro y pantalla de optotipos LCD de la misma marca. Comando de control por tablet (incluida) y con impresora termal comunicada por Bluetooth. Tablet : Android 5,0.',
     imagen: require('./assets/Products/Refraccion/Foropteros/Imagenes/CV-7600.png'),
-    catalogo: "https://drive.google.com/file/d/1rhh0BDqVDdRLuO4yquSmAku9w2z5yQlZ/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1foZO6xdI2MlyjsUT_b5kW0Pd52MwFrcw/view?usp=sharing",
   },
 
   {
@@ -1075,7 +1075,7 @@ export const foropterosDigitales = [
     descripcion:
       'Foróptero digital DONGWU modelo TW-7100, con conexión inalámbrica para conectar con Auto Kerato Refractómetro y pantalla de optotipos LCD de la misma marca y con algunos equipos Topcon. Comando de control por tablet incluido y con impresora termal comunicada por Bluetooth. Tablet: Android 5,0 / resolución de 2560 x 1600.',
     imagen: require('./assets/Products/Refraccion/Foropteros/Imagenes/Foróptero Digital TW-7100 (DONGWU).png'),
-    catalogo: "https://drive.google.com/file/d/1Iz54WioE6CFgtT_BeXnnXegd5GghDfEL/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1UNuY-LDiF9QQuHvm76DKBrjPpvfbY5ts/view?usp=sharing",
   },
 ];
 
@@ -1088,7 +1088,7 @@ export const lensometrosDigitales = [
     descripcion:
       'Lensómetro digital computarizado LUXVISION modelo LM-7800 con lectura por medio de pantalla TFT-LCD 5,7". Posibilidad de medición de radiación UV.',
     imagen: require('./assets/Products/Refraccion/Lensometros/Imagenes/Lensómetro LM-7800 (Fondo Transparente) 2.png'),
-    catalogo: "https://drive.google.com/file/d/1WZQituKuIldbSe4GvnngqTTrpHO1ne72/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1FXMommRvyqM6TR0ZHTOve2luXuqN_NZO/view?usp=sharing",
   },
   {
     id: 2,
@@ -1098,7 +1098,7 @@ export const lensometrosDigitales = [
     descripcion:
       'Lensómetro digital EZER modelo ELM-9200, haga más en menos tiempo. Con el uso de su interfaz Bluetooth (se vende por separado) disfrute de la flexibilidad de la conectividad remota con toda la línea de práctica digital de Ezer. Cuenta con medición de lente progresiva, medición de luz ultravioleta y azul. La intuitiva pantalla táctil LCD de gráficos completos guía a los operadores a través del proceso.',
     imagen: require('./assets/Products/Refraccion/Lensometros/Imagenes/Lensómetro ELM-9200 (4) (Fondo Transparente).png'),
-    catalogo: "https://drive.google.com/file/d/1L0xpppesK1G4Vip2wsLvzJv0ZsePZOFH/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1AhpUdKC68sEHbB76VWsKhlxhFJF9v66J/view?usp=sharing",
   },
   {
     id: 3,
@@ -1108,7 +1108,7 @@ export const lensometrosDigitales = [
     descripcion:
       'Lensómetro computarizado DONGWU modelo TW-8090 con lectura por medio de pantalla a color TFT LCD de 5,6" y TFT LED de 7,0" para TW-8090A, que varía su inlcinación para mejor apreciación según posición del usuario. Activación de funciones a través de botones en panel frontal. Capacidad de medición de lentes de contacto rígido, lentes bifocales y multifocales. Incluye maleta metálica de transporte.',
     imagen: require('./assets/Products/Refraccion/Lensometros/Imagenes/TW-8090.png'),
-    catalogo: "https://drive.google.com/file/d/196QN9lYngUA7KazLmbZXbtG3VUt0hE96/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1uqOV6Vgle84Xufhiu8rQO2s4s7V3fSVb/view?usp=sharing",
   },
   {
     id: 4,
@@ -1118,7 +1118,7 @@ export const lensometrosDigitales = [
     descripcion:
       'Lensómetro digital modelo PINGUI PRO de HONGDEE con pantalla gráfica vertical de 5,6” de fácil operación y visibilidad. Amplia gama de medidas para lentes esféricos desde -40D--+25D. Medición de la transmitancia de luz visible, rayos azules y UV disponible. El color de la pantalla se puede cambiar a modo color de alto contraste, blanco o negro para una mayor visibilidad, muy útil para medir la lente de color oscuro. Sensor Hartmann equipado para poder medir una amplia variedad de lentes. El programa de calibración automática incorporado puede calibrar automáticamente los errores finos durante la medición. El Bluetooth disponible permite ver los datos y las lecturas a través del teléfono inteligente.',
     imagen: require('./assets/Products/Refraccion/Lensometros/Imagenes/Pingui Pro.png'),
-    catalogo: "https://drive.google.com/file/d/1Z0JIUyd332L_UmM5rGDxqJixr2nuabjI/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1gMrCdMh5sV9omaltLiGTR_fxpaxcFdRI/view?usp=sharing",
   },
   {
     id: 5,
@@ -1128,7 +1128,7 @@ export const lensometrosDigitales = [
     descripcion:
       'Lensómetro digital modelo KOALA de HONGDEE, con pantalla LCD táctil de 5,7” que permite una operación fácil y sencilla. Adoptando la alta velocidad de la CPU puede medir cualquier tipo de lente inmediatamente, incluso las lentes de escaneo más pequeñas como +0.12D y +0.25D. La medición de rayos UV y azules está disponible. También puede medir las gafas de sol polarizadas oscuras, incluso con una tasa de transmisión de luz del 5% con precisión. La aplicación Mobile también está disponible. Las lecturas se pueden ver en su Smartphone a través de Bluetooth. Fácil y conveniente de actualizar a través del puerto USB integrado. La personalización está disponible, idioma, pantalla de inicio, etiquetado privado, etc.',
     imagen: require('./assets/Products/Refraccion/Lensometros/Imagenes/Kolala.png'),
-    catalogo: "https://drive.google.com/file/d/1KDMy-TIQoLI_IL_ehKsKARyw5oSWpg7x/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1AE1nk2Ww_67260m39OhFa5zP318W8eQ4/view?usp=sharing",
   },
 ];
 
@@ -1141,7 +1141,7 @@ export const mesasElectricas = [
     descripcion:
       'Mesa eléctrica modelo HD-18A de HONGDEE, de base metálica con pedestal central. Diseñada para 1 equipo y con fusibles de seguridad. Incluye conexión para equipos.\nEspecificaciones:\n• Superficie de apoyo de 605 mm x 435 mm\n• Altura regulable de 645 mm a 815 mm\n• Con cuatro ruedas, dos con freno • Peso máximo de carga 50 kg\n• Peso 20 kg',
     imagen: require('./assets/Products/Refraccion/MesasElec/Imagenes/HD 18A-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1FszuBVEm604kaLwEIQnzM5xqU-AyoAV-/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1wUPUavUs3q1oAndP0NWIRIjHl_NTy6sH/view?usp=sharing",
   },
   {
     id: 2,
@@ -1151,7 +1151,7 @@ export const mesasElectricas = [
     descripcion:
       'Mesa eléctrica modelo HD-18C de HONGDEE, de base metálica con pedestal lateral. Diseñada para 2 equipos grandes y un pequeño espacio para guardar. Incluye conexiones para equipos.\nEspecificaciones:\n• Superficie de apoyo de 1000 mm x 550 mm\n• Altura regulable de 685 mm a 885 mm\n• Con cuatro ruedas, dos con freno\n• Peso máximo de carga 50 kg\n• Peso 42 kg',
     imagen: require('./assets/Products/Refraccion/MesasElec/Imagenes/Mesa HD-18C (HONGDEE).png'),
-    catalogo: "https://drive.google.com/file/d/12S3QUh85MKruE8FC5kRDoc1Ii9PsrHB8/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1fsyRlf1p7h1d0PXljxtLHLgYCQBDnyVe/view?usp=sharing",
   },
   {
     id: 3,
@@ -1161,7 +1161,7 @@ export const mesasElectricas = [
     descripcion:
       'Mesa eléctrica modelo HD-18T de HONGDEE, de base metálica con pedestal central. Diseñada para 1 equipo e incluye portacables debajo de la mesa que hace invisible las conexiones. Con fusibles de seguridad y dos conexiones para equipos.\nEspecificaciones:\n• Superficie de apoyo de 610 mm x 530 mm\n• Altura regulable de 660 mm a 860 mm\n• Con cuatro ruedas, dos con freno • Peso máximo de carga 50 kg\n• Peso 24 kg',
     imagen: require('./assets/Products/Refraccion/MesasElec/Imagenes/Mesa HD-18T (HONGDEE).png'),
-    catalogo: "https://drive.google.com/file/d/15YatRPGqn6hmcXVioH9qwWWUCDScxWHI/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1ttkXFRdWPUko7PIho9Q7yfYwdnPC8tVd/view?usp=sharing",
   },
   {
     id: 4,
@@ -1171,7 +1171,7 @@ export const mesasElectricas = [
     descripcion:
       'Mesa eléctrica modelo HD-40 de HONGDEE, de base metálica con pedestal central. Diseñada para 2 equipos grandes y con conexiones para equipos.\nEspecificaciones:\n• Superficie de apoyo de 920 mm x 575 mm\n• Altura regulable de 665 mm a 865 mm\n• Con cuatro ruedas, dos con freno\n• Peso máximo de carga 50 kg\n• Peso 30 kg',
     imagen: require('./assets/Products/Refraccion/MesasElec/Imagenes/Mesa HD-40 (HONGDEE).png'),
-    catalogo: "https://drive.google.com/file/d/1-KB0Q6s7xKKU5ZdaptaOvPbbCkb66D2V/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1rIGz8hbpEJ4T17W4XQNJiI-E3jU7oWre/view?usp=sharing",
   },
   {
     id: 5,
@@ -1181,7 +1181,7 @@ export const mesasElectricas = [
     descripcion:
       'Mesa eléctrica modelo JACK PRO de HONGDEE, de base metálica con pedestal central. Diseñada para 1 equipo e incluye dos conexiones para equipos y fusibles de seguridad.\nEspecificaciones:\n• Superficie de apoyo de 490 mm x 510 mm\n• Altura regulable de 660 mm a 840 mm\n• Con cuatro ruedas, dos con freno. • Peso máximo de carga 50 kg.\n• Peso 27 kg',
     imagen: require('./assets/Products/Refraccion/MesasElec/Imagenes/Mesa JACKPRO.png'),
-    catalogo: "https://drive.google.com/file/d/1VC-T-GSxe2I0npWeNuyblvegwIQiwjd6/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/16qEAZ580JOJirec-JJ7gj4Bvqj1Ro_Sz/view?usp=sharing",
   },
   {
     id: 6,
@@ -1191,7 +1191,7 @@ export const mesasElectricas = [
     descripcion:
       'Mesa eléctrica modelo WCT-100 de HONGDEE, ideal para sillas de ruedas gracias a su amplio espacio para las piernas. Mesa de gran superficie, diseñada para acomodar dos o más equipo y con una base metálica que garantiza alta fiabilidad y durabilidad.\nEspecificaciones:\n• Tamaño de la mesa: 900 mm x 470 mm\n• Capacidad de carga: 75 kg\n• Nivel de ruido: 42db\n• Rango de elevación: 630 mm - 800 mm • Voltaje: 100V-230V\n• Potencia: 50W\n• Peso neto: 40 kg',
     imagen: require('./assets/Products/Refraccion/MesasElec/Imagenes/Mesa WCT-100 (HONGDEE).png'),
-    catalogo: "https://drive.google.com/file/d/1LJBghkNFIq61Z3OH5oDLf_79uxueGZFN/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/16S2HyUmdY51bogzI25O-h0JiNkQsCmBk/view?usp=sharing",
   },
   {
     id: 7,
@@ -1204,7 +1204,7 @@ export const mesasElectricas = [
         require('./assets/Products/Refraccion/MesasElec/Imagenes/MD-2 Sin Fondo.png'),
         require('./assets/Products/Refraccion/MesasElec/Imagenes/MD-3 Sin Fondo.png'),
       ],
-    catalogo: "https://drive.google.com/file/d/1ewuuR3C1RObLTwbm01G4Ax1qUhKqY1qc/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1-_Alt6h4VLMezvgZIezt9YbKKdQ9p8-u/view?usp=sharing",
   },
 ];
 
@@ -1219,7 +1219,7 @@ export const camarasNoMidr = [
     descripcion:
       'Cámara retinal no midriática, desmontable y full automática para foco y disparo (no usa joystick). La NFC-600 cuenta con seguimiento y enfoque 3D automático y se puede conectar fácilmente a cualquier PC o portátil con Windows mediante una conexión USB. Su diseño compacto permite que sea fácil de transportar y configurar.',
     imagen: require('./assets/Products/Diagnostico/CamarasNoMidr/Imagenes/NFC-600 (CRYSTALVUE) Costado.png'),
-    catalogo: "https://drive.google.com/file/d/1Yca-vrvkVPel0MPCMBy21GMLdWTJOxA3/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/15etFbbKI2fgP9krQfsI7stV8D79SjwaT/view?usp=sharing",
   },
   {
     id: 2,
@@ -1229,7 +1229,7 @@ export const camarasNoMidr = [
     descripcion:
       'Cámara retinal no midriática, full automática para foco y disparo (no usa joystick) con sistema 3D tracking. La NFC-700 está equipada con sistema operativo Windows 10 que permite a los usuarios ver, editar y grabar toda la información sin la necesidad de conectar otro dispositivo externo. Con una resolución de 12 mpx, la captura de imágenes son de alta callidad.',
     imagen: require('./assets/Products/Diagnostico/CamarasNoMidr/Imagenes/NFC-700 (CRYSTALVUE).png'),
-    catalogo: "https://drive.google.com/file/d/1mAjzwZPPyqfhDGL7WUGvDbIOKe4okA_O/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1NDusPlRtT97Atr58Anbf6qLtWBAef_ZL/view?usp=sharing",
   },
   {
     id: 3,
@@ -1239,7 +1239,7 @@ export const camarasNoMidr = [
     descripcion:
       'Cámara retinal no midriática, de diseño compacto y liviano (2 kg). Se opera a través de joystick para el control de movimientos y no necesita múltiples controles y configuraciones. Las luces de fijación internas y el software autoguiado lo ayudarán a capturar la imagen.',
     imagen: require('./assets/Products/Diagnostico/CamarasNoMidr/Imagenes/FundusVue.png'),
-    catalogo: "https://drive.google.com/file/d/1nT84S7mVOGYicQqUD8PwSt_Y89s1nlIz/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/17YFry5eGQgwMHpFDj8ej4pavEaLSilhn/view?usp=sharing",
   },
   {
     id: 4,
@@ -1249,7 +1249,7 @@ export const camarasNoMidr = [
     descripcion:
       'Cámara no midriática capaz de capturar imágenes binoculares en 30 seg. del fondo de ojo de forma totalmente automática (alineación automática, enfoque automático, interacción de voz automática). Genere un informe de diagnóstico de IA (respaldado por un sistema de detección de casos de terceros). • Campo Visual de 50°\n• Escanea el código QR\n• El sistema alineará la pupila y comenzará la captura\n• Tecnología de enfoque dividido 15 mpx.',
     imagen: require('./assets/Products/Diagnostico/CamarasNoMidr/Imagenes/FC 162 (sin fondo).png'),
-    catalogo: "https://drive.google.com/file/d/1DSuZ5E5nWlkAGu-bNgLast1d1cuec02t/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/18m4dpl3hUXAON6JOgX90Vh3vLJhqvrjw/view?usp=sharing",
   },
   {
     id: 5,
@@ -1259,7 +1259,7 @@ export const camarasNoMidr = [
     descripcion:
       'Cámara no midriática portátil con pantalla touch de 4,3 pulgadas. Incluye 9 puntos de fijación interna que asisten al paciente para un alineamiento correcto. La FC 161 cuenta con un campo visual de 45° y una resolución de cámara de 12 mpx. Dispone de iluminación LED blanca y LED infrarrojo, memoria de 32 GB mediante tarjeta micro SD, y una batería de litio de 3,7 V que permite hasta 6 horas de trabajo continuo. Su peso es de 800 gramos.',
     imagen: require('./assets/Products/Diagnostico/CamarasNoMidr/Imagenes/FC161 (MEDIWORKS).png'),
-    catalogo: "https://drive.google.com/file/d/1SQaGM9Kf6QdHWmR4vrcGehz-HBtWdl10/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1wU4JAI1pZHQNQqfVLYaMeFkEw2gaZ2Zf/view?usp=sharing",
   },
 ];
 export const tonometros = [
@@ -1271,7 +1271,7 @@ export const tonometros = [
     descripcion:
       'Tonómetro de no contacto (aire), full automático, con tecnología 3D tracking y con opción de taquimetría (TonoVue/P). Inlcuye software de gestión de pacientes (base de datos) y proporciona valores IOP compensados al ingresar los valores CCT. Las fórmulas de IOP compensadas se pueden personalizar para el usuario.',
     imagen: require('./assets/Products/Diagnostico/Tonometros/Imagenes/TonoVUE-P (CRYSTALVUE).png'),
-    catalogo: "https://drive.google.com/file/d/1mbeK3Qn6NdR0HgvK6JpjJrYYGkZObUrZ/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1LdfQ9o1uRW4NXUT17r8VevoumVkgL0Q5/view?usp=sharing",
   },
   {
     id: 2,
@@ -1281,7 +1281,7 @@ export const tonometros = [
     descripcion:
       'Tonómetro de aire portátil, con posibilidad de conexión IR inalámbrica a la impresora en el soporte del equipo. Transmisión de datos instantánea y opción de salida de datos por USB a una computadora. Incluye cargador de sobremesa.\nEspecificaciones:\n• Rango medida 5a 50 mmHg\n• Distancia medida 11 mm del ojo\n• Peso 1 kg.',
     imagen: require('./assets/Products/Diagnostico/Tonometros/Imagenes/TonoCare-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1XZd-AnQgnqNftU_pMWnA_Q1WSvPbmImo/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1f6tGZ1zsl5e6NxHKJdU4hqLceB9O02rW/view?usp=sharing",
   },
   {
     id: 3,
@@ -1291,7 +1291,7 @@ export const tonometros = [
     descripcion:
       'Tonómetro de aplanación portátil con prisma de aplanación; rango de escala 0 - 60 mm Hg (división de 1 mm Hg). Iluminación:\n• Encendido / Apagado: A través de rueda de ajuste\n• Bombilla: 2,5 V, 0,25 A intercambiable\n• Batería usada: 1,5 V, 2 piezas intercambiables.\nOcular:\n• Magnificación: 6x\n• Reposacabezas: Movible\n• Peso: 240grs.\n• Largo: 290mm.',
     imagen: require('./assets/Products/Diagnostico/Tonometros/Imagenes/HA-2.png'),
-    catalogo: "https://drive.google.com/file/d/1N4bNPcWFvJYFQAkJsq_jyIva76w6w51U/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1SoU4ROb0Djb7sO8UNoJTlahe6VpfaZF0/view?usp=sharing",
   },
 ];
 
@@ -1303,8 +1303,8 @@ export const topografosCorneal = [
     fabrica: 'OCULUS',
     descripcion:
       'Topógrafo corneal basado en anillos de plácido con 22.000 puntos de medición. El Keratograph 5M puede realizar fluogramas en tiempo real en formato de video, además de queratometrías. Incluye opciones de exámenes para estudio de ojo seco con reporte de JENVIS.',
-    imagen: require('./assets/Products/Diagnostico/TopografosCorneal/Imagenes/oculus_keratograph_5m_77000_201112_37.png'),
-    catalogo: "https://drive.google.com/file/d/1p4pFHQpa8cdrwfjLgta-drwuCQLr9dvC/view?usp=sharing",
+    imagen: "https://drive.google.com/thumbnail?id=1ckJtRElb4PQ3ZbXPMb3jww0b40c8vtXG",
+    catalogo: "https://drive.google.com/file/d/1BOozgCjXo8eAykEcmcKNwAwAXiMxP_AR/view?usp=sharing",
   },
   {
     id: 2,
@@ -1313,8 +1313,8 @@ export const topografosCorneal = [
     fabrica: 'OCULUS',
     descripcion:
       'Topógrafo corneal basado en anillos de plácido con 22.000 puntos de medición y posibilidad de realizar fluogramas en formato de video en tiempo real, además de realizar queratometrías.',
-    imagen: require('./assets/Products/Diagnostico/TopografosCorneal/Imagenes/Keratograph 4 (OCULUS).png'),
-    catalogo: "https://drive.google.com/file/d/1WmJUkLcC9F5QUG0avl6rZ2h1ZoVyF_MV/view?usp=sharing",
+    imagen: "https://drive.google.com/thumbnail?id=1tRUqa84oy1sCL7aMgeXf8sreQuhvX9rS",
+    catalogo: "https://drive.google.com/file/d/1uOxQzD4MzbSQlI_Of6k3TjIBflO42SBf/view?usp=sharing",
   },
 ];
 
@@ -1327,7 +1327,7 @@ export const lamparashen = [
     descripcion:
       'Biomicroscopio calidad alemana, con sistema de iluminación vertical y lámpara LED de 14V/5W con regulación de intensidad luminosa. La PCL5 SHD tiene la opción de cambio de aumentos mediante sistema revolver de 5 posiciones (6,3x,10x,16x, 25x y 40x). Puede ser instalada en mesas eléctricas y unidades de refracción.',
     imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/PCL5 SHD (ARC LASER).png'),
-    catalogo: "https://drive.google.com/file/d/1Grjh9vjALz2HuJAM92Q_jAI4leg32kpX/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1Ctd1dQTNq13Vnnd4ennIM-RhOgBgrmcp/view?usp=sharing",
   },
   {
     id: 2,
@@ -1337,7 +1337,7 @@ export const lamparashen = [
     descripcion:
       'Biomicroscopio con sistema de iluminación lateral y lámpara LED de 14V/5W con regulación de intensidad luminosa. Permite cambiar los niveles de aumento a través de un sistema revólver de 5 posiciones (6,3x, 10x, 16x, 25x y 40x). La PCL5 ZD puede ser instalada en mesas eléctricas y unidades de refracción.',
     imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/PCL5 ZD (ARC LASER).png'),
-    catalogo: "https://drive.google.com/file/d/1-ckbjbToclaN20zo9onMPmgAj7nT4PPR/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1EJ-Sdj88XQsigkO-icg3x7LWuGs9r0kt/view?usp=sharing",
   },
   {
     id: 3,
@@ -1347,7 +1347,7 @@ export const lamparashen = [
     descripcion:
       'Biomicroscopio OCULUS con sistema de iluminación vertical tipo Haag-Streit e iluminación LED con regulación de intensidad luminosa a través de un sistema de revólver de 5 posiciones (6x,10x,16x,25x y 40x). Con opción para sistema de video y foto (IC5D). La SL-IC5/IC5D puede ser instalada en mesas eléctricas y unidades de refracción.',
     imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/SL-IC5 (OCULUS).png'),
-    catalogo: "https://drive.google.com/file/d/1F55o1x8SUbPD5mU7khkKSyFlCa8gN2OX/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1loC4v-lgp-LCW_l_3QLnmDHSdwxR9aHy/view?usp=sharing",
   },
   {
     id: 4,
@@ -1357,7 +1357,7 @@ export const lamparashen = [
     descripcion:
       'Biomicroscopio OCULUS con sistema de iluminación tipo Zeiss e iluminación LED con regulación de intensidad luminosa a través de un sistema de revólver de 5 posiciones (6x,10x,16x,25x y 40x). Con opción para sistema de video y foto (IC4D).',
     imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/SL-IC4IC4D  (OCULUS).png'),
-    catalogo: "https://drive.google.com/file/d/1F55o1x8SUbPD5mU7khkKSyFlCa8gN2OX/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1loC4v-lgp-LCW_l_3QLnmDHSdwxR9aHy/view?usp=sharing",
   },
   {
     id: 5,
@@ -1367,7 +1367,7 @@ export const lamparashen = [
     descripcion:
       'Uno de los sistemas de documentación de imágenes más pequeños del mundo que se puede adaptar a casi todas las lámparas de hendidura disponibles en el mercado. Captura de imágenes en alta resolución, grabación de videos y control de la captura con pedal o en las versiones digitales de las lámparas de hendidura OCULUS, usando el joystick.',
     imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/IMAGE CAM 3 (3).png'),
-    catalogo: "https://drive.google.com/file/d/1NmlEGvlLqQMGVWAQWjGcnUTuam917Zh5/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/10KdSmYWxa07ZCZR7BWJca2s4j8Gdzc7R/view?usp=sharing",
   },
   {
     id: 6,
@@ -1377,7 +1377,7 @@ export const lamparashen = [
     descripcion:
       'Lámpara de hendidura de alta gama y con iluminación de torre. Cuenta con un avanzado sistema óptico de Galileo y 5 aumentos (6x, 10x, 16x, 25x y 40x) que se pueden cambiar fácilmente utilizando el práctico dial de selección de aumento de la unidad. Con iluminación halógena.',
     imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/Lámapara Hendidura CJ-SL-1400 (LUXVISION)-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1XrNWmim_66yg2hXOUNUFDGVilIHVcyoa/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1MnPRQBn6d7mWz6_P1K03QN32D-gHKpkH/view?usp=sharing",
   },
   {
     id: 7,
@@ -1387,7 +1387,7 @@ export const lamparashen = [
     descripcion:
       'Lámpara de hendidura con microscopio estereoscopio convergente. La SL-700 ofrece una gran cantidad de funciones a un precio rentable. Dos aumento finales de 10x (Ø18 mm) y 16x (Ø14,5 mm) con el ocular de 10x. También acepta tonómetros de aplanación estándar. Incluye 3 filtros incorporados y un lente de difusión.',
     imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/SL-700 (2).png'),
-    catalogo: "https://drive.google.com/file/d/1U9Zpn01pc1DJVLuD80xAEaptHXCP88tl/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/16D8gY3Vaja4ITRjTsI-joU1kWldxnjWp/view?usp=sharing",
   },
   {
     id: 8,
@@ -1397,7 +1397,7 @@ export const lamparashen = [
     descripcion:
       'Lámpara de hendidura con un sistema de iluminación estilo Carl Zeiss y un avanzado sistema óptico convergente galileano. Con su sistema de revolver de 5 aumentos, ofrece una de las mejores relaciones de zoom de su clase; 6x, 10x, 16x, 25x y 40x utilizando el ocular de 12,5x.',
     imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/Lámpara Hendidura ESL-1800 (EZER)-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1D3K3zBTOMT9yO6LX5JGvOVyx_qTTpHS0/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1cLrHS8wfC8UGvnzK08cIxXYz2sd7SRzj/view?usp=sharing",
   },
   {
     id: 9,
@@ -1407,7 +1407,7 @@ export const lamparashen = [
     descripcion:
       'El microscopio de la lámpara de hendidura ESL-7800 es la de más alta calidad de la serie EZER. Diseñado en la configuración de estilo de torre tradicional, la ESL-7800 ofrece ópticas especializadas, mayores niveles de aumento y un amplio campo de visión. Cuenta con un avanzado sistema óptico galileano y un tambor giratorio de 5 aumentos.',
     imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/Lámpara Hendidura ESL-7800 (EZER)-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1e09qebDs7v0a5mCGNf9Ll7xv-7h9IJ1P/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1HZZcXv6kQ3Eqyv16Bih_WNMXvVi07qd6/view?usp=sharing",
   },
   {
     id: 10,
@@ -1417,7 +1417,7 @@ export const lamparashen = [
     descripcion:
       'Biomicroscopio tipo Zeiss con microscopio Galileo y oculares de 12,5x. Con cambio de aumento mediante sistema revólver de 3 posiciones (10x, 16x y 25x) para modelo S260S y de 5 posiciones (6x, 10x, 16x y 25x, 40x) para el modelo S260. Con iluminación LED.',
     imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/S260S - S260.png'),
-    catalogo: "https://drive.google.com/file/d/1rL6bKX9zBUvOWLMe8wc8ppTHuOQCHvXr/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1UVShIHeOe4fPhkr6WsfmZjsOLz3WQvml/view?usp=sharing",
   },
   {
     id: 11,
@@ -1427,7 +1427,7 @@ export const lamparashen = [
     descripcion:
       'Biomicroscopio tipo Haig-Streit o iluminación superior con óptica Haag-Streit y tipo microscopio Galileo. Oculares de 12,5x y cambio de aumento mediante sistema revólver de 3 posiciones (10x, 16x y 25x) para modelo S360S y de 5 posiciones (6x, 10x, 16x , 25x, 40x) para el modelo S360. Con Iluminación LED.',
     imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/S360S - S360 (sin fondo).png'),
-    catalogo: "https://drive.google.com/file/d/1lFE4EkMBTC2mmh9-BpJog8ROVLlgaYlh/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1jsUlnnrYceAf9K6R84FT80sX_LWtuGvD/view?usp=sharing",
   },
   {
     id: 12,
@@ -1437,7 +1437,7 @@ export const lamparashen = [
     descripcion:
       'Biomicroscopio tipo Haag-Streit o iluminación superior modelo S390L (Firefly WDR) de luz LED y óptica HD con posibilidad de explorar glándulas de meibomio y con clasificación automática. Con óptica de Galileo.',
     imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/S390L (Firefly WDR+)-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1YrRc3pdk6NyvsxAm_I-n8SYZ5gZ6NKmY/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1STKeOaDRVwgXBqooVeFzuOEbS2qJuLkS/view?usp=sharing",
   },
   {
     id: 13,
@@ -1447,7 +1447,7 @@ export const lamparashen = [
     descripcion:
       'Biomicroscopio tipo Zeiss o iluminación lateral modelo S290 de luz LED y óptica HD. Con posibilidad de explorar glándulas de meibomio y con clasificación automática. Con óptica de Galileo.',
     imagen: require('./assets/Products/Diagnostico/LamparasHen/Imagenes/S290-PhotoRoom.png-PhotoRoom.png'),
-    catalogo: "https://drive.google.com/file/d/1NAx9-kro_z2oIQtlfUW-ZR33OQVR4Fgr/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1ax2Xjq7trAtSgCDlf_K97QnivrLnwF1y/view?usp=sharing",
   },
 ];
 
@@ -1460,7 +1460,7 @@ export const paquimetros = [
     descripcion:
       'Paquímetro manual portátil para la medición de la córnea central con batería integrada.\nAparato simple de usar, solo brinda la medición obtenida. Punta integrada de 20 MHz, con pantalla que indica resultado y estatus de la batería recargable.',
     imagen: require('./assets/Products/Diagnostico/Paquimetros/Imagenes/GoVu (2) Fondo Transparente.png'),
-    catalogo: "https://drive.google.com/file/d/147zNNjysG1Pp9kfTqKRJr-BycJ4lGo2V/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/13hUvao_LJY_R2HtYwE8v4U_lzFHap0Dd/view?usp=sharing",
   },
   {
     id: 2,
@@ -1470,7 +1470,7 @@ export const paquimetros = [
     descripcion:
       'Biómetro con paquímetro en unidad compacta y portátil para modo A-Scan. Con medición precisa de espesor de la córnea, ACD, espesor de la lente, y longitud axial y para paquimetría central y periférica.',
     imagen: require('./assets/Products/Diagnostico/Paquimetros/Imagenes/PacScan PLUS-2.png'),
-    catalogo: "https://drive.google.com/file/d/1byCGij14yCbn6VR6x502iq-Y37kh4bRT/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1_E0ypPw2ZrpbIu2u4I_BCfnQwovlLI-_/view?usp=sharing",
   },
 ];
 
@@ -1483,7 +1483,7 @@ export const campimetros = [
     descripcion:
       'Perimetría con pantalla LCD de OCULUS de hasta 60°con cambio/ajuste de fijación. Tamaño del estímulo: Goldmann.',
     imagen: require('./assets/Products/Diagnostico/Campimetros/Imagenes/SMARTFIELD COSTADO.png'),
-    catalogo: "https://drive.google.com/file/d/1YiG4PXJElV-t8nRvnqLOaNaeJj7Imn5Z/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1Sz8JYWwJAryMBS6M5V1CAE90Rt1dGZEL/view?usp=sharing",
   },
   {
     id: 2,
@@ -1493,7 +1493,7 @@ export const campimetros = [
     descripcion:
       'Perímetro computarizado de OCULUS de rendimiento estándar en la perimetría. De campo visual central hasta 30° con tamaños de estímulos Glodmann III. Ha sido diseñado para combinar screening de campo visual y perímetro. Incorpora una cuadrícula de LED con 135 puntos de prueba fija y color del estímulo blanco. Aparato compacto, ligero y portable',
     imagen: require('./assets/Products/Diagnostico/Campimetros/Imagenes/Easyfield (OCULUS).png'),
-    catalogo: "https://drive.google.com/file/d/1DHftfnS659RfXsCqbEWLGEqwGpNynFhB/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1zWKKeLgz0TB4D5BX7IEeIwTBIua5Q8Kt/view?usp=sharing",
   },
   {
     id: 3,
@@ -1503,7 +1503,7 @@ export const campimetros = [
     descripcion:
       'Nueva dimensión en medición de campo visual de OCULUS. Campímetro de proyección esférica para perimetría estática y cinética, posibilidad de examen hasta 70º, con desviación de fijación y parámetros de medición según Goldmann. Color del estímulo; blanco / azul. Equipo portátil.',
     imagen: require('./assets/Products/Diagnostico/Campimetros/Imagenes/Centerfield II (OCULUS) 2.png'),
-    catalogo: "https://drive.google.com/file/d/1D8tyKhpbSVpBPjF7lAm2iMEt4aMUpmnx/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1ckqWWpJKj2pcYdkYoKDcdTc_o17-9VeK/view?usp=sharing",
   },
   {
     id: 4,
@@ -1513,7 +1513,7 @@ export const campimetros = [
     descripcion:
       'Nueva dimensión en medición de campo visual, el perímetro Twinfield® 2, de proyección esférica para perimétrica estática y cinética con cúpula de proyección de 30 cm de radio para 90°de examen. Color del estímulo; blanco / azul / rojo. Padrón según la Sociedad de Oftalmología Alemana (DOG).',
     imagen: require('./assets/Products/Diagnostico/Campimetros/Imagenes/Twinfield (OCULUS) Opción 1.png'),
-    catalogo: "https://drive.google.com/file/d/1m8qw33YBn4cgUo6mYXzhZazcv98AeIjy/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/13IvgaeyrtoQNDZJ7IUAEczST5iatiSAD/view?usp=sharing",
   },
 ];
 
@@ -1526,7 +1526,7 @@ export const tomografoOcular = [
     descripcion:
       'Cámara Pentacam Standard para obtención de imágenes digitales de la córnea completa y de la cámara anterior, hasta 50 diferentes posiciones concéntricas, produciendo 25.000 puntos de medición e imágenes completas a 360°. Opciones de configuración: paquete refractivo, paquete catarata, Belin Ambrosio, Holladay report, adaptación lentes esclerales (CSP).',
     imagen: require('./assets/Products/Diagnostico/TomografoOcular/Imagenes/PENTACAM STANDARD.png'),
-    catalogo: "https://drive.google.com/file/d/1zm3SOPwQ4J_4OqBEmQ1JOXHA-kpSayPf/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1WnHU32MNlYJ3j_AWlAAAhYLuvP_BcCgA/view?usp=sharing",
   },
   {
     id: 2,
@@ -1536,7 +1536,7 @@ export const tomografoOcular = [
     descripcion:
       'Cámara Pentacam HR para obtención de imágenes digitales de la córnea completa y de la cámara anterior. Puede tomar hasta 100 diferentes imágenes en 2 segundos, entregando 500 valores de elevación, produciendo 50.000 puntos de medición e imágenes completas a 360°, con opción de configuración: paquete refractivo, paquete catarata, Belin Ambrosio, Holladay report, adaptación lentes esclerales (CSP) y calculador de LIOs.',
     imagen: require('./assets/Products/Diagnostico/TomografoOcular/Imagenes/PENTACAM HR (OCULUS).png'),
-    catalogo: "https://drive.google.com/file/d/1zm3SOPwQ4J_4OqBEmQ1JOXHA-kpSayPf/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1WnHU32MNlYJ3j_AWlAAAhYLuvP_BcCgA/view?usp=sharing",
   },
   {
     id: 3,
@@ -1546,7 +1546,7 @@ export const tomografoOcular = [
     descripcion:
       'Cámara Pentacam AXL para obtención de imágenes digitales de la córnea completa y de la cámara anterior. Pentacam AXL combina las características conocidas de Pentacam HR con un biómetro óptico, basados en la tecnología de interferometría de coherencia parcial (PCI) para medir la longitud axial del ojo humano.',
     imagen: require('./assets/Products/Diagnostico/TomografoOcular/Imagenes/PENTACAM AXL.png'),
-    catalogo: "https://drive.google.com/file/d/1WF6bKdkapxnxStAs0Nv5vU4-tRjPlU7R/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1-ZkC908iWY8eUJsIiCLWhnepTDxzijOP/view?usp=sharing",
   },
   {
     id: 4,
@@ -1556,7 +1556,7 @@ export const tomografoOcular = [
     descripcion:
       'Nueva cámara Pentacam AXL WAVE, primer equipo que combina la tecnología Scheimpflug con la de un biómetro óptico, basados en la tecnología de interferometría de coherencia parcial (PCI) para medir la longitud axial del ojo humano. Incluye además, aberrometría de frente de ondas total, refracción objetiva y retroiluminación. Trae por defecto los siguientes Software: paquete catarata, paquete refractivos, Holladay report, Belin Ambrosio, adaptación lentes esclerales (CSP) y calculador de LIOs.',
     imagen: require('./assets/Products/Diagnostico/TomografoOcular/Imagenes/PENTACAM AXL WAVE.png'),
-    catalogo: "https://drive.google.com/file/d/1pQ5A9uGuCuO80W24P7QmaAc0auiygh1Y/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1SQe1jmd92uSIw15a4YZH0gUtK6VJL3_j/view?usp=sharing",
   },
 ];
 
@@ -1569,7 +1569,7 @@ export const biomecanicaCorneal = [
     descripcion:
       'Equipo que combina el análisis de la biomecánica corneal con tonómetro de no contacto con paquímetro óptico. Cuenta con una cámara de ultra velocidad capaz de capturar 4330 cuadros por segundo para evaluar la biomecánica corneal. El Corvis® ST permite visualizar y medir la respuesta de la deformación corneal.',
     imagen: require('./assets/Products/Diagnostico/Biomecanica/Imagenes/Corvis ST (Costado).png'),
-    catalogo: "https://drive.google.com/file/d/13A_Nh2HgJXIyKfBBQOoZ8Q1YP7T3x1bD/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1HImDcCgw8-J-54TeyAUG4n0YT_5u_GM6/view?usp=sharing",
   },
 ];
 
@@ -1582,7 +1582,7 @@ export const ecografos = [
     descripcion:
       'Ecobiómetro portátil para modo B (bidimensional) / modo A-B/ modo UBM (ultrabiomicroscopía ) / modo B-UBM y modo A/B/UBM. Con pantalla touch e inspirado en un Smartphone. Ofrece una calidad de imagen excepcional en un paquete ergonómico tipo tablet.',
     imagen: require('./assets/Products/Diagnostico/Ecografos/Imagenes/VuPAD (SONOMED) Costado.png'),
-    catalogo: "https://drive.google.com/file/d/1KzAheuOAS0QT0Q55grWIB12KiwWWclNs/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/18pcnLOuGogy0B_F0vdi4KI5ZVVVUBwjA/view?usp=sharing",
   },
   {
     id: 2,
@@ -1592,7 +1592,7 @@ export const ecografos = [
     descripcion:
       'Sistema de ultrasonido de multi-frecuencia que combina modo A/B y UBM. Su plataforma incluye una unidad base, pantalla LCD de 22 pulgadas, sonda modo B de 12Mhz o 20Mhz,sonda modo A de 10Mhz y sonda UBM de 35Mhz o 50Mhz.',
     imagen: require('./assets/Products/Diagnostico/Ecografos/Imagenes/VuMAX HD (2).png'),
-    catalogo: "https://drive.google.com/file/d/1ue47Fb9eA-M2TrxrKUpGQaLbMkRaUOWh/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1OV3Y0iHKFRFoBeFOpvBJT78OT-de-mAr/view?usp=sharing",
   },
   {
     id: 3,
@@ -1602,7 +1602,7 @@ export const ecografos = [
     descripcion:
       'Sonda para modo B-Scan o A-Scan de SONOMED. Sonda o transductor portátil con conexión USB a cuaqluier PC o Laptop.',
     imagen: require('./assets/Products/Diagnostico/Ecografos/Imagenes/Master-Vu B Product Photo.png'),
-    catalogo: "https://drive.google.com/file/d/1Uy_dUZByzsTCvS2c3BqXZ-i5omrGKe3z/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1VNvQKkHn8kH2oKFI9NxB_5PTm5yO959v/view?usp=sharing",
   },
   {
     id: 4,
@@ -1612,6 +1612,6 @@ export const ecografos = [
     descripcion:
       'Biómetro A- Scan, con opción de paquimetría, compacto y portátil para contacto o inmersión. Una combinación de alta frecuencia, sondas de bajo ruido y propietario de algoritmos que permiten capturas de exploración inmediatamente después del aplanamiento a lo largo del eje visual. Con medición precisa de espesor de la córnea, ACD, espesor de la lente, y longitud axial.',
     imagen: require('./assets/Products/Diagnostico/Ecografos/Imagenes/PacScan PLUS.png'),
-    catalogo: "https://drive.google.com/file/d/1Wvplik5v3ftvHYJU3UoJ7HLlMyLna1yS/view?usp=sharing",
+    catalogo: "https://drive.google.com/file/d/1DAurTknU_S5XD5yHayUe3inC0y-H5ZL4/view?usp=sharing",
   },
 ];
