@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import EvoLentes from '../../assets/LentesEvo/EVO ICL LOGO.png';
-import Video from '../../assets/LentesEvo/VIDEO LATAM.mkv';
 import { SlArrowRight, SlArrowLeft } from 'react-icons/sl';
 import { lentesEvo } from '../../data';
 import './LentesEVO.css';
