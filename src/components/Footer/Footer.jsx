@@ -6,6 +6,11 @@ import Facebook from '../../assets/Footer/Facebook.png';
 import './Footer.css';
 
 const Footer = () => {
+
+  const Instagram = "https://lh3.googleusercontent.com/d/1wpQPQNyqvZFIqPiZIyCAyobdGKcFax18"
+  const Linkedin = "https://lh3.googleusercontent.com/d/1s1Rj4uLBNeFQJzCYv3mYKswAJ74QW8VK"
+  const Facebook = "https://lh3.googleusercontent.com/d/1psFqPM1470oIRlfW-T4yHMH0b4gakOlB"
+
   return (
     <footer>
       <div className="footer_container">

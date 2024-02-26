@@ -1,11 +1,12 @@
 import React from 'react';
-import CHAT from '../../assets/ServTec/charla.png';
-import Whatsapp from '../../assets/ServTec/Icono WhatsApp (Página Servicio Técnico).png';
-import TeamViewer from '../../assets/ServTec/teamviewer.png';
 import FormServTec from '../../components/FormServTec/FormServTec';
 import './ServicioTec.css';
 
 const ServicioTec = () => {
+  const CHAT = "https://lh3.googleusercontent.com/d/1igKblXXHNxCIolrpm9wn_YycReoW31bA"
+  const Whatsapp = "https://lh3.googleusercontent.com/d/1x5XxZ_xqyoQJndX4D1ZYuidEu9dqIHC8"
+  const TeamViewer = "https://lh3.googleusercontent.com/d/1YLVHq9CHfwrbv4B9JYN41Pil2zQU-X74"
+
   return (
     <section className="container">
       <div className="serTec__container">

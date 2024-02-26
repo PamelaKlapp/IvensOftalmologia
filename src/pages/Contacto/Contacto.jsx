@@ -1,12 +1,13 @@
 import React from 'react';
-import ImgSobre from '../../assets/Contacto/Icono Correo.png';
-import Facebook from '../../assets/Contacto/Facebook Gris.png';
-import Instagram from '../../assets/Contacto/Instagram Gris.png';
-import Linkedin from '../../assets/Contacto/Linkedin Gris.png';
 import './Contacto.css';
 import FormContacto from '../../components/FormServTec/FormContacto';
 
 const Contacto = () => {
+  const ImgSobre = 'https://lh3.googleusercontent.com/d/1fGBq7j3kFckhONlu1temG3aqawcuXxQ1'
+  const Facebook = 'https://lh3.googleusercontent.com/d/1GOpgZKKKDJBbb2dM3FS1xrDxgIAGEWhH'
+  const Instagram = 'https://lh3.googleusercontent.com/d/1Ahh-B531zbW01fFjNWm1bL4iym8DpUuD'
+  const Linkedin = 'https://lh3.googleusercontent.com/d/18IXhqS1qMgyDxIWYTSXf5M3u38vCv1uI'
+
   return (
     <div className="container">
       <div className="header-container">

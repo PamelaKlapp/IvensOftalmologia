@@ -1,7 +1,4 @@
 import React, { useState } from 'react';
-import CTAwhatsapp from '../../assets/CTA/Globos WhatsApp.png';
-import CTAcorreo from '../../assets/CTA/Globo Correo.png';
-import CTAcontacto from '../../assets/CTA/Globos Contáctenos (Morado 1).png';
 import './CTA.css';
 
 const CTA = () => {
@@ -11,6 +8,10 @@ const CTA = () => {
     setAnimacionActiva(!animacionActiva);
     // 3000 milisegundos (3 segundos) en este ejemplo
   };
+
+  const CTAwhatsapp = "https://lh3.googleusercontent.com/d/1sa3CCQLZHAXsFiqgZQlf3BAw-6dP2pju"
+  const CTAcorreo = "https://lh3.googleusercontent.com/d/1xjIiwX6T81mqvoSb9JG1uCO5Je43Nzzl"
+  const CTAcontacto = "https://lh3.googleusercontent.com/d/1POJiKvNec6ZVHgYsD0ViitrzKOgSzWia"
 
   return (
     <div className="container">

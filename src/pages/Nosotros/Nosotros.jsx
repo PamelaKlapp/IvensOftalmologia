@@ -1,11 +1,12 @@
 import React from 'react';
-
-import compromiso from '../../assets/Nosotros/Icono Compromiso.png';
-import trayectoria from '../../assets/Nosotros/Icono Trayectoria.png';
-import calidad from '../../assets/Nosotros/Icono Calidad Naranjo.png';
 import './Nosotros.css';
 
 const Nosotros = () => {
+
+  const compromiso = 'https://lh3.googleusercontent.com/d/1Mhzm69xPA7RWGRmXmHBz_nK_DjZLGAjm'
+  const trayectoria = 'https://lh3.googleusercontent.com/d/1nYZOP_Ws6Xf74kPAz3ghBnutH1-jM_ll'
+  const calidad = 'https://lh3.googleusercontent.com/d/14Dl_jT_0-_06OzpKUdNlWn027x-N4eST'
+
   return (
     <section className="container">
       <div className="header-nosotros">

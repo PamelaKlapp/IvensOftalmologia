@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import EvoLentes from '../../assets/LentesEvo/EVO ICL LOGO.png';
 import { SlArrowRight, SlArrowLeft } from 'react-icons/sl';
 import { lentesEvo } from '../../data';
 import './LentesEVO.css';
 
 const LentesEVO = () => {
+  const EvoLentes = 'https://lh3.googleusercontent.com/d/1XeGNbOjIUmEE2mdvc1E5Xxti1xJzdGn2'
+
   const [groupSize, setGroupSize] = useState(4);
   const [currentPage, setCurrentPage] = useState(0);
   const totalGroups = Math.ceil(lentesEvo.length / groupSize);
