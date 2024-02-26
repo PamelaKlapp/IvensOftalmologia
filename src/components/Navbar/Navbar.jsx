@@ -3,7 +3,6 @@ import { Link, NavLink } from 'react-router-dom';
 import { navlinks } from '../../data';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineClose } from 'react-icons/md';
-import Logo from '../../assets/Logo.png';
 import SearchBar from '../SearchBar/SearchBar';
 import MenuNav from '../MenuNav/MenuNav';
 import HamburgerNav from '../HamburgeNav/HamburgerNav';
@@ -11,6 +10,8 @@ import HamburgerNav from '../HamburgeNav/HamburgerNav';
 import './Navbar.css';
 
 const Navbar = () => {
+  const Logo = 'https://lh3.googleusercontent.com/d/1B1ze4P82Rj4lCwJjJXttzQHb0d57F3kW'
+
   const [openDropMenu, setOpenDropMenu] = useState(false);
   const [openHamburguer, setOpenHamburguer] = useState(false);
 
