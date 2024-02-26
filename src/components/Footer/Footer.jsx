@@ -1,8 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Instagram from '../../assets/Footer/Instagram.png';
-import Linkedin from '../../assets/Footer/Linkedin.png';
-import Facebook from '../../assets/Footer/Facebook.png';
 import './Footer.css';
 
 const Footer = () => {
