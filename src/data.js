@@ -114,14 +114,14 @@ export const bannerMainHeader = [
   {
     id: 1,
     name: 'ARC LASER',
-    img: 'https://lh3.googleusercontent.com/d/1T2owEPCSSf4RlB8r6iJibYj6IvLo6dE5',
+    img: 'https://lh3.googleusercontent.com/d/1Bdo2auQCLY8sNi9ia1ZELB6WTskoz5sG',
     imgMedium: 'https://lh3.googleusercontent.com/d/1i_2j-rh8re6QCTYCrTUsgRSp0-OSMMQh',
     imgSmall: 'https://lh3.googleusercontent.com/d/1Q1q9WuN77ngm6tHR08MRNGnAXyeNr7jC',
   },
   {
     id: 2,
     name: 'VUPAD',
-    img: 'https://lh3.googleusercontent.com/d/1rp40aAkOb1VNkJLI0vw_iUQxuhHaXqDn',
+    img: 'https://lh3.googleusercontent.com/d/1wxQ0FZGQCrZmINbV81O12Hq1r4A4OOL3',
     imgMedium: 'https://lh3.googleusercontent.com/d/1E6Z75tbPsjssubdPGMYBX0gqhaMKlOuK',
     imgSmall: 'https://lh3.googleusercontent.com/d/18JXFYF5Xr2Sd3MprXsEp7-G3TaO0XE93',
     path: '/ecografos',
@@ -129,7 +129,7 @@ export const bannerMainHeader = [
   {
     id: 3,
     name: 'AXL WAVE',
-    img: 'https://lh3.googleusercontent.com/d/1K_osa8JX3oCER7YuBqMQ-p9pX4BRHPBh',
+    img: 'https://lh3.googleusercontent.com/d/1YGfms-bNjYQD7oRHhRdXeAP6XVg3873K',
     imgMedium: 'https://lh3.googleusercontent.com/d/1iPbig5tkly-OWdJuZ8qXrByg8E_WB3dI',
     imgSmall: 'https://lh3.googleusercontent.com/d/12itaYt94GP9cSHrqvAnWhbEi4c7sPQs9',
     path: '/tomografoocular',
@@ -496,7 +496,10 @@ export const vitreoretinal = [
       'El nuevo set óptico de lente desechable OCULUS SURGICAL BIOM® HD combina un gran campo de visión con una alta resolución. Ideal para todas las cirugías de vitreoretina, incluyendo visión de mácula con alta magnificación.',
     imagen:
       'https://lh3.googleusercontent.com/d/1fz7cerTAC6ft9z7rzNXYL0RvFRl2WScf',
+      catalogo:
+      'https://drive.google.com/file/d/1FyhGRHi6fIr5EYH0YrHDhjiURBgBMZnd/view?usp=sharing',
   },
+  
   {
     id: 6,
     subcategoria: 'Vitreo Retina',
@@ -1498,7 +1501,10 @@ export const lamparashen = [
     fabrica: 'OCULUS',
     descripcion:
       'Uno de los sistemas de documentación de imágenes más pequeños del mundo que se puede adaptar a casi todas las lámparas de hendidura disponibles en el mercado. Captura de imágenes en alta resolución, grabación de videos y control de la captura con pedal o en las versiones digitales de las lámparas de hendidura OCULUS, usando el joystick.',
-    imagen: "https://lh3.googleusercontent.com/d/1bdqhlFCS5DdYmN-a3hvCxp-FwSPDJ5Ny",
+    imagen: [
+      "https://lh3.googleusercontent.com/d/1bdqhlFCS5DdYmN-a3hvCxp-FwSPDJ5Ny",
+      "https://lh3.googleusercontent.com/d/1T9qeiLVF1Dx6ytn_zriXljS3sFxqyZUN"
+    ], 
     catalogo:
       'https://drive.google.com/file/d/10KdSmYWxa07ZCZR7BWJca2s4j8Gdzc7R/view?usp=sharing',
   },

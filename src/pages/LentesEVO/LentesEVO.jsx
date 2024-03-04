@@ -62,7 +62,7 @@ const LentesEVO = () => {
           <div className="img-lentesEvo">
             <img src={EvoLentes} alt="logo evolentes" loading="lazy" />
           </div>
-          <iframe src="https://drive.google.com/file/d/1WLh3mZRRYXT5QFzzYcnKA4XqMkr6I5W-/preview" width="510" height="287" allow="autoplay"></iframe>
+          <iframe src="https://drive.google.com/file/d/1aCo6j4J7AvmMVzhd8Zdjq3wkrIGpwcgM/preview" width="500" height="287" allow="autoplay"></iframe>
         </div>
         <div className="right-side">
           <h2>¿Qué son las Lentes EVO ICL?</h2>
