@@ -82,8 +82,8 @@ div.product-wrapper {
     transform: translateX(0px);
   }
 }
-.slick-dots {
-  bottom: -7.5px;
+ul.slick-dots {
+ display: none;
 }
 
 /* Prodcutos Inicios */

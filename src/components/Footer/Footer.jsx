@@ -33,7 +33,7 @@ const Footer = () => {
         <div className="oficina_info">
           <h3>Oficina</h3>
           <h4>
-            Dirección: Isabel La Católica 4394 Of.501, Las Condes, Santiago,
+            Dirección: Isabel La Católica 4394 Of. 501, Las Condes, Santiago,
             Chile
           </h4>
           <br />

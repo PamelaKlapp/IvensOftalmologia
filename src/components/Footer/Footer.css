@@ -54,7 +54,7 @@ footer {
 .social__media li {
   height: 3rem;
 }
-.social__media li img {
+.social__media li >a >img {
   max-height: 100%;
   object-fit: contain;
 }
@@ -85,6 +85,17 @@ h4.pais {
     position: relative;
     top: -120px;
   }
+  .social__media ul {
+    max-width: 11rem;
+   
+  }
+  .social__media li >a > img {
+    height: 2rem;
+  }
+  .social__media li img {
+    max-height: 100%;
+    object-fit: contain;
+  }
 }
 
 /*    M E D I A    Q U E R I E S     --   S M A L L       */
@@ -99,10 +110,16 @@ h4.pais {
     justify-content: flex-start;
   }
   .social__media {
+   
     display: flex;
     flex-direction: column;
+    gap: 1rem;
   }
-  .social__media li {
+  .social__media ul {
+    max-width: 10rem;
+    
+  }
+  .social__media li> a>img {
     height: 2rem;
   }
 

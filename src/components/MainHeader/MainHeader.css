@@ -76,10 +76,14 @@
     display: none;
   }
   .header__left {
-    gap: 2rem;
+    gap: 1rem;
   }
   .header__left h2 {
     width: 70%;
+  }
+  .header__left h2>span{
+    position: relative;
+    bottom: 8px;
   }
 }
 

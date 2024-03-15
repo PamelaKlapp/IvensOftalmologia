@@ -1,6 +1,6 @@
 .contenedores-cta {
   position: fixed;
-  bottom: 120px;
+  bottom: 50px;
   right: 50px;
   z-index: 99999;
   display: flex;
@@ -186,7 +186,7 @@
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */
 @media screen and (max-width: 1024px) {
   .contenedores-cta {
-    bottom: 150px;
+    bottom: 110px;
     right: 30px;
   }
 }

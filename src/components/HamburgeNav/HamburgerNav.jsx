@@ -32,7 +32,7 @@ const HamburgerNav = ({ handleClose, isVisible }) => {
         </li>
         <li>
           <NavLink to='/contacto' onClick={handleLinkClick}>
-            Contáctenos
+            Contacto
           </NavLink>
         </li>
       </ul>

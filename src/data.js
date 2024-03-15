@@ -114,24 +114,24 @@ export const bannerMainHeader = [
   {
     id: 1,
     name: 'ARC LASER',
-    img: 'https://lh3.googleusercontent.com/d/1Bdo2auQCLY8sNi9ia1ZELB6WTskoz5sG',
-    imgMedium: 'https://lh3.googleusercontent.com/d/1i_2j-rh8re6QCTYCrTUsgRSp0-OSMMQh',
-    imgSmall: 'https://lh3.googleusercontent.com/d/1Q1q9WuN77ngm6tHR08MRNGnAXyeNr7jC',
+    img: 'https://lh3.googleusercontent.com/d/1hpARIH1p7r0R8wyXoq-sZMR0VBcV7E88',
+    imgMedium: 'https://lh3.googleusercontent.com/d/11GrC93bas_1FMMAxX8kbwD2tW0u_D18q',
+    imgSmall: 'https://lh3.googleusercontent.com/d/1y_ippd1DcA3OCzbgGYo-joIVi3F2XoFn',
   },
   {
     id: 2,
     name: 'VUPAD',
-    img: 'https://lh3.googleusercontent.com/d/1wxQ0FZGQCrZmINbV81O12Hq1r4A4OOL3',
-    imgMedium: 'https://lh3.googleusercontent.com/d/1E6Z75tbPsjssubdPGMYBX0gqhaMKlOuK',
-    imgSmall: 'https://lh3.googleusercontent.com/d/18JXFYF5Xr2Sd3MprXsEp7-G3TaO0XE93',
+    img: 'https://lh3.googleusercontent.com/d/1L6kIDQqEL89bZKeKus_CGeqvLqrSu54a',
+    imgMedium: 'https://lh3.googleusercontent.com/d/1lil9Vczkap3o-hLLo_-2Au7SfG43OF5a',
+    imgSmall: 'https://lh3.googleusercontent.com/d/1I2_LfexN28mzKzGohIHi_yP6u4chNaut',
     path: '/ecografos',
   },
   {
     id: 3,
     name: 'AXL WAVE',
-    img: 'https://lh3.googleusercontent.com/d/1YGfms-bNjYQD7oRHhRdXeAP6XVg3873K',
-    imgMedium: 'https://lh3.googleusercontent.com/d/1iPbig5tkly-OWdJuZ8qXrByg8E_WB3dI',
-    imgSmall: 'https://lh3.googleusercontent.com/d/12itaYt94GP9cSHrqvAnWhbEi4c7sPQs9',
+    img: 'https://lh3.googleusercontent.com/d/11Mv_f6xireLH11lWJqkeCuVW3Eel1Z03',
+    imgMedium: 'https://lh3.googleusercontent.com/d/1_-2rCp7q4XuQ_3bRqt6SOJAk_Z3pcltB',
+    imgSmall: 'https://lh3.googleusercontent.com/d/1uFxXX8Z3yz1tjAm55e-JUznUSiptyLfX',
     path: '/tomografoocular',
   },
 ];
@@ -396,7 +396,7 @@ export const laseroftalmologico = [
     descripcion:
       'Unidad láser fotodisruptor de ARC, Alemania, Nd:YAG de 1064nm adaptado en lámpara de hendidura ARC de 5 aumentos.',
     imagen:
-      'https://lh3.googleusercontent.com/d/1nbxHPZzhvHCnwRxOY0qnlgN6ID7Fn8rj',
+      'https://lh3.googleusercontent.com/d/1Xu28GokBSB6HSrveWROnztI-t5whOjtK',
     catalogo:
       'https://drive.google.com/file/d/1KxEQelfe6vCBrKVY7Cq2Q2UywSg4Yezm/view?usp=sharing',
   },
@@ -408,7 +408,7 @@ export const laseroftalmologico = [
     descripcion:
       'VARIO es la combinación de dos tipos de láser: el modelo Classic 514nm con el láser YAG o el Cobra (SLT/YAG), en una sola mesa eléctrica.',
     imagen:
-      'https://lh3.googleusercontent.com/d/1Ipd7IsxlAvHVHArkPN5BfsDDBCVjYuSK',
+      'https://lh3.googleusercontent.com/d/1qQaUUQEeU3vqMGi2Ya8ZBGmyF8CJbRUo',
     catalogo:
       'https://drive.google.com/file/d/1zdxMMmtG9MdXRRgqLkpCqegrfcWCAcWG/view?usp=sharing',
   },
@@ -420,7 +420,7 @@ export const laseroftalmologico = [
     descripcion:
       'Combo de ARC, Alemania: combina láser YAG modelo Q-LAS con láser verde 532 nm modelo Classic, todo en una lámpara de hendidura en una sola mesa eléctrica',
     imagen:
-      'https://lh3.googleusercontent.com/d/1XgQ8yPmXIx9vyUxCzWU5jjzqI3FxpDcN',
+      'https://lh3.googleusercontent.com/d/1Cg5PD5AN_Vfl2SwKbT_8xJs_Hdj8VVjq',
     catalogo:
       'https://drive.google.com/file/d/1dknqHteypv2CYIbVe5nW8G-7gWqEEo06/view?usp=sharing',
   },
@@ -511,6 +511,18 @@ export const vitreoretinal = [
       'https://lh3.googleusercontent.com/d/1-zxcl21h0iX8Sy6iHx3iwaNHxbeTMXGY',
     catalogo:
       'https://drive.google.com/file/d/1SjbgaXXS7bjgfqq3UzmApzqFsMOf7l_n/view?usp=sharing',
+  },
+  {
+    id: 7,
+    subcategoria: 'Vitreo Retina',
+    modelo: 'CBC Lens (Cohen Benner Contact Lens)',
+    fabrica: 'OCULUS',
+    descripcion:
+      'La nueva lente Cohen Benner Contact Lens (CBC) ha sido diseñada para sujetar el borde de la córnea, marcando una diferencia respecto a todas las demás lentes de contacto quirúrgicas. La lente CBC cuenta con un diseño de dos piezas que flota libremente, asegurando que la lente óptica central siempre permanezca en contacto con la película lagrimal. Esto permite que la lente OCULUS CBC se ajuste a todas las córneas independientemente de su curvatura, proporcionando al cirujano un control y una visualización superiores.',
+    imagen:
+      'https://lh3.googleusercontent.com/d/1H0U8Gw98QQwgYDUnWAI5H4r90Br80azQ',
+    catalogo:
+      'https://drive.google.com/file/d/1XJOPQgIt-sfSSBeLmU6ahAXWLlOhaZiF/view?usp=sharing',
   },
 ];
 
@@ -650,7 +662,7 @@ export const unidadesrefraccion = [
       imagen:
       'https://lh3.googleusercontent.com/d/1fo-E86RD0JO0BaG_NR0oZGufOPfsdBCf',
     catalogo:
-      'https://drive.google.com/file/d/1ZUFB3SkYzWPzoqRRpYFTNTTy91Frhizb/view?usp=sharing',
+      'https://drive.google.com/file/d/1jAA4hBRFqVJH_Td3MKDOzC1Kcm73Oh-7/view?usp=sharing',
   },
   {
     id: 10,
@@ -662,7 +674,7 @@ export const unidadesrefraccion = [
       imagen:
       'https://lh3.googleusercontent.com/d/1j_SyArWexP9EqrL2pQmShwIRRZGxpEGi',
     catalogo:
-      'https://drive.google.com/file/d/1KViV4q7_5eeKobxbf-hG6CVvWJyQPk-i/view?usp=sharing',
+      'https://drive.google.com/file/d/1v0300uuZPPRFMwfzdAYCLpjl_psTtLlX/view?usp=sharing',
   },
   {
     id: 11,
@@ -674,7 +686,7 @@ export const unidadesrefraccion = [
       imagen:
       'https://lh3.googleusercontent.com/d/1vrXxwNONyleujOw5ojaT3L0O6m0A8vJF',
     catalogo:
-      'https://drive.google.com/file/d/1yWgl0Iye1OO5iJ5ZTyh5spZmUgRZSGZ1/view?usp=sharing',
+      'https://drive.google.com/file/d/1O1eOdG0eugOgvZCtSxp5gBy6dxfXsl0-/view?usp=sharing',
   },
   {
     id: 12,
@@ -720,7 +732,7 @@ export const unidadesrefraccion = [
     descripcion:
       'Unidad de Refracción MEDIWORKS, con mesa para 2 equipos, abatible hasta 90° de giro y una superficie de medidas de 805 mm x 405 mm.  Sillón de color negro con respaldo fijo y ajustable en altura de 460 mm a 600 mm, capaz de soportar un peso máximo de 150 kg. Con apoya brazos y pies rebatibles. \nDimensiones de la unidad 1.510 mm x 1.000 mm x 2.130 mm y peso de 168 kg. Incluye brazo para foróptero con movimientos vertical de hasta 30° y lámpara de lectura.',
       imagen:
-      'https://lh3.googleusercontent.com/d/1cLh0B4u3qi7gYes8oGFBvau6FNDZSkAt',
+      'https://lh3.googleusercontent.com/d/1PLpRQs5SywwEOYUSPEpZUl0P690O2LGO',
     catalogo:
       'https://drive.google.com/file/d/1vZ2oY7AUEKJLj5i2C_aqrzYLDtsykBCT/view?usp=sharing',
   },
@@ -781,11 +793,11 @@ export const unidadesrefraccion = [
       'Nueva línea exclusiva de Unidades de Refracción US OPHTHALMIC de alta gama, diseñadas con madera y acero de excelente calidad. La colección cuenta con una amplia variedad de modelos y una gama de colores seleccionables, adaptándose a las necesidades individuales de cada usuario.',
     imagen: [
       
-      'https://lh3.googleusercontent.com/d/1nwBXIVXbyjwoTpxZC3WDGiPiqge0SbXJ',
-      'https://lh3.googleusercontent.com/d/12aU7n_FMWH_-7BgYg-sl42AMOzkttp2a',
-      'https://lh3.googleusercontent.com/d/1UbnNkoN7pe4i6xp0WXITRKudZh9-fL7G',
-      'https://lh3.googleusercontent.com/d/12dgk-hpcZH8WTmX7h4G0r7D7uP0pqF9H',
-      'https://lh3.googleusercontent.com/d/123Lvu5JE2oAd8l3k0UeHcdus4JnEc8Gh',
+      'https://lh3.googleusercontent.com/d/16-e-5H78WBYTpshnObceIiqyALMwen4o',
+      'https://lh3.googleusercontent.com/d/1O86f2eplt1RkUDD8eqGonZrs3rBgvVCb',
+      'https://lh3.googleusercontent.com/d/1bIH-7ou0FaUkzaZlmqUKuuNhKhvAni3Z',
+      'https://lh3.googleusercontent.com/d/13xf97Muh6Jyz-nKI-JO4PtkMiY8PvErX',
+      'https://lh3.googleusercontent.com/d/1U0X0bUX7m4DbuAofgT2vI1CoVdO84dSO',
     ],
     catalogo:
       'https://drive.google.com/file/d/1eIDglxYvhZaLsjIMCKZZhlUy6QXkOxDs/view?usp=sharing',
@@ -802,7 +814,7 @@ export const estudiomiopia = [
     fabrica: 'OCULUS',
     descripcion:
       'El nuevo Myopia Master® es el primer dispositivo que combina los parámetros de medición más importantes para que el estudio y manejo de la miopía sea más fácil y fiable que nunca: refracción, longitud axial y queratometría central de la córnea.',
-    imagen: "https://lh3.googleusercontent.com/d/1PMT6mOs8SEMv41OpR2lfeyThI056ae0Q",
+    imagen: "https://lh3.googleusercontent.com/d/1yv2p9CMeLgLqVHos2uCfbH441LvGJEbG",
     catalogo:
       'https://drive.google.com/file/d/1GCDh8kwvJfPBE3Iqc9U0W-QyivMRQAY7/view?usp=sharing',
   },
@@ -827,7 +839,7 @@ export const autokeratoref = [
     fabrica: 'EZER',
     descripcion:
       'Autorefractómetro- Keratómetro automático modelo ERK-BH marca EZER con pantalla LCD móvil que brinda un acceso más conveniente al ojo del paciente. Este dispositivo cuenta con una mentonera motorizada, así como capacidades para medir la queratometría periférica y comparar la visión. El modo CF (Comparación de la Función de Visión) permite al paciente experimentar la visión corregida mediante la aplicación de graduaciones adicionales. También proporciona mediciones del diámetro de la córnea, evaluación de cataratas con el modo ILLUM, retro-iluminación y simulación de visión cercana.',
-    imagen: "https://lh3.googleusercontent.com/d/1CvdhBcQaqMdhev3_GObCVxPs60l_rK8k",
+    imagen: "https://lh3.googleusercontent.com/d/1mFzt1pr10tDqs2pXnNTXuZuDCDWiXwJ9",
     catalogo:
       'https://drive.google.com/file/d/1tHZmDEEo1AdmZCPhit4KQSYvdd8YSIs3/view?usp=sharing',
   },
@@ -1037,7 +1049,9 @@ export const testvision = [
     fabrica: 'OCULUS',
     descripcion:
       'Es un instrumento de proyección profesional para probar todas las funciones visuales relevantes. La tecnología utilizada orientada al futuro, permite una representación casi ilimitada de varios exámenes de la visión. El Binoptometer® 4P es un instrumento de detección de visión con pruebas de sensibilidad al contraste y visión mesópica opcional y prueba de la sensibilidad del deslumbramiento.',
-    imagen: "https://lh3.googleusercontent.com/d/1taIghSqp_4tRi5flI2eAAgpxcaTFxq8Z",
+    imagen:[ "https://lh3.googleusercontent.com/d/1Y0KhUQ7H94Dt3eVvLqmUwj9TYb34RJHw",
+    "https://lh3.googleusercontent.com/d/17fENfM82mlSv8wLgBxPWpFlc8rAwhAGH"
+  ],
     catalogo:
       'https://drive.google.com/file/d/1Iv0TYMOxLN3FS4MiSYsA9bAXFFjpxSkM/view?usp=sharing',
   },
@@ -1226,7 +1240,7 @@ export const lensometrosDigitales = [
     fabrica: 'HONGDEE',
     descripcion:
       'Lensómetro digital modelo PINGUI PRO de HONGDEE con pantalla gráfica vertical de 5,6” de fácil operación y visibilidad. Amplia gama de medidas para lentes esféricos desde -40D--+25D. Medición de la transmitancia de luz visible, rayos azules y UV disponible. El color de la pantalla se puede cambiar a modo color de alto contraste, blanco o negro para una mayor visibilidad, muy útil para medir la lente de color oscuro. Sensor Hartmann equipado para poder medir una amplia variedad de lentes. El programa de calibración automática incorporado puede calibrar automáticamente los errores finos durante la medición. El Bluetooth disponible permite ver los datos y las lecturas a través del teléfono inteligente.',
-    imagen: "https://lh3.googleusercontent.com/d/1nmK7KCzIes0zMW2B0z_RI8XmDTGxlco0",
+    imagen: "https://lh3.googleusercontent.com/d/1a8b88lTPIVoLzjHoshn7VfA07jAHTPhh",
     catalogo:
       'https://drive.google.com/file/d/1gMrCdMh5sV9omaltLiGTR_fxpaxcFdRI/view?usp=sharing',
   },
@@ -1336,7 +1350,7 @@ export const camarasNoMidr = [
     fabrica: 'Crystalvue',
     descripcion:
       'Cámara retinal no midriática, desmontable y full automática para foco y disparo (no usa joystick). La NFC-600 cuenta con seguimiento y enfoque 3D automático y se puede conectar fácilmente a cualquier PC o portátil con Windows mediante una conexión USB. Su diseño compacto permite que sea fácil de transportar y configurar.',
-    imagen: "https://lh3.googleusercontent.com/d/1BhJJ32cqZ7ADT_wfMeaafMyuF4DE2Oqt",
+    imagen: "https://lh3.googleusercontent.com/d/1tMxVrdPDCUXcXWqsJixOA-npHPuwaIj1",
     catalogo:
       'https://drive.google.com/file/d/15etFbbKI2fgP9krQfsI7stV8D79SjwaT/view?usp=sharing',
   },
@@ -1347,7 +1361,7 @@ export const camarasNoMidr = [
     fabrica: 'Crystalvue',
     descripcion:
       'Cámara retinal no midriática, full automática para foco y disparo (no usa joystick) con sistema 3D tracking. La NFC-700 está equipada con sistema operativo Windows 10 que permite a los usuarios ver, editar y grabar toda la información sin la necesidad de conectar otro dispositivo externo. Con una resolución de 12 mpx, la captura de imágenes son de alta callidad.',
-    imagen: "https://lh3.googleusercontent.com/d/16RKPabLaKEfQBuIA9rfY2Gt8O8ApGdtO",
+    imagen: "https://lh3.googleusercontent.com/d/1MrhNrjhFhxsvSYmJQGre6pSihygQKtSN",
     catalogo:
       'https://drive.google.com/file/d/1NDusPlRtT97Atr58Anbf6qLtWBAef_ZL/view?usp=sharing',
   },
@@ -1358,7 +1372,7 @@ export const camarasNoMidr = [
     fabrica: 'Crystalvue',
     descripcion:
       'Cámara retinal no midriática, de diseño compacto y liviano (2 kg). Se opera a través de joystick para el control de movimientos y no necesita múltiples controles y configuraciones. Las luces de fijación internas y el software autoguiado lo ayudarán a capturar la imagen.',
-    imagen: "https://lh3.googleusercontent.com/d/1ZG5ubtI_PegqMkQYZgJb9NtDYrgkdcz3",
+    imagen: "https://lh3.googleusercontent.com/d/1Im5F4FE3U87EIX42UWOR3d59lcqinnv4",
     catalogo:
       'https://drive.google.com/file/d/17YFry5eGQgwMHpFDj8ej4pavEaLSilhn/view?usp=sharing',
   },
@@ -1457,7 +1471,7 @@ export const lamparashen = [
     fabrica: 'ARC LASER',
     descripcion:
       'Biomicroscopio calidad alemana, con sistema de iluminación vertical y lámpara LED de 14V/5W con regulación de intensidad luminosa. La PCL5 SHD tiene la opción de cambio de aumentos mediante sistema revolver de 5 posiciones (6,3x,10x,16x, 25x y 40x). Puede ser instalada en mesas eléctricas y unidades de refracción.',
-    imagen: "https://lh3.googleusercontent.com/d/1I6RStfz628ASBOlMQWn11XqYRKNhx8lB",
+    imagen: "https://lh3.googleusercontent.com/d/1afFkPlRdJ3K1ltHNsyk_bJcMImtVav13",
     catalogo:
       'https://drive.google.com/file/d/1Ctd1dQTNq13Vnnd4ennIM-RhOgBgrmcp/view?usp=sharing',
   },
@@ -1468,7 +1482,7 @@ export const lamparashen = [
     fabrica: 'ARC LASER',
     descripcion:
       'Biomicroscopio con sistema de iluminación lateral y lámpara LED de 14V/5W con regulación de intensidad luminosa. Permite cambiar los niveles de aumento a través de un sistema revólver de 5 posiciones (6,3x, 10x, 16x, 25x y 40x). La PCL5 ZD puede ser instalada en mesas eléctricas y unidades de refracción.',
-    imagen: "https://lh3.googleusercontent.com/d/1l7oJymTzTQ4eXCc_5YHiz-dGu30NuNCh",
+    imagen: "https://lh3.googleusercontent.com/d/11yq_b1ddR3Mf1cSYsjNJVxEVRzwj9R1-",
     catalogo:
       'https://drive.google.com/file/d/1EJ-Sdj88XQsigkO-icg3x7LWuGs9r0kt/view?usp=sharing',
   },
@@ -1559,7 +1573,7 @@ export const lamparashen = [
     fabrica: 'MEDIWORKS',
     descripcion:
       'Biomicroscopio tipo Zeiss con microscopio Galileo y oculares de 12,5x. Con cambio de aumento mediante sistema revólver de 3 posiciones (10x, 16x y 25x) para modelo S260S y de 5 posiciones (6x, 10x, 16x y 25x, 40x) para el modelo S260. Con iluminación LED.',
-    imagen: "https://lh3.googleusercontent.com/d/1Jk_mLgOJ8USPCJjnVElyHJ8d2v-ju8Ap",
+    imagen: "https://lh3.googleusercontent.com/d/1YrMd2U5EoEDIsCEQdmNzsBcsYwmtevwI",
     catalogo:
       'https://drive.google.com/file/d/1UVShIHeOe4fPhkr6WsfmZjsOLz3WQvml/view?usp=sharing',
   },
@@ -1570,7 +1584,7 @@ export const lamparashen = [
     fabrica: 'MEDIWORKS',
     descripcion:
       'Biomicroscopio tipo Haig-Streit o iluminación superior con óptica Haag-Streit y tipo microscopio Galileo. Oculares de 12,5x y cambio de aumento mediante sistema revólver de 3 posiciones (10x, 16x y 25x) para modelo S360S y de 5 posiciones (6x, 10x, 16x , 25x, 40x) para el modelo S360. Con Iluminación LED.',
-    imagen: "https://lh3.googleusercontent.com/d/17JqrhiHm6XAX_vhsRBKeiLcpisBtwxfZ",
+    imagen: "https://lh3.googleusercontent.com/d/1ojErskqScAYKWqU9TxCfx182omqGCkru",
     catalogo:
       'https://drive.google.com/file/d/1jsUlnnrYceAf9K6R84FT80sX_LWtuGvD/view?usp=sharing',
   },
@@ -1664,7 +1678,7 @@ export const campimetros = [
     fabrica: 'OCULUS',
     descripcion:
       'Nueva dimensión en medición de campo visual, el perímetro Twinfield® 2, de proyección esférica para perimétrica estática y cinética con cúpula de proyección de 30 cm de radio para 90°de examen. Color del estímulo; blanco / azul / rojo. Padrón según la Sociedad de Oftalmología Alemana (DOG).',
-    imagen: "https://lh3.googleusercontent.com/d/1jAtEPJiH99RCucBXP7UE5DZpRKt8ZPR7",
+    imagen: "https://lh3.googleusercontent.com/d/1auFajRZF8VLN7X015KLKWP1aqvf-rYX6",
     catalogo:
       'https://drive.google.com/file/d/13IvgaeyrtoQNDZJ7IUAEczST5iatiSAD/view?usp=sharing',
   },
@@ -1725,7 +1739,9 @@ export const biomecanicaCorneal = [
     fabrica: 'OCULUS',
     descripcion:
       'Equipo que combina el análisis de la biomecánica corneal con tonómetro de no contacto con paquímetro óptico. Cuenta con una cámara de ultra velocidad capaz de capturar 4330 cuadros por segundo para evaluar la biomecánica corneal. El Corvis® ST permite visualizar y medir la respuesta de la deformación corneal.',
-    imagen: "https://lh3.googleusercontent.com/d/1AiN-0oMDRaWl7tIuKkYEKAMwmDm07xV1",
+    imagen: ["https://lh3.googleusercontent.com/d/1A5I3kSNoW-3nTe0m23H2sOuMEa3dejwA",
+    "https://lh3.googleusercontent.com/d/19gCf1QUkWEPNO2xkQ8fsXSJc95DBsKJk"
+  ],
     catalogo:
       'https://drive.google.com/file/d/1HImDcCgw8-J-54TeyAUG4n0YT_5u_GM6/view?usp=sharing',
   },

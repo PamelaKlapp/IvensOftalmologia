@@ -145,4 +145,8 @@
     
     padding: 2rem 0 0rem 0;
   }
+  .serv__teamViewer img {
+    height: 4rem;
+    width: auto;
+  }
 }

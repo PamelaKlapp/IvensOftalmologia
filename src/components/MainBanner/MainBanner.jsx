@@ -39,7 +39,7 @@ const DisplayBanners = () => {
   }, []); // El segundo parámetro asegura que este efecto se ejecute solo una vez al montar el componente
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 600,
     slidesToShow: 1,

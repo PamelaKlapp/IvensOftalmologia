@@ -252,5 +252,8 @@ iframe {
     height: 0.05rem;
     width: 20rem;
 }
+video{
+  width: 300px;
+}
   
 }

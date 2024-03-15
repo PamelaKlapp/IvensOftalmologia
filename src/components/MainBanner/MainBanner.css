@@ -1,14 +1,14 @@
+
 .main__banner-div {
   width: max-content;
   height: auto;
   cursor: pointer;
 }
-.slick-dots li button:before {
-  font-size: 8.2px;
-  top: -1px;
+ul.slick-dots {
+  display: none;
 }
 .main__banner-div img {
-  object-fit: contain;
+  object-fit: fill;
 }
 
 .arrow-btns {

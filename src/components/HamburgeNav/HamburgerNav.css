@@ -10,9 +10,8 @@
     
 }
 .hamb-menu-content{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-  gap: 1rem;
+    display: flex;
+    justify-content: space-between;
   z-index: 99;
   padding: 0 2rem;
   color: #222;

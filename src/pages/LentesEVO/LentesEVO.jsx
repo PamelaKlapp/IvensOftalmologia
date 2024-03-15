@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { SlArrowRight, SlArrowLeft } from 'react-icons/sl';
 import { lentesEvo } from '../../data';
+import video  from '../LentesEVO/LATAMEVO.mp4';
 import './LentesEVO.css';
 
 const LentesEVO = () => {
@@ -62,7 +63,11 @@ const LentesEVO = () => {
           <div className="img-lentesEvo">
             <img src={EvoLentes} alt="logo evolentes" loading="lazy" />
           </div>
-          <iframe src="https://drive.google.com/file/d/1aCo6j4J7AvmMVzhd8Zdjq3wkrIGpwcgM/preview" width="500" height="287" allow="autoplay"></iframe>
+         
+          <video width="500" height="287" controls autoplay>
+  <source src={video}/>
+  
+</video>
         </div>
         <div className="right-side">
           <h2>¿Qué son las Lentes EVO ICL?</h2>
