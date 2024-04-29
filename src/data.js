@@ -129,7 +129,7 @@ export const bannerMainHeader = [
   {
     id: 3,
     name: 'AXL WAVE',
-    img: 'https://lh3.googleusercontent.com/d/11Mv_f6xireLH11lWJqkeCuVW3Eel1Z03',
+    img: 'https://lh3.googleusercontent.com/d/1c-oDrJdyWO0-jf_9Td-jJGNt4VlUQMrl',
     imgMedium: 'https://lh3.googleusercontent.com/d/1_-2rCp7q4XuQ_3bRqt6SOJAk_Z3pcltB',
     imgSmall: 'https://lh3.googleusercontent.com/d/1uFxXX8Z3yz1tjAm55e-JUznUSiptyLfX',
     path: '/tomografoocular',

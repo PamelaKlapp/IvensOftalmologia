@@ -87,6 +87,10 @@ const SearchBar = () => {
     }, 0);
   };
 
+  const handleClickSearchIcon = () => {
+    handleSearch();
+  };
+
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
       handleSearch();
@@ -104,7 +108,7 @@ const SearchBar = () => {
         onKeyDown={handleKeyDown}
       />
 
-      <div className="nav__search-icon">
+      <div className="nav__search-icon" onClick={handleClickSearchIcon}>
         <FaSearch />
       </div>
     </div>

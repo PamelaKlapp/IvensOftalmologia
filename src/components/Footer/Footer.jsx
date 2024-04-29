@@ -42,7 +42,7 @@ const Footer = () => {
           <h4>Viernes de 09:00 a 17:00 hrs.</h4>
         </div>
 
-        <div className="social__media">
+        <div className="footer-social__media">
           <h3 className="pais">¡Síguenos!</h3>
           <ul>
             <li id="instagram" className="cta">

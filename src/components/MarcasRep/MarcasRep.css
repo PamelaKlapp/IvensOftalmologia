@@ -34,7 +34,16 @@ section#marcas_rep p {
   width: 90%;
   margin-left: 70px;
 }
-
+.arrow-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centra verticalmente las flechas */
+  position: absolute;
+  z-index: 8;
+  top: 0; 
+  width: 100%;
+  height: 100%; /* Ajusta la altura al 100% para centrar verticalmente */
+}
 .arrow-container {
   display: flex;
   justify-content: space-between;

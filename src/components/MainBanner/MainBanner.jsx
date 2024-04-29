@@ -39,31 +39,33 @@ const DisplayBanners = () => {
   }, []); // El segundo parámetro asegura que este efecto se ejecute solo una vez al montar el componente
 
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 600,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    appendDots: (dots) => <ul className="custom-dots">{dots}</ul>,
+    
   };
 
   return (
-    <section className="container">
-      <div className="main__banner">
-        <Slider {...settings}>
+    <section className="main_banner">
+      
+        <Slider className='slider-space' {...settings}>
+        
           {responsiveImages.map(({ id, name, img, path }) => (
             <Link to={path}
-              className="main__banner-div"
+              className=""
               key={id}
               
             >
               <img className="img-banner" src={img} alt={name} loading="lazy" />
             </Link>
           ))}
+         
         </Slider>
-      </div>
+      
     </section>
   );
 };

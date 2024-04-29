@@ -54,9 +54,11 @@ div.categoria__link-icon {
 .linea {
   padding: 0.5px;
   background-color: var(--color-azul);
+  max-width: 1800px;
   width: 90%;
   position: absolute;
-  left: 5%;
+  left: 50%; /* Establece el punto de inicio a la mitad del contenedor */
+  transform: translateX(-50%); /* Desplaza el elemento a la izquierda en un 50% de su ancho */
 }
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */
 @media screen and (max-width: 1024px) {

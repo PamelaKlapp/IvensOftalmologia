@@ -13,21 +13,25 @@ footer {
 }
 
 .footer_container {
-  width: 90%;
   display: grid;
   grid-template-columns: 1fr 1.3fr 1.3fr 1fr;
   gap: 5rem;
+  justify-content: space-between;
   padding-top: 4rem;
   padding-bottom: 4.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   max-width: 1920px;
-  margin-left: 5%;
-  margin-right: 5%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
 }
 
 .info__empresa h4,
 .servicio__cliente h4,
 .oficina_info h4,
-.social__media h4 {
+.footer-social__media h4 {
   color: var(--color-blanco);
   font-weight: 300;
   font-size: 0.8rem;
@@ -36,25 +40,25 @@ footer {
 .info__empresa h3,
 .servicio__cliente h3,
 .oficina_info h3,
-.social__media h3 {
+.footer-social__media h3 {
   color: var(--color-morado);
   font-weight: 400;
   font-size: 1rem;
 }
 
-.social__media {
+.footer-social__media {
   display: flex;
   flex-direction: column;
 }
-.social__media ul {
+.footer-social__media ul {
   display: flex;
   padding: 1.3rem 0;
   gap: 0.5rem;
 }
-.social__media li {
+.footer-social__media li {
   height: 3rem;
 }
-.social__media li >a >img {
+.footer-social__media li >a >img {
   max-height: 100%;
   object-fit: contain;
 }
@@ -85,14 +89,14 @@ h4.pais {
     position: relative;
     top: -120px;
   }
-  .social__media ul {
+  .footer-social__media ul {
     max-width: 11rem;
    
   }
-  .social__media li >a > img {
+  .footer-social__media li >a > img {
     height: 2rem;
   }
-  .social__media li img {
+  .footer-social__media li img {
     max-height: 100%;
     object-fit: contain;
   }
@@ -109,17 +113,17 @@ h4.pais {
     align-items: self-start;
     justify-content: flex-start;
   }
-  .social__media {
+  .footer-social__media {
    
     display: flex;
     flex-direction: column;
     gap: 1rem;
   }
-  .social__media ul {
+  .footer-social__media ul {
     max-width: 10rem;
     
   }
-  .social__media li> a>img {
+  .footer-social__media li> a>img {
     height: 2rem;
   }
 

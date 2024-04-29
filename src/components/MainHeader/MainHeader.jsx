@@ -14,7 +14,7 @@ const MainHeader = () => {
         <div className="header__container">
           <div className="header__left">
             <h2>
-              Más de 2.000.000 de Lentes EVO ICL{' '}
+              Más de 3.000.000 de Lentes EVO ICL{' '}
               <span>implantadas en el mundo.</span>
             </h2>
             <div className="evo__logo">

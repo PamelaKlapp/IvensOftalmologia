@@ -1,46 +1,23 @@
-
-.main__banner-div {
-  width: max-content;
+.main_banner {
+  width: 100vw;
+  margin: 0 auto;
   height: auto;
+  
+  max-width: 1920px;
+
+}
+.slick-dots{
+  bottom: 0px;
+}
+.slick-dots li button:before{
+  font-size: 8px;
+  top: 3px;
+  
+}
+.main__banner-div {
   cursor: pointer;
 }
-ul.slick-dots {
-  display: none;
-}
-.main__banner-div img {
-  object-fit: fill;
-}
 
-.arrow-btns {
-  display: flex;
-  justify-content: space-between;
-  align-items: center; /* Centra verticalmente las flechas */
-  position: absolute;
-  z-index: 8;
-  top: 0; 
-  width: 100%;
-  height: 100%; /* Ajusta la altura al 100% para centrar verticalmente */
-}
-
-.btn-prev,
-.btn-next {
-  background-color: var(--color-blanco);
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btn-prev {
-  margin-left: 1rem; /* Ajusta el margen izquierdo */
-}
-
-.btn-next {
-  margin-right: 1rem; /* Ajusta el margen derecho */
-}
 
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */
 @media screen and (max-width: 1024px) {
