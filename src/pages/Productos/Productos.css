@@ -128,6 +128,43 @@ ul.slick-dots {
   color: var(--color-morado);
 }
 
+/* Productos Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; 
+  
+}
+
+.modal-content {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 15px;
+  width: 700px;
+  height: 700px;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  overflow: auto;
+}
+.modal-content img{
+  width: 600px;
+  height: 600px;  
+}
+
+
+ .modal-slide img {
+  object-fit: contain;
+  margin-left: 30px;
+}
+
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */
 @media screen and (max-width: 1024px) {
   .prod-inicio-wrapper {

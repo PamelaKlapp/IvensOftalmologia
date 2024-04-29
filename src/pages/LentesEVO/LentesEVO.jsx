@@ -12,11 +12,23 @@ const LentesEVO = () => {
   const totalGroups = Math.ceil(lentesEvo.length / groupSize);
 
   const handlePrevPage = () => {
-    setCurrentPage((prevPage) => (prevPage - 1 + totalGroups) % totalGroups);
+    setCurrentPage((prevPage) => {
+      if (prevPage === 0) {
+        return prevPage;
+      } else {
+        return prevPage - 1;
+      }
+    });
   };
 
   const handleNextPage = () => {
-    setCurrentPage((prevPage) => (prevPage + 1) % totalGroups);
+    setCurrentPage((prevPage) => {
+      if (prevPage + 1 === totalGroups) {
+        return prevPage;
+      } else {
+        return prevPage + 1;
+      }
+    });
   };
 
   const renderGroups = () => {
@@ -124,7 +136,7 @@ const LentesEVO = () => {
         <div className="linea-vertical"></div>
 
         <div className="parte-gris-derecha">
-          <h2>+ 2.000.000</h2>
+          <h2>+ 3.000.000</h2>
           <p>de procedimientos realizados en el mundo</p>
         </div>
       </div>

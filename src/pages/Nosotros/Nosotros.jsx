@@ -42,7 +42,7 @@ const Nosotros = () => {
             <h3>Compromiso</h3>
             <p>
               Ofrecemos soporte y soluciones durante la venta y post venta para
-              mejorar la experiencia de nuestro cliente.
+              mejorar la experiencia de nuestros clientes.
             </p>
           </div>
           <div className="linea-vertical-nosotros"></div>
@@ -61,7 +61,7 @@ const Nosotros = () => {
             <h3>Calidad</h3>
             <p>
               Proporcionamos equipos de alta gama, así como un Servicio Técnico
-              calificado y certificado en nuestras fábrica representadas.
+              calificado y certificado en nuestras fábricas representadas.
             </p>
           </div>
         </div>
