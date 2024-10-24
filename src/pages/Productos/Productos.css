@@ -73,6 +73,10 @@ div.product-wrapper {
   font-weight: 500;
   font-size: 1.05rem;
 }
+.product-desc li{
+  background-color: red;
+  list-style-type: disc;
+}
 
 @keyframes moveImage {
   from {
@@ -163,6 +167,7 @@ ul.slick-dots {
  .modal-slide img {
   object-fit: contain;
   margin-left: 30px;
+  margin-top: 30px;
 }
 
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */
@@ -199,6 +204,19 @@ ul.slick-dots {
   .product-desc {
     padding-right: 2rem;
   }
+  .modal-content {
+    padding: 10px;
+  width: 500px;
+  height: 500px;
+  }
+  .modal-content img{
+    width: 400px;
+    height: 400px;  
+  }
+  .modal-slide img {
+    margin-left: 35px;
+    margin-top: 35px;
+  }
 }
 
 /*    M E D I A    Q U E R I E S     --   S M A L L       */
@@ -223,5 +241,20 @@ ul.slick-dots {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+  .modal-content {
+    padding: 5px;
+  border-radius: 15px;
+  width: 350px;
+  height: 350px;
+  }
+  .modal-content img{
+    padding: 5px;
+    width: 250px;
+    height: 250px;  
+  }
+  .modal-slide img {
+    margin-left: 35px;
+    margin-top: 35px;
   }
 }

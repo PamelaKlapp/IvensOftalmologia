@@ -4,7 +4,7 @@ nav {
   width: 100vw;
   background-color: var(--color-azul);
   place-items: center;
-  z-index: 99;
+  z-index: 999;
   top: 0;
   right: 0;
 }

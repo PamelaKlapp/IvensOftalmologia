@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { bannerMainHeader } from '../../data';
+import { SlArrowRight, SlArrowLeft } from 'react-icons/sl';
 import './MainBanner.css';
 
 const DisplayBanners = () => {
@@ -26,17 +27,13 @@ const DisplayBanners = () => {
       }
     };
 
-    // Agregar el event listener para el cambio de tamaño de la ventana
     window.addEventListener('resize', handleResize);
-
-    // Llamada inicial para establecer las imágenes basadas en el tamaño de la pantalla actual
     handleResize();
 
-    // Limpiar el event listener al desmontar el componente
     return () => {
       window.removeEventListener('resize', handleResize);
     };
-  }, []); // El segundo parámetro asegura que este efecto se ejecute solo una vez al montar el componente
+  }, []);
 
   const settings = {
     dots: true,
@@ -46,27 +43,46 @@ const DisplayBanners = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />
   };
 
   return (
     <section className="main_banner">
-      
-        <Slider className='slider-space' {...settings}>
-        
-          {responsiveImages.map(({ id, name, img, path }) => (
-            <Link to={path}
-              className=""
-              key={id}
-              
-            >
-              <img className="img-banner" src={img} alt={name} loading="lazy" />
-            </Link>
-          ))}
-         
-        </Slider>
-      
+      <Slider className='slider-space' {...settings}>
+        {responsiveImages.map(({ id, name, img, path }) => (
+          <Link to={path} className="" key={id}>
+            <img className="img-banner" src={img} alt={name} loading="lazy" />
+          </Link>
+        ))}
+      </Slider>
     </section>
+  );
+};
+
+const SampleNextArrow = (props) => {
+  const {  style, onClick } = props;
+  return (
+    <div
+      className={`custom-arrow custom-arrow-next`}
+      style={{ ...style }}
+      onClick={onClick}
+    >
+      <SlArrowRight />
+    </div>
+  );
+};
+
+const SamplePrevArrow = (props) => {
+  const {  style, onClick } = props;
+  return (
+    <div
+      className={`custom-arrow custom-arrow-prev`}
+      style={{ ...style }}
+      onClick={onClick}
+    >
+      <SlArrowLeft />
+    </div>
   );
 };
 

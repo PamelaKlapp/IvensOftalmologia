@@ -2,6 +2,7 @@ import React from 'react';
 import './Contacto.css';
 import FormContacto from '../../components/FormServTec/FormContacto';
 
+
 const Contacto = () => {
   const ImgSobre = 'https://lh3.googleusercontent.com/d/1fGBq7j3kFckhONlu1temG3aqawcuXxQ1'
   const Facebook = 'https://lh3.googleusercontent.com/d/1GOpgZKKKDJBbb2dM3FS1xrDxgIAGEWhH'

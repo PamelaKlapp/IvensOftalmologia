@@ -2,7 +2,7 @@
   position: fixed;
   width: 100vw;
   top: 5rem;
-  z-index: 99;
+  z-index: 999;
   background-color: var(--color-blanco);
   height: max-content;
   box-shadow: 0 4px 6px -6px #222;

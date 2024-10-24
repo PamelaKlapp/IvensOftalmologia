@@ -14,13 +14,13 @@
   gap: 0.5rem;
 }
 .header__left h2 {
-  color: var(--color-naranjo);
+  color: #2e3030;
   font-weight: 600;
   text-align: center;
   font-size: 1.8rem;
 }
 .header__left h2 span {
-  color: var(--color-naranjo);
+  color:#2e3030;
   font-weight: 300;
 }
 .evo__logo {

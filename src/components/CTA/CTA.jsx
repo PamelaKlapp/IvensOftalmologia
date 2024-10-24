@@ -9,8 +9,8 @@ const CTA = () => {
     // 3000 milisegundos (3 segundos) en este ejemplo
   };
 
-  const CTAwhatsapp = "https://lh3.googleusercontent.com/d/1sa3CCQLZHAXsFiqgZQlf3BAw-6dP2pju"
-  const CTAcorreo = "https://lh3.googleusercontent.com/d/1xjIiwX6T81mqvoSb9JG1uCO5Je43Nzzl"
+  const CTAwhatsapp = "https://lh3.googleusercontent.com/d/1Xv4bfs4FynqQlmFTiko7gcMB6bL9k3Dr"
+  const CTAcorreo = "https://lh3.googleusercontent.com/d/1dke5spEiOqYmPScoernYype6cEHMtjIy"
   const CTAcontacto = "https://lh3.googleusercontent.com/d/1POJiKvNec6ZVHgYsD0ViitrzKOgSzWia"
 
   return (

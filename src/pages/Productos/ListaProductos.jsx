@@ -3,6 +3,7 @@ import Productos from './Productos';
 import {
   autokeratoref,
   biomecanicaCorneal,
+  biometroOptico,
   cajaslentes,
   camarasNoMidr,
   campimetros,
@@ -78,6 +79,10 @@ const TopografosCorneal = () => {
   return <Productos data={topografosCorneal} title="Topógrafos Corneales" />;
 };
 
+const BiometroOptico = () => {
+  return <Productos data={biometroOptico} title="Biómetro Óptical" />;
+};
+
 //REFRACCION
 
 const AutoKeratoRef = () => {
@@ -141,6 +146,7 @@ export {
   TomografoOcular,
   Tonometros,
   TopografosCorneal,
+  BiometroOptico,
   AutoKeratoRef,
   CajasLentes,
   EstudioMiopia,

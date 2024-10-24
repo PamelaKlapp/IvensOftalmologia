@@ -71,11 +71,11 @@ const FormServTec = () => {
       });
 
       if (response.ok) {
-        // El formulario se envió correctamente, ahora redirige a otra página
-        window.location.href = '/graciaspormensaje'; // ajusta la ruta según tus necesidades
+       
+        window.location.hash = '/formularioenviado'; 
       } else {
         console.error('Error al enviar el formulario:', response.statusText);
-        // Puedes manejar el error de alguna manera en tu interfaz de usuario
+        
       }
     } catch (error) {
       console.error('Error al enviar el formulario', error);

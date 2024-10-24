@@ -11,6 +11,7 @@ import {
   LaserOftalmologico,
   VitreoRetina,
   Biomecanica,
+  BiometroOptico,
   CamarasNoMidr,
   Campimetros,
   Ecografos,
@@ -73,6 +74,7 @@ const App = () => {
           element={<LaserOftalmologico />}
         />
         <Route exact path="/vitreoretina" element={<VitreoRetina />} />
+        <Route exact path="/biometrooptico" element={<BiometroOptico />} />
         <Route
           exact
           path="/instrumentalquirurgico"
@@ -106,7 +108,7 @@ const App = () => {
         <Route exact path="/tomografoocular" element={<TomografoOcular />} />
         <Route exact path="/biomecanicacorneal" element={<Biomecanica />} />
         <Route exact path="/ecografos" element={<Ecografos />} />
-        <Route exact path="/graciaspormensaje" element={<RespuestaForm />} />
+        <Route exact path="/formularioenviado" element={<RespuestaForm />} />
 
         {/* FOOTER */}
         <Route exact path="/nosotros" element={<Nosotros />} />

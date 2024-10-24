@@ -33,12 +33,14 @@ const MarcasRep = () => {
           <button
             className="btn-marcas-arrows btn-prev-marcas"
             onClick={prevMarcas}
+            disabled={index === 0}
           >
             <SlArrowLeft />
           </button>
           <button
             className="btn-marcas-arrows btn-next-marcas"
             onClick={nextMarcas}
+            disabled={index ===  getMarcasData(screenSize).length - 1}
           >
             <SlArrowRight />
           </button>

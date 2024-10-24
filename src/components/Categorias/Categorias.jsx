@@ -6,7 +6,7 @@ const Categorias = () => {
   return (
     <section className="container">
       <div className="categorias">
-        <h2>Nuestras Categorías</h2>
+        <h2>Equipos e Instrumental Oftalmológico</h2>
         <ul className="categorias__links-container">
         {categorias.map(({ id, nombre, img, path }, index) => {
   const isOdd = index % 2 !== 0;

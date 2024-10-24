@@ -7,6 +7,9 @@ const FormContacto = () => {
     Apellido: '',
     Teléfono: '',
     Email: '',
+    Dirección: '',
+    Comuna: '',
+    Región: '',
     Asunto: '',
     Mensaje: '',
   });
@@ -15,6 +18,9 @@ const FormContacto = () => {
   const [errorApe, setErrorApe] = useState(false);
   const [errorTel, setErrorTel] = useState(false);
   const [errorEmail, setErrorEmail] = useState(false);
+  const [errorDir, setErrorDir] = useState(false);
+  const [errorCom, setErrorCom] = useState(false);
+  const [errorReg, setErrorReg] = useState(false);
   const [errorAsu, setErrorAsu] = useState(false);
 
   const handleErrorName = (e) => {
@@ -30,6 +36,18 @@ const FormContacto = () => {
 
   const handleErrorEmail = (e) => {
     setErrorEmail(true);
+  };
+  
+  const handleErrorDir = (e) => {
+    setErrorDir(true);
+  };
+
+  const handleErrorCom = (e) => {
+    setErrorCom(true);
+  };
+
+  const handleErrorReg = (e) => {
+    setErrorReg(true);
   };
 
   const handleErrorAsu = (e) => {
@@ -58,7 +76,7 @@ const FormContacto = () => {
 
       if (response.ok) {
         // El formulario se envió correctamente, ahora redirige a otra página
-        window.location.href = '/graciaspormensaje'; // ajusta la ruta según tus necesidades
+        window.location.hash = '/formularioenviado'; // ajusta la ruta según tus necesidades
       } else {
         console.error('Error al enviar el formulario:', response.statusText);
         // Puedes manejar el error de alguna manera en tu interfaz de usuario
@@ -126,6 +144,39 @@ const FormContacto = () => {
         </span>
         <input
           type="text"
+          name="Dirección"
+          placeholder="Dirección"
+          required
+          onChange={handleChange}
+          onBlur={handleErrorDir}
+          errorDir={errorDir.toString()}
+        />
+        <span className="errorDir-message">
+          *Ingrese su dirección 
+        </span>
+        <input
+          type="text"
+          name="Comuna"
+          placeholder="Comuna"
+          required
+          onChange={handleChange}
+          onBlur={handleErrorCom}
+          errorCom={errorCom.toString()}
+        />
+        <span className="errorCom-message">*Ingrese comuna</span>
+        <input
+          type="text"
+          name="Región"
+          placeholder="Región"
+          required
+          onChange={handleChange}
+          onBlur={handleErrorReg}
+          errorReg={errorReg.toString()}
+        />
+        <span className="errorReg-message">*Ingrese región</span>
+        
+        <input
+          type="text"
           name="Asunto"
           placeholder="Asunto"
           required
@@ -133,6 +184,7 @@ const FormContacto = () => {
           onBlur={handleErrorAsu}
           errorAsu={errorAsu.toString()}
         />
+        
         <span className="errorAsu-message">*Ingrese asunto</span>
 
         <textarea

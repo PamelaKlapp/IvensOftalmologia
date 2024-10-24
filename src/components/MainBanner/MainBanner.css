@@ -1,40 +1,85 @@
+/* Main banner styling */
 .main_banner {
   width: 100vw;
   margin: 0 auto;
   height: auto;
-  
   max-width: 1920px;
-
 }
-.slick-dots{
+
+.slick-dots {
   bottom: 0px;
 }
-.slick-dots li button:before{
+
+.slick-dots li button:before {
   font-size: 8px;
   top: 3px;
-  
 }
+
 .main__banner-div {
   cursor: pointer;
 }
 
+/* Arrow buttons styling */
+.custom-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--color-blanco);
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+.custom-arrow svg {
+  position: relative;
+  top: 14px;
+  left:18px;
+  width: 13px;
+  height: 13px;
+}
 
-/*    M E D I A    Q U E R I E S     --    M E D I U M       */
+.custom-arrow-next {
+  right: 15px;
+
+}
+
+.custom-arrow-prev {
+  left: 15px;
+}
+
+/* Media queries for responsiveness */
 @media screen and (max-width: 1024px) {
   .main__banner-div {
     margin-top: 2rem;
   }
 
-  .btn-prev,
-  .btn-next {
+  .custom-arrow {
     width: 2rem;
     height: 2rem;
   }
+  .custom-arrow svg {
+    position: relative;
+    top: 3px;
+    left:9.5px;
+    width: 10px;
+    height: 10px;
+  }
 }
 
-/*    M E D I A    Q U E R I E S     --   S M A L L       */
 @media screen and (max-width: 600px) {
   .main__banner-div {
     margin-top: 0;
   }
+  .custom-arrow svg {
+    position: relative;
+    top: 3px;
+    left:9.5px;
+    width: 10px;
+    height: 10px;
+  }
+  
 }

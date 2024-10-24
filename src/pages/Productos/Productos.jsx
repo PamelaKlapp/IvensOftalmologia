@@ -1,9 +1,9 @@
-
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './Productos.css';
 import { useState } from 'react';
+
 
 const Productos = ({ data, title }) => {
   const settings = {
@@ -14,6 +14,7 @@ const Productos = ({ data, title }) => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    
   };
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImage, setSelectedImages] = useState([]);
@@ -74,7 +75,7 @@ const Productos = ({ data, title }) => {
                   <div className="modelo">{modelo}</div>
                   <div className="fabrica">{fabrica}</div>
                 </div>
-                <p className="product-desc">{descripcion}</p>
+                <p className="product-desc" dangerouslySetInnerHTML={{ __html: descripcion }}></p>
                   <a href={catalogo} target="_blank" rel="noreferrer">
                 <button className="btn ">
                     Catálogo

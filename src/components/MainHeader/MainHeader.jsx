@@ -4,7 +4,7 @@ import { RiArrowDropRightLine } from 'react-icons/ri';
 import './MainHeader.css';
 
 const MainHeader = () => {
-  const EVO = 'https://lh3.googleusercontent.com/d/121JbVtXcgso0Yxj31sLgT_ZGjeEbrmwE'
+  const EVO = 'https://lh3.googleusercontent.com/d/1LFcg8k_6mXcsXhPNAdp9_bIu9YoHJy5V'
   const Banner = 'https://lh3.googleusercontent.com/d/1mcqEfoje6ynMn613fUT9Zmu28yJB9sX9'
   const LogoEVO = 'https://lh3.googleusercontent.com/d/1XeGNbOjIUmEE2mdvc1E5Xxti1xJzdGn2'
 

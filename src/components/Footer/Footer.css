@@ -41,8 +41,8 @@ footer {
 .servicio__cliente h3,
 .oficina_info h3,
 .footer-social__media h3 {
-  color: var(--color-morado);
-  font-weight: 400;
+  color: var(--color-blanco);
+  font-weight: 300;
   font-size: 1rem;
 }
 
@@ -77,6 +77,9 @@ h4.pais {
   padding-bottom: 1rem;
   text-align: center;
   
+}
+.footer-social__media > ul > li > a > img {
+  width: auto;
 }
 
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */
