@@ -51,7 +51,12 @@
   left: 15px;
 }
 
-/* Media queries for responsiveness */
+/*    M E D I A    Q U E R I E S     --    BIG-M E D I U M       */
+@media screen and (max-width: 1380px) {
+  
+}
+
+/* Media queries for responsivenes */
 @media screen and (max-width: 1024px) {
   .main__banner-div {
     margin-top: 2rem;

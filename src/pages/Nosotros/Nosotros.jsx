@@ -9,10 +9,12 @@ const Nosotros = () => {
 
   return (
     <section className="container">
-      <div className="header-nosotros">
-        <div className="header-blur">
-          <h2>Nuestra Historia</h2>
-          <p>
+      
+        <div className="header-informations nosotros_bg">
+          <div className='big-space'></div>
+          <div className="content-information">
+            <h2 className='title-nosotros'>Nuestra Historia</h2>
+            <p>
             Ivens Oftalmología S.p.A. fue fundada en el año 2015 por nuestra
             Gerente General Ursula Ivens y nuestro Gerente Comercial César
             Irrazabal, con la convicción de generar una ventaja competitiva en
@@ -20,9 +22,8 @@ const Nosotros = () => {
             conocimiento en esta área, los fundadores decidieron enfocarse en la
             comercialización de equipos oftalmológicos de última generación,
             representando marcas de reconocido prestigio a nivel mundial.
-          </p>
-          <br />
-          <p>
+            <br/>
+            <br/>
             Desde el inicio de nuestra empresa hemos mantenido un compromiso
             constante con la calidad y el servicio al cliente. Cada uno de los
             miembros de nuestro equipo está altamente capacitado para brindar la
@@ -31,11 +32,12 @@ const Nosotros = () => {
             incansablemente para superar las expectativas de nuestros clientes y
             para consolidarnos como líderes en el mercado oftalmológico
             nacional.
-          </p>
+            </p>
+          </div>
         </div>
-      </div>
-      <div className="main-nosotros">
-        <h2>¿Por qué elegirnos?</h2>
+    
+    <div className="main-nosotros">
+        <h2>Razones para confiar en nosotros</h2>
         <div className="caracteristicas-nosotros">
           <div className="caracteristica-nosotros">
             <img id="compromiso" src={compromiso} alt="saludo de manos" loading="lazy" />
@@ -66,6 +68,7 @@ const Nosotros = () => {
           </div>
         </div>
       </div>
+      
     </section>
   );
 };

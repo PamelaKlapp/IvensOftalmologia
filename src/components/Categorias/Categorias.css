@@ -60,6 +60,14 @@ div.categoria__link-icon {
   left: 50%; /* Establece el punto de inicio a la mitad del contenedor */
   transform: translateX(-50%); /* Desplaza el elemento a la izquierda en un 50% de su ancho */
 }
+
+
+/*    M E D I A    Q U E R I E S     --    BIG-M E D I U M       */
+@media screen and (max-width: 1380px) {
+  
+}
+
+
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */
 @media screen and (max-width: 1024px) {
   .categorias__links-container {

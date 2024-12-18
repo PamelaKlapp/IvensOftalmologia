@@ -1,9 +1,15 @@
 #lentesEvo {
-  background-color: var(--color-blanco);
   display: flex;
   flex-direction: column;
   max-width: 1920px;
 }
+@media screen and (min-width: 1380px){
+.container__main {
+  margin-top: 100px;
+}
+}
+
+
 .container__main {
   padding-top: 5rem;
   padding-left: 5%;
@@ -11,8 +17,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
-  padding-bottom: 5rem;
-}
+  padding-bottom: 5rem;}
 
 .left-side {
   display: flex;
@@ -201,6 +206,11 @@ iframe {
 }
 .btn-webpay input {
   height: 100px;
+}
+
+/*    M E D I A    Q U E R I E S     --    BIG-M E D I U M       */
+@media screen and (max-width: 1380px) {
+  
 }
 
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */

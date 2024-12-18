@@ -42,8 +42,8 @@ footer {
 .oficina_info h3,
 .footer-social__media h3 {
   color: var(--color-blanco);
-  font-weight: 300;
-  font-size: 1rem;
+  font-weight: 600;
+  font-size: 0.9rem;
 }
 
 .footer-social__media {
@@ -80,6 +80,11 @@ h4.pais {
 }
 .footer-social__media > ul > li > a > img {
   width: auto;
+}
+
+/*    M E D I A    Q U E R I E S     --    BIG-M E D I U M       */
+@media screen and (max-width: 1380px) {
+  
 }
 
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */

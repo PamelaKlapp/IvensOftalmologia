@@ -1,12 +1,18 @@
+@media screen and (min-width: 1380px) {
 nav {
-  height: 5rem;
-  position: fixed;
-  width: 100vw;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 4.5rem;
   background-color: var(--color-azul);
-  place-items: center;
+  
   z-index: 999;
-  top: 0;
-  right: 0;
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1920px;
+  
+  
 }
 
 .nav__container {
@@ -18,8 +24,8 @@ nav {
   position: relative;
   text-transform: uppercase;
   color: var(--color-blanco);
-  font-size: 1.09rem;
-}
+  font-size: 1rem;
+}}
 
 .nav__container a.logo {
   width: 10rem;
@@ -28,7 +34,7 @@ nav {
 .nav__links {
   display: flex;
   justify-self: flex-end;
-  gap: 2rem;
+  gap: 1.5rem;
   padding-right: 1rem;
 }
 .nav__links .active {
@@ -37,7 +43,7 @@ nav {
 .nav__links span {
   position: relative;
   top: 0.6rem;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 .menu_drop {
   display: none;
@@ -56,7 +62,7 @@ nav {
   display: flex;
   justify-self: flex-end;
   padding-right: 0.5rem;
-  padding-top: 0.3rem;
+  
 }
 
 .logo {
@@ -72,6 +78,28 @@ nav {
 
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */
 @media screen and (max-width: 1380px) {
+  nav {
+    
+    z-index: 999;
+    background-color: var(--color-azul);
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100vw;
+  }
+  .nav__container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 2fr 4fr 0.5fr 0.25fr;
+    justify-items: space-between;
+    align-items: center;
+    position: relative;
+    text-transform: uppercase;
+    color: var(--color-blanco);
+    font-size: 1.09rem;
+  }
+  
+  
   .nav__links {
     display: none;
   }
@@ -88,16 +116,7 @@ nav {
 
 /*    M E D I A    Q U E R I E S     --   S M A L L       */
 @media screen and (max-width: 600px) {
-  /* .logo__sm-screen{
-            display: block;
-            background-color: aliceblue;
-            max-width: 5rem;
-        }
-        .logo__bg-screen{
-            display: none;
-            
-        } */
-  .logo {
-    max-height: 90%;
+  .nav__container a.logo {
+    width: 9rem;
   }
 }

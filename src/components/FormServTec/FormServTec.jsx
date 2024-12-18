@@ -182,6 +182,7 @@ const FormServTec = () => {
           <option value="Mantención">Mantención</option>
           <option value="Reparación">Reparación</option>
           <option value="Visita inspectiva">Visita inspectiva</option>
+          <option value="Otros">Otros</option>
         </select>
         <textarea
           name="Mensaje"

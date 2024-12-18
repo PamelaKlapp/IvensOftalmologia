@@ -53,7 +53,7 @@ body {
 }
 
 .espacio-navbar {
-  height: 5rem;
+  height: 0px;
 }
 
 .container {
@@ -118,10 +118,160 @@ a:hover {
   border-color: transparent;
 }
 
+
+
+
+ul.custom-list li {
+  display: flex;                  
+  align-items: baseline;       
+          
+}
+
+
+
+ul.custom-list p {
+  margin-left: 3px;                      
+  word-wrap: break-word;     
+  flex: 1;      
+}
+.custom-list-sub-list{
+  padding-left: 20px;
+}
+.custom-list-sub-list span{
+  font-size: 20px;
+}
+
+
+
+
+
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1380px) {
+  .espacio-navbar {
+    height: 70px;
+  }
 }
 
 /*    M E D I A    Q U E R I E S     --   S M A L L       */
 @media screen and (max-width: 600px) {
+  .espacio-navbar {
+    height: 64px;
+  }
 }
+
+
+
+/*    SERVICIO TEC / NOSOTROS / CONTACTO    */
+.wrapper_information{
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.serv_bg{
+  background-image: url('https://lh3.googleusercontent.com/d/1JymSeOE0CG1kEbKmykL0hBSh22izFn2Y');
+}
+.nosotros_bg{
+  background-image: url('https://lh3.googleusercontent.com/d/1RBp9Zd89AJcaJobWNAnMRJMDz9cgspgc');
+}
+.contacto_bg{
+  background-image: url('https://lh3.googleusercontent.com/d/1QckmOktyBpxm9bevNPK5nSMBPCeWD6S1');
+}
+
+
+.header-informations {
+  position: relative;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.big-space{
+  height: 400px;
+  
+}
+
+.content-information {
+  background: linear-gradient(
+    to top, 
+    rgb(255, 255, 255) 0%,
+    rgba(255, 255, 255, 0.7) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 50px 80px;
+}
+
+.content-information h2{
+  line-height: 1.2;
+  font-weight: 600;
+  font-size: 40px;
+  padding-bottom: 1.5rem;
+  color: var(--color-azul);
+}
+.content-information h2 span{
+  display: block;
+  line-height: inherit;
+}
+
+.content-information p {
+  color: var(--color-gris-oscuro);
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+
+
+
+
+/*    M E D I A    Q U E R I E S     --    BIG-M E D I U M       */
+@media screen and (max-width: 1380px) {
+  .big-space{
+    height: 300px;
+  }
+  .content-information {
+    padding: 50px 60px;
+  }
+  .content-information p{
+    font-size: 20px;
+  }
+}
+
+/*    M E D I A    Q U E R I E S     --    M E D I U M       */
+@media screen and (max-width: 1024px) {
+  .big-space{
+    height: 200px; 
+  }
+  .content-information h2{
+    font-size: 30px;
+  }
+  .content-information p{
+    font-size: 18px;
+  }
+  .content-information {
+    padding: 50px 50px;
+  }
+}
+
+/*    M E D I A    Q U E R I E S     --   S M A L L       */
+@media screen and (max-width: 600px) {
+  .big-space{
+    height: 100px;
+  }
+  .content-information h2{
+    font-size: 20px;
+  }
+  .content-information p{
+    font-size: 16px;
+  }
+  .content-information {
+    padding: 50px 40px;
+  }
+  .content-information {
+    background: linear-gradient(
+      to top, 
+      rgb(255, 255, 255) 0%,
+      rgba(255, 255, 255, 0.7) 80%,
+      rgba(255, 255, 255, 0) 100%
+    );}
+  }

@@ -24,6 +24,7 @@ import {
   topografosCorneal,
   unidadesrefraccion,
   vitreoretinal,
+  tomografoCoherencia
 } from '../../data';
 
 //CIRUGIA
@@ -42,6 +43,9 @@ const VitreoRetina = () => {
 };
 
 //DIAGNOSTICO
+const Coherencia = () => {
+  return <Productos data={tomografoCoherencia} title="Tomógrafo de Coherencia" />;
+};
 
 const Biomecanica = () => {
   return <Productos data={biomecanicaCorneal} title="Biomecánica Corneal" />;
@@ -80,7 +84,7 @@ const TopografosCorneal = () => {
 };
 
 const BiometroOptico = () => {
-  return <Productos data={biometroOptico} title="Biómetro Óptical" />;
+  return <Productos data={biometroOptico} title="Biómetro Óptico" />;
 };
 
 //REFRACCION
@@ -157,4 +161,5 @@ export {
   Optotipos,
   TestVision,
   UnidadesRefraccion,
+  Coherencia,
 };

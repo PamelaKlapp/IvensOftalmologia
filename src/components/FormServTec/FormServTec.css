@@ -1,8 +1,6 @@
 /* MAIN  ----  FORMULARIO*/
 
-.serv__form-container {
-  padding: 2rem 0;
-}
+
 .serv__form {
   display: flex;
   flex-direction: column;
@@ -117,6 +115,11 @@ input:invalid[errorAsu='true'] ~ .errorAsu-message {
   font-size: 1.5rem;
   padding-bottom: 5rem;
   text-align: center;
+}
+
+/*    M E D I A    Q U E R I E S     --    BIG-M E D I U M       */
+@media screen and (max-width: 1380px) {
+  
 }
 
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */

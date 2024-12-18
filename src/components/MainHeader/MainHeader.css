@@ -1,10 +1,10 @@
 .header__container {
-  display: grid;
-  grid-template-columns: 2.5fr 3fr;
-  gap: 2rem;
-  background: transparent;
-  height: 30rem;
+  display: grid; /* O usa flex si prefieres */
+  grid-template-columns: 5fr 7fr; /* Ajusta la proporción aquí */
+  gap: 1rem;
+  height: auto;
 }
+
 
 .header__left {
   display: flex;
@@ -12,12 +12,14 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  padding: 50px 0px;
 }
 .header__left h2 {
   color: #2e3030;
   font-weight: 600;
   text-align: center;
   font-size: 1.8rem;
+  padding-top: 100px;
 }
 .header__left h2 span {
   color:#2e3030;
@@ -45,20 +47,13 @@
 }
 
 .header__right {
-  position: relative;
-  height: 30rem;
-  width: cal(100vw - 55%);
-}
+    position: relative;
+    height: auto; /* Cambia a auto para adaptarse al contenido */
+    background-image: url('https://lh3.googleusercontent.com/d/1X0SVChVj5whGAvlZPQT1Iui06L_icuXw') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-.header__right img {
-  object-fit: fill;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  transform: scaleX(-1);
-}
 .arrow {
   position: relative;
   top: 4px;
@@ -66,6 +61,14 @@
 }
 
 /* BOTON */
+@media screen and (max-width: 1380px) {
+  
+  .header__left h2{
+    padding-top: 0px;
+  }
+
+  }
+
 
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */
 @media screen and (max-width: 1024px) {
@@ -75,9 +78,11 @@
   .header__right {
     display: none;
   }
+ 
   .header__left {
-    gap: 1rem;
+    flex-basis: 100%;
   }
+
   .header__left h2 {
     width: 70%;
   }
@@ -85,16 +90,23 @@
     position: relative;
     bottom: 8px;
   }
+  .header__left{
+    padding: 30px 0px;
+  }
 }
 
 /*    M E D I A    Q U E R I E S     --   S M A L L       */
 @media screen and (max-width: 600px) {
-  .header__container {
-    height: 90vh;
+  .header__left h2 {
+    font-size: 1.5rem;
+  }
+  .evo__logo, .evo__logo2 {
+    transform: scale(0.8);
   }
 
   .header__left h2 {
     width: 70%;
+    padding-top: 50px;
   }
   .evo__logo {
     position: relative;
@@ -107,4 +119,5 @@
     height: 4rem;
     width: auto;
   }
+ 
 }

@@ -1,20 +1,26 @@
+@media screen and (min-width: 1380px) {
 .nav__menu {
-  position: fixed;
-  width: 100vw;
-  top: 5rem;
+  position: absolute;
+  top: 283px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 90vw;
+  
   z-index: 999;
   background-color: var(--color-blanco);
   height: max-content;
   box-shadow: 0 4px 6px -6px #222;
+  
 }
 
 .nav__menu-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 3rem;
   z-index: 99;
-  padding: 0 2rem;
-}
+  padding: 0 5rem;
+}}
 .nav__menu-content {
   padding: 2rem 0;
 }

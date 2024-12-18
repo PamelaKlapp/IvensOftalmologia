@@ -1,27 +1,4 @@
-.header-servicioTec {
-  background-image: url('https://lh3.googleusercontent.com/d/1sep3L9o7Q3FIvpBnRwHKW53AfOppJrsX');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
 
-.bg-texto {
-  background-color: rgba(49, 62, 104, 0.8);
-  backdrop-filter: blur(6px);
-  padding: 3rem 2rem;
-}
-.bg-texto h2,
-.bg-texto p {
-  color: var(--color-blanco);
-}
-.bg-texto h2 {
-  font-size: 1.5rem;
-  padding-bottom: 1.5rem;
-}
 
 /* MAIN */
 .serv-main-wrapper {
@@ -29,49 +6,59 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  padding-top: 100px;
   padding-bottom: 10rem;
 }
 .serv-main-wrapper h2 {
   font-size: 1.8rem;
   font-weight: 400;
   color: var(--color-naranjo);
-  padding: 2rem 0 3rem 0;
+  position: relative;
+  top: 8px;
 }
 .serv__main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 0.7fr 1fr;
   align-items: top;
   width: var(--computer-width);
   margin: 0 auto;
   gap: 3rem;
 }
+.serv__main.row-1{
+  padding-bottom: 2rem;
+}
 
 /* MAIN  ----  CONTACTO*/
+
+.serv__ntrs-serv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--color-gris-oscuro);
+  font-weight: 500;
+  font-size: 1.3rem;
+}
 
 .serv__contacto {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  align-items: center;
+  align-items: center; 
 }
 
-.serv__contacto-icono img {
-  height: 10rem;
-  width: 10rem;
-}
 
 .serv__contacto-what {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+.serv__ntrs-serv h3,
 .serv__contacto-what h3,
 .serv__contacto-horario h3 {
   color: var(--color-naranjo);
   padding-bottom: 0.3rem;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
 }
 
 .serv__contacto-what--info {
@@ -86,7 +73,7 @@
 .serv__contacto-what--info span {
   color: var(--color-gris-oscuro);
   font-weight: 500;
-  font-size: 1.05rem;
+  font-size: 1.3rem;
 }
 
 .serv__contacto-horario {
@@ -101,9 +88,19 @@
 .serv__contacto-horario p {
   color: var(--color-gris-oscuro);
   font-weight: 500;
-  font-size: 1.05rem;
+  font-size: 1.3rem;
 }
-
+/* form */
+.ser-form-title{
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+  justify-content: center;
+  padding-right: 10%;
+}
+.ser-form-title img{
+  width: 100px;
+}
 /*  TEAMVIEWER   */
 
 .teamViewer a {
@@ -126,8 +123,32 @@
   text-align: center;
 }
 
+
+/*    M E D I A    Q U E R I E S     --    BIG-M E D I U M       */
+@media screen and (max-width: 1380px) {
+  
+}
+
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */
 @media screen and (max-width: 1024px) {
+  .serv__ntrs-serv h3,
+  .serv__contacto-what h3,
+  .serv__contacto-horario h3,
+  .serv-main-wrapper h2 {
+    font-size: 1.6rem;
+  }
+  .ser-form-title img {
+    width: 85px;
+  }
+  .ser-form-title{
+    padding-left: 4%;
+  }
+  .serv__ntrs-serv ul,
+  .serv__contacto-what--info span,
+  .serv__contacto-horario p {
+    font-size: 20px;
+    }
+ 
 }
 
 /*    M E D I A    Q U E R I E S     --   S M A L L       */
@@ -142,11 +163,36 @@
     order: 2;
   }
   .serv-main-wrapper h2 {
-    
     padding: 2rem 0 0rem 0;
   }
   .serv__teamViewer img {
     height: 4rem;
     width: auto;
   }
+  .big-space_serctec{
+    height: 200px;
+  }
+  .serv-main-wrapper {
+    padding-top: 0px;
+   
+  }
+  .serv__ntrs-serv h3,
+  .serv__contacto-what h3,
+  .serv__contacto-horario h3,
+  .serv-main-wrapper h2 {
+    font-size: 1.4rem;
+   
+  }
+  .ser-form-title img {
+    width: 80px;
+}
+.ser-form-title{
+  padding-left: 8%;
+}
+.serv__ntrs-serv ul,
+.serv__contacto-what--info span,
+.serv__contacto-horario p {
+font-size: 18px;
+}
+
 }

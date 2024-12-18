@@ -1,3 +1,4 @@
+
 .contenedor-grande {
   width: 100vw;
   max-width: 1920px;
@@ -9,7 +10,7 @@
 .title-wrapper {
   display: grid;
   grid-template-columns: 2fr 4fr;
-  margin: 0 10rem 3rem 10rem;
+  margin: 8rem 10rem 3rem 10rem;
   align-items: center;
 }
 
@@ -24,7 +25,7 @@
 
 .contenedor-grande h2 {
   margin: 2rem;
-  font-weight: 300;
+  font-weight: 600;
   color: var(--color-azul);
 }
 
@@ -74,8 +75,11 @@ div.product-wrapper {
   font-size: 1.05rem;
 }
 .product-desc li{
-  background-color: red;
+  
   list-style-type: disc;
+}
+.test-parcel{
+  
 }
 
 @keyframes moveImage {
@@ -90,13 +94,17 @@ ul.slick-dots {
  display: none;
 }
 
-/* Prodcutos Inicios */
 
-.prod-inicio-wrapper {
-  width: 100vw;
-  min-height: 400px;
-  display: flex;
-  justify-content: center;
+/* Prodcutos Inicios */
+@media screen and (min-width: 1380px) {
+
+  .prod-inicio-wrapper {
+    width: 100vw;
+    padding: 150px 0 50px ;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .prod-content {
@@ -139,25 +147,31 @@ ul.slick-dots {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000; 
-  
+  z-index: 1000;
 }
 
 .modal-content {
-  background: rgb(255, 255, 255);
+  background: white;
   padding: 20px;
   border-radius: 15px;
   width: 700px;
   height: 700px;
   display: flex;
-  align-self: center;
-  justify-self: center;
-  overflow: auto;
+  justify-content: center; /* Centrado horizontal */
+  align-items: center;    /* Centrado vertical */
+  overflow: hidden;
 }
+
+.modal-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .modal-content img{
   width: 600px;
   height: 600px;  
@@ -169,9 +183,43 @@ ul.slick-dots {
   margin-left: 30px;
   margin-top: 30px;
 }
+/* Flechas personalizadas solo para el modal */
+.modal .custom-arrow svg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1001;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--color-blanco);
+  border-radius: 50%;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+}
+
+.modal .custom-arrow svg {
+  width: 13px;
+  height: 13px;
+}
+
+.modal .custom-arrow-next {
+  right: 15px;
+}
+
+.modal .custom-arrow-prev {
+  left: 15px;
+}
+
+
+/*    M E D I A    Q U E R I E S     --   B I G - M E D I U M       */
+@media screen and (max-width: 1380px) {
+  
+}
 
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1380px) {
   .prod-inicio-wrapper {
     padding-top: 2rem;
     padding-bottom: 3rem;
@@ -186,7 +234,9 @@ ul.slick-dots {
   }
   .title-wrapper {
     grid-template-columns: 1fr;
+    margin: 0rem 10rem 3rem 10rem;
   }
+  
 
   .products-title {
     text-align: center;

@@ -1,14 +1,33 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
+import { SlArrowRight, SlArrowLeft } from 'react-icons/sl';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { useSearchContext } from '../../components/SearchResults/SearchResults';
 import './Results.css';
 
+const SampleNextArrow = (props) => {
+  const { onClick } = props;
+  return (
+    <div className="custom-arrow custom-arrow-next" onClick={onClick}>
+      <SlArrowRight />
+    </div>
+  );
+};
+
+const SamplePrevArrow = (props) => {
+  const { onClick } = props;
+  return (
+    <div className="custom-arrow custom-arrow-prev" onClick={onClick}>
+      <SlArrowLeft />
+    </div>
+  );
+};
+
 const Results = () => {
   const { searchResults } = useSearchContext();
 
-  const settings = {
+  const resultsSliderSettings = {
     dots: true,
     infinite: true,
     speed: 500,
@@ -16,14 +35,18 @@ const Results = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
+    arrows: false, // Sin flechas para los resultados
+  };
+
+  const modalSliderSettings = {
+    ...resultsSliderSettings,
+    arrows: true, // Solo flechas en el modal
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
 
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedImage, setSelectedImages] = useState([]);
-  const modalSliderSettings = {
-    ...settings, // reutilizas o sobrescribes los settings existentes
-    // Cualquier configuración específica para el modal aquí
-  };
+  const [selectedImages, setSelectedImages] = useState([]);
 
   const openModal = (images) => {
     setSelectedImages(Array.isArray(images) ? images : [images]);
@@ -32,6 +55,7 @@ const Results = () => {
 
   const closeModal = () => {
     setIsModalOpen(false);
+    setSelectedImages([]);
   };
 
   return (
@@ -43,9 +67,12 @@ const Results = () => {
             searchResults.map((item) => (
               <div key={item.id} className="result-item">
                 <div className="product-wrapper">
-                  <div className="product-img" onClick={() => openModal(item.imagen)}>
+                  <div
+                    className="product-img"
+                    onClick={() => openModal(item.imagen)}
+                  >
                     {Array.isArray(item.imagen) ? (
-                      <Slider {...settings}>
+                      <Slider {...resultsSliderSettings}>
                         {item.imagen.map((img, index) => (
                           <img
                             key={`${item.id}-${index}`}
@@ -56,8 +83,11 @@ const Results = () => {
                         ))}
                       </Slider>
                     ) : (
-                      // Si 'imagen' no es un array, renderizar una sola imagen
-                      <img src={item.imagen} alt={item.modelo} loading="lazy" />
+                      <img
+                        src={item.imagen}
+                        alt={item.modelo}
+                        loading="lazy"
+                      />
                     )}
                   </div>
                   <div className="product-info">
@@ -65,9 +95,18 @@ const Results = () => {
                       <div className="modelo">{item.modelo}</div>
                       <div className="fabrica">{item.fabrica}</div>
                     </div>
-                    <p className="product-desc">{item.descripcion}</p>
+                    <p
+                      className="product-desc"
+                      dangerouslySetInnerHTML={{
+                        __html: item.descripcion,
+                      }}
+                    ></p>
                     <button className="btn">
-                      <a href={item.catalogo} target="_blank" rel="noreferrer">
+                      <a
+                        href={item.catalogo}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
                         Catálogo
                       </a>
                     </button>
@@ -81,11 +120,12 @@ const Results = () => {
         </ul>
       </div>
 
+      {/* Modal - Fuera del map */}
       {isModalOpen && (
         <div className="modal" onClick={closeModal}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <Slider {...modalSliderSettings}>
-              {selectedImage.map((img, index) => (
+              {selectedImages.map((img, index) => (
                 <div key={index} className="modal-slide">
                   <img src={img} alt={`Imagen ${index + 1}`} />
                 </div>

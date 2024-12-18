@@ -44,7 +44,7 @@ const Navbar = () => {
   return (
     <>
       <nav>
-        <div className="container nav__container">
+        <div className=" nav__container">
           <Link to="/" className="logo">
             <img className="logo__bg-screen" src={Logo} alt="Ivns Logo" loading="lazy" />
             {/* <img className='logo__sm-screen' src={LogoSmall} alt="Ivns Logo" /> */}

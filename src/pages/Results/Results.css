@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0 10%;
+  padding: 150px 10%;
 }
 
 .result-content h2 {
@@ -28,60 +28,20 @@
 }
 /* ... other styles ... */
 
-/* Productos Modal */
-.modal {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
+
+
+/*    M E D I A    Q U E R I E S     --   B I G - M E D I U M       */
+@media screen and (max-width: 1380px) {
+  .result-content {
+    padding: 0;
+  }
 }
 
-.modal-content {
-  background: rgb(255, 255, 255);
-  padding: 20px;
-  border-radius: 15px;
-  width: 700px;
-  height: 700px;
-  display: flex;
-  align-self: center;
-  justify-self: center;
-  overflow: auto;
-}
-
-.modal-content img {
-  width: 600px;
-  height: 600px;
-}
-
-.modal-slide img {
-  object-fit: contain;
-  margin-left: 30px;
-  margin-top: 30px;
-}
 
 /* Media queries for modal */
 @media screen and (max-width: 1024px) {
   .result-content {
     padding: 0;
-  }
-  .modal-content {
-    padding: 10px;
-    width: 500px;
-    height: 500px;
-  }
-  .modal-content img {
-    width: 400px;
-    height: 400px;
-  }
-  .modal-slide img {
-    margin-left: 35px;
-    margin-top: 35px;
   }
 }
 
@@ -89,21 +49,7 @@
   .product-wrapper {
     padding-top: 70px;
   }
-  .modal-content {
-    padding: 5px;
-    border-radius: 15px;
-    width: 350px;
-    height: 350px;
-  }
-  .modal-content img {
-    padding: 5px;
-    width: 250px;
-    height: 250px;
-  }
-  .modal-slide img {
-    margin-left: 35px;
-    margin-top: 35px;
-  }
+  
 }
 
 

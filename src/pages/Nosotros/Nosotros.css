@@ -1,36 +1,26 @@
-.header-nosotros {
-  background-image: url('https://lh3.googleusercontent.com/d/1F8hMuA849VPyit6wDruv6ljFgMyvqGTc');
-  height: 700px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+.title-nosotros{
+  text-align: center;
 }
-.header-blur {
-  background-color: rgba(49, 62, 104, 0.7);
-  backdrop-filter: blur(6px);
-  padding: 3rem 2rem;
-}
-
-.header-blur h2,
-.header-blur p {
-  color: var(--color-blanco);
-  text-align: justify;
-}
-
-.header-blur h2 {
-  font-size: 1.5rem;
+ .content-nosotros h2, .main-nosotros h2{
+  text-align: center;
+  font-weight: 200px;
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 40px;
   padding-bottom: 1.5rem;
+  color: var(--color-azul);
 }
-
+.content-nosotros p {
+  color: var(--color-gris-oscuro);
+  font-size: 24px;
+  line-height: 1.2;
+}
 .main-nosotros {
-  padding: 6rem 0;
+  padding: 100px 80px;
 }
 .main-nosotros h2 {
-  font-size: 1.8rem;
-  font-weight: 400;
+  text-align: center;
+  font-weight: 600;
   color: var(--color-azul);
   margin-bottom: 3rem;
 }
@@ -73,9 +63,17 @@ img#compromiso {
   background-color: var(--color-gris-medio);
 }
 
-.main-nosotros h2 {
-  text-align: center;
+/*    M E D I A    Q U E R I E S     --   B I G - M E D I U M       */
+@media screen and (max-width: 1380px) {
+  .caracteristica-nosotros h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .main-nosotros h2{
+    font-size: 35px;
+  }
 }
+
 /*    M E D I A    Q U E R I E S     --    M E D I U M       */
 @media screen and (max-width: 1024px) {
   .caracteristicas-nosotros {
@@ -88,6 +86,8 @@ img#compromiso {
     height: 0.05rem;
     width: 30rem;
   }
+  
+
 }
 
 /*    M E D I A    Q U E R I E S     --   S M A L L       */
@@ -103,5 +103,8 @@ img#compromiso {
   }
   .linea-vertical-nosotros {
     display: none;
+  }
+  .main-nosotros h2{
+    font-size: 25px;
   }
 }

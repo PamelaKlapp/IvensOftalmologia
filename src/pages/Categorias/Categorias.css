@@ -7,7 +7,9 @@
   align-items: center;
   gap: 3rem;
 }
+
 .categoriasLista-wrapper h2 {
+  margin-top: 8rem;
   font-size: 1.8rem;
   font-weight: 400;
   color: var(--color-azul);
@@ -17,6 +19,7 @@
   gap: 3rem;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 .categoriaLista-img {
   background-color: var(--color-azul);
@@ -44,7 +47,22 @@
 .productoLista:hover {
   color: var(--color-morado);
 }
+.btn_lista-productos{
+  margin-top: 20px;
+}
 
+
+/*    M E D I A    Q U E R I E S     --    BIG-M E D I U M       */
+@media screen and (max-width: 1380px) {
+  
+}
+/*    M E D I A    Q U E R I E S     --   M E D I UM       */
+@media (max-width: 1380px) {
+  .categoriasLista-wrapper h2 {
+    margin-top: 0px ;
+  }
+}
+  
 /*    M E D I A    Q U E R I E S     --   S M A L L       */
 @media screen and (max-width: 600px) {
   .categoriaLista-img {
