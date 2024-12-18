@@ -30,6 +30,7 @@ import {
   Optotipos,
   TestVision,
   UnidadesRefraccion,
+  Coherencia
 } from './pages/Productos/ListaProductos';
 import {
   Cirugia,
@@ -97,6 +98,7 @@ const App = () => {
 
         <Route exact path="/camarasnomidiraticas" element={<CamarasNoMidr />} />
         <Route exact path="/tonometros" element={<Tonometros />} />
+        <Route exact path="/tomografo-de-coherencia" element={<Coherencia />} />
         <Route
           exact
           path="/topografoscorneales"
