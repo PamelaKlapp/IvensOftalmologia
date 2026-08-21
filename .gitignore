@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# respaldos / archivos pesados (no se suben a git, se guardan solo en local)
+*.zip
+*.mp4
+*.mov
