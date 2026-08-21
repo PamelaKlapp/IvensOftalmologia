@@ -1,24 +1,17 @@
-import React, { useState } from 'react';
-// import { RiArrowDropRightLine } from 'react-icons/ri';
-import video  from '../MainHeader/Pentacam_Cornea_OCT_Video.mp4'
+
+
 import './MainHeader.css';
 
 const MainHeader = () => {
-  // const Oculus =
-  // '/assets/img/header/Logo Oculus horizontal (negro).png';
+ 
   const ARClaser =
   '/assets/img/MarcasRep/4. ARC LASER.png';
 
-  // const Pentacam_Product =
-  // '/assets/img/header/Imagen_Pentacam_Cornea_OCT.png';
 
   const Laser_FOX =
   '/assets/img/header/FOX III 810.png';
 
-  // const plus =
-  // '/assets/img/header/Signo Más.png';
- 
-    const [isModalOpen, setIsModalOpen] = useState(false);
+
   
 
   return (
@@ -61,18 +54,7 @@ const MainHeader = () => {
         </div>
       </div>
 
-      {/* Video en modal */}
-      {isModalOpen && (
-        <div className="video-modal" onClick={() => setIsModalOpen(false)}>
-          <div className="video-container_header" onClick={(e) => e.stopPropagation()}>
-            <button className="close-btn" onClick={() => setIsModalOpen(false)}>X</button>
-            <video controls autoPlay>
-              <source src={video} type="video/mp4" />
-              Tu navegador no soporta la reproducción de video.
-            </video>
-          </div>
-        </div>
-      )}
+      
     </header>
   );
 };
